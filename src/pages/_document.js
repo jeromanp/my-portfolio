@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <title>my portfolio</title>
-        <meta name="description" content="Jose Eduardo Roman Portfolio Webside">
+        <meta name="description" content="Jose Eduardo Roman Portfolio Webside"/>
       </Head>
       <body>
         <Main />
