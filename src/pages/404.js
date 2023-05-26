@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function custom404() {
   return (
     <Layout>
+    <div className="flex items-center justify-center h-screen">
       <div className="text-center">
         <h1>Error 404 !!</h1>
         <p>
@@ -13,6 +14,8 @@ export default function custom404() {
           </Link>
         </p>
       </div>
-    </Layout>
+    </div>
+  </Layout>
+  
   );
 }
