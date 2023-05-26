@@ -6,7 +6,7 @@ export default function NavBar() {
           <li className="mr-3">Sobre mí</li>
           <li className="mr-3">Habilidades</li>
           <li className="mr-3">Proyectos</li>
-          <li>Contacto</li>
+          <li className="mr-3">Contacto</li>
         </ul>
       </nav>
     );
