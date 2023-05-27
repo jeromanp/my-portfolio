@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import AboutMe from "@/components/AboutMe";
 import { infoPersonal } from "@/utils/data";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
           <h3 className="text-center pt-4">{infoPersonal.professionOne} & {infoPersonal.professionTwo}</h3>
           <img src="/img-me.jpg" alt="me" className="h-50 rounded-full mt-4" />
         </div>
+        <AboutMe />
       </main>
     </Layout>
   );

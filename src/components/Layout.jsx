@@ -10,7 +10,7 @@ export default function Layout({ children }) {
      </Head>
       <NavBar />
 
-      <main className="container py-4">{children}</main>
+      <main className="container py-8">{children}</main>
     </>
   );
 }
