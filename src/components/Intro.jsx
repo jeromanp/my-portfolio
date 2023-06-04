@@ -7,7 +7,7 @@ export default function Intro() {
 <section className="mb-20 mt-4">
   <div className="w-90 max-w-screen-xl items-center justify-between font-mono text-sm mx-auto">
     <h1 className="text-4xl font-bold text-red-500 text-center">{infoPersonal.name}</h1>
-    <h3 className="text-2xl text-center mt-5">
+    <h3 className="text-xl text-center mt-5 text-gray-500">
       {infoPersonal.professionOne} <br/>
       {infoPersonal.professionTwo}
     </h3>
