@@ -1,12 +1,11 @@
 import Layout from "@/components/Layout";
 import AboutMe from "@/components/AboutMe";
 import Intro from "@/components/Intro";
-import { infoPersonal } from "@/utils/data";
 
 export default function Home() {
   return (
     <Layout>
-      <main className="flex min-h-full flex-col items-center justify-between">
+      <main className="w-full min-h-screen flex-row mx-auto">
         <section>
           <Intro />
         </section>
