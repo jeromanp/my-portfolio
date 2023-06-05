@@ -14,7 +14,7 @@ export default function Intro() {
       <div className="w-60 h-60 mx-auto flex justify-center items-center">
         <div className="w-full h-full flex justify-center items-center">
           <img
-            src="/img-me.jpg"
+            src="/imagen/img-me.jpg"
             alt="me"
             className="object-cover rounded-full max-w-full max-h-full pt-5"
           />

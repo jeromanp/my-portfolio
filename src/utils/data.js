@@ -16,46 +16,46 @@ export const aboutMe = {
 export const habilities = [
   {
     skill: "HTML5",
-    image: "/html-5.svg",
+    image: "/svg-habilities/html-5.svg",
   },
   {
     skill: "CSS3",
-    image: "/css-3.svg",
+    image: "/svg-habilities/css-3.svg",
   },
   {
     skill: "Javascript",
-    image: "/javascript.svg",
+    image: "/svg-habilities/javascript.svg",
   },
   {
     skill: "React JS",
-    image: "/react.svg",
+    image: "/svg-habilities/react.svg",
   },
   {
     skill: "Redux",
-    image: "/redux.svg",
+    image: "/svg-habilities/redux.svg",
   },
   {
     skill: "Express",
-    image: "/express.svg",
+    image: "/svg-habilities/express.svg",
   },
   {
     skill: "Node JS",
-    image: "/node-js.svg",
+    image: "/svg-habilities/node-js.svg",
   },
   {
     skill: "Sequelize",
-    image: "/sequelize.svg",
+    image: "/svg-habilities/sequelize.svg",
   },
   {
     skill: "PostgreSQL",
-    image: "/postgresql.svg",
+    image: "/svg-habilities/postgresql.svg",
   },
   {
     skill:"Next Js",
-    image:"/next-js.svg"
+    image:"/svg-habilities/next-js.svg"
   },
   {
     skill:"Supabase",
-    image:"/supabase.svg",
+    image:"/svg-habilities/supabase.svg",
   },
 ];
