@@ -27,7 +27,7 @@ export const habilities = [
     image: "/javascript.svg",
   },
   {
-    skill: "React",
+    skill: "React JS",
     image: "/react.svg",
   },
   {
@@ -49,5 +49,13 @@ export const habilities = [
   {
     skill: "PostgreSQL",
     image: "/postgresql.svg",
+  },
+  {
+    skill:"Next Js",
+    image:"/next-js.svg"
+  },
+  {
+    skill:"Supabase",
+    image:"/supabase.svg",
   },
 ];
