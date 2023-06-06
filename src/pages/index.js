@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <Layout>
       <main>
-        <section>
+        <section id="intro">
           <Intro />
         </section>
 
-        <section>
+        <section id="about-me">
           <AboutMe />
         </section>
 
-        <section>
+        <section id="skills">
           <Habilidades />
         </section>
       </main>
