@@ -3,7 +3,8 @@ import { habilities } from "@/utils/data";
 
 export default function Habilidades() {
   return (
-    <div className="w-full min-h-screen flex flex-row mx-auto p-5 bg-red-800">
+    // <div className="w-full min-h-screen flex flex-row mx-auto p-5 bg-red-800">
+    <div className="w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-red-500 mx-auto">
       <div className="p-20">
         <h1 className="text-4xl font-bold mb-4">Habilidades</h1>
 
