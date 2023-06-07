@@ -3,11 +3,11 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className="w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-yellow-500 mx-auto">
-      <h1 className="text-4xl font-bold text-red-500 text-center">
+    <div className="w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto pt-20 pb-10">
+      <h1 className="text-4xl font-bold text-custom-oro_2 text-center">
         {infoPersonal.name}
       </h1>
-      <h3 className="text-xl text-center mt-5 text-gray-500">
+      <h3 className="text-xl text-center mt-5 text-gray-400">
         {infoPersonal.professionOne} <br />
         {infoPersonal.professionTwo}
       </h3>

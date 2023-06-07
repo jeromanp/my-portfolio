@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import AboutMe from "@/components/AboutMe";
 import Intro from "@/components/Intro";
 import Habilidades from "@/components/Habilidades";
+import Proyects from "@/components/Proyects";
 
 export default function Home() {
   return (
@@ -17,6 +18,10 @@ export default function Home() {
 
         <section id="skills">
           <Habilidades />
+        </section>
+
+        <section id="proyects">
+          <Proyects />
         </section>
       </main>
     </Layout>
