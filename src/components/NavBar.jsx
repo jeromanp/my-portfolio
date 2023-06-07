@@ -14,7 +14,7 @@ export default function NavBar() {
       <Link href="#skills">Habilidades</Link>
     </li>
     <li className="mr-5 hover:text-gray-900">
-      <Link href="#projects">Proyectos</Link>
+      <Link href="#proyects">Proyectos</Link>
     </li>
     <li className="mr-5 hover:text-gray-900">
       <Link href="#contact">Contacto</Link>
