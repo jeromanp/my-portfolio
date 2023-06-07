@@ -13,6 +13,10 @@ export const aboutMe = {
     "Trabaje cerca de 2 años en una empresa proveedora de servicio de internet a nivel nacional, en donde me encargaba de la operación, instalación, revisión y mantenimiento de los equipos que proporcionaban el servicio de Video, Voz y Datos a sus suscriptores",
 };
 
+export const pHabilidades= {
+  uno:"Dentro del bootcamp de Henry, que consta de mas de 700 horas teórico-prácticas, he desarrollado aplicaciones usando estas tecnologías:"
+}
+
 export const habilities = [
   {
     skill: "HTML5",
@@ -59,3 +63,11 @@ export const habilities = [
     image:"/svg-habilities/supabase.svg",
   },
 ];
+
+export const proyectos = {
+  uno:
+    "Durante mi corta etapa como desarrollador fullstack, he realizado algunos proyectos, la mayoría durante mi estancia en Henry y con los cuales pude mejorar mi capacidad de desarrollo, pero sobretodo de la creatividad y de afrontar nuevos retos",
+  dos:
+    "Es por ello que a continuación se describen aquellos proyectos que tuvieron un impacto en mi carrera y que me ayudaron a mejorar y poder perfeccionar parte de las cosas que iba aprendiendo",
+  
+};
