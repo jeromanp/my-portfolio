@@ -2,7 +2,7 @@ import { proyectos, misProyectos } from "@/utils/data";
 
 export default function Proyects() {
   return (
-    <div className="w-90 max-w-screen-xl flex flex-col items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
+    <div className="w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
       <div className="p-20">
         <h1 className="text-4xl font-bold mb-4">Proyectos</h1>
         <div className="text-xl">
@@ -57,7 +57,7 @@ export default function Proyects() {
             </div>
 
             <div className="md:w-1/2 mx-auto items-center">
-              <video className="w-full" controls>
+              <video className="w-full pb-20 pl-4" controls>
                 <source src={proyect.video} type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
