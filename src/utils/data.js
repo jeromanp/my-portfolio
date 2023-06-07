@@ -65,6 +65,19 @@ export const habilities = [
 ];
 
 export const proyectos = {
-  uno: "Durante mi corta etapa como desarrollador fullstack, he realizado algunos proyectos como parte de la preparación que seguí dentro del bootcamp.",
-  dos: "Es por ello que a continuación se describen aquellos proyectos que tuvieron un impacto importante en mi carrera y que me ayudaron a mejorar y poder perfeccionar parte de las cosas que iba aprendiendo",
+  parrafo_1: "Durante mi corta etapa como desarrollador fullstack, he realizado algunos proyectos como parte de la preparación que seguí dentro del bootcamp.",
+  parrafo_2: "Es por ello que a continuación se describen aquellos proyectos que tuvieron un impacto importante en mi carrera y que me ayudaron a mejorar y poder perfeccionar parte de las cosas que iba aprendiendo",
 };
+
+export const misProyectos = [
+  {
+    title: "Rick and Morty",
+    description: "El proyecto fue realizado durante los módulos 2 y 3 del bootcamp de Henry (ARG) y se enfocó en el desarrollo tanto del frontend como del backend. En el módulo 2, se adquirieron conocimientos en React y Redux para manejar estados globales, renderizar información de interés y aplicar estilos utilizando CSS. Se utilizó la API de Rick and Morty para obtener datos y mostrarlos en la aplicación.\n En el módulo 3, se creó un servidor utilizando Express para manejar las solicitudes del frontend. El servidor procesaba las solicitudes y devolvía las respuestas al frontend, permitiendo una mejor organización y prácticas de diseño y operación en la página web. También se implementó un manejo de errores para evitar problemas en la aplicación.\n Actualmente, el proyecto se encuentra en proceso de ser desplegado y se compartirá el enlace una vez esté disponible",
+    video:"/video/RyM-JERP-FT-33b.mp4",
+    tecnologies:"Javascript, React, Redux, Express",
+    repository:"https://github.com/jeromanp/Proyecto-Rick-and-Morty",
+    deploy:"En proceso",    
+  },
+];
+
+
