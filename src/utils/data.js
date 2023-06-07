@@ -76,7 +76,7 @@ export const misProyectos = [
     video:"/video/RyM-JERP-FT-33b.mp4",
     tecnologies:"Javascript, React, Redux, Express",
     repository:"https://github.com/jeromanp/Proyecto-Rick-and-Morty",
-    deploy:"En proceso",    
+    deploy:"/working",    
   },
   {
     title:"Proyecto Individual: Countries",
@@ -84,7 +84,7 @@ export const misProyectos = [
     video:"/video/PI-Countries.mp4",
     tecnologies:"Javascript, React, Redux, Node/Express, Sequelize/PostgreSQL, CSS Modules",
     repository:"https://github.com/jeromanp/pi-countries",
-    deploy:"En proceso",
+    deploy:"/working",
   }
 ];
 
