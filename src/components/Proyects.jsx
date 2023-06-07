@@ -14,9 +14,11 @@ export default function Proyects() {
           </p>
         </div>
 
+        <div className="mt-10">
+            
         {misProyectos.map((proyect, i) => (
           <div
-            className="flex flex-col md:flex-row items-center justify-center h-screen p-10"
+            className="flex flex-col md:flex-row items-center justify-center h-full p-10"
             key={i}
           >
             <div className="md:w-1/2">
@@ -64,6 +66,8 @@ export default function Proyects() {
             </div>
           </div>
         ))}
+        </div>
+
       </div>
     </div>
   );
