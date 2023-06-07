@@ -16,6 +16,10 @@ module.exports = {
         custom: {
           'oro': '#928652',
           'azul': '#001844',
+          'blanco': '#fcfefc',
+          'oro_2': '#a29061',
+
+
 
         },
       }
