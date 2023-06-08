@@ -3,6 +3,7 @@ import AboutMe from "@/components/AboutMe";
 import Intro from "@/components/Intro";
 import Habilidades from "@/components/Habilidades";
 import Proyects from "@/components/Proyects";
+import FormContact from "@/components/FormContact";
 
 export default function Home() {
   return (
@@ -22,6 +23,10 @@ export default function Home() {
 
         <section id="proyects">
           <Proyects />
+        </section>
+
+        <section id="contact">
+          <FormContact/>
         </section>
       </main>
     </Layout>
