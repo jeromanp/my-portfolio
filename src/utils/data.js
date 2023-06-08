@@ -104,4 +104,9 @@ export const misProyectos = [
   },
 ];
 
+export const contactoInfo = {
+  parrafo_1:"Si tienes alguna pregunta, propuesta de trabajo o simplemente quieres saludar, no dudes en contactarme. Estaré encantado de escucharte y responder lo antes posible."
+
+}
+
 
