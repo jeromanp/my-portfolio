@@ -5,7 +5,7 @@ export default function Proyects() {
   return (
     <div className="w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
       <div className="p-20">
-        <h1 className="text-4xl font-bold mb-4">Proyectos</h1>
+        <h1 className="text-4xl font-bold mb-4 text-custom-oro">Proyectos</h1>
         <div className="text-xl">
           <p className="mb-2 text-gray-500 text-justify">
             {proyectos.parrafo_1}
@@ -30,7 +30,7 @@ export default function Proyects() {
                     {proyect.description}
                   </p>
                   <br />
-                  <p className="cursor-text text-justify text-m whitespace-pre-line text-red-500">
+                  <p className="cursor-text text-justify text-m whitespace-pre-line text-green-500">
                     Tecnologías: {proyect.tecnologies}
                   </p>
                 </div>
