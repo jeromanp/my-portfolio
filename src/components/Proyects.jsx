@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Proyects() {
   return (
-    <div className="w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
+    <div className="z-0 w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
       <div className="p-20">
         <h1 className="text-4xl font-bold mb-4 text-custom-oro">Proyectos</h1>
         <div className="text-xl">
@@ -36,7 +36,7 @@ export default function Proyects() {
                 </div>
 
                 <div className="items-center">
-                  <div className=" mb-4 flex justify-center space-x-2">
+                  <div className="mb-4 flex justify-center space-x-2">
                     <Link href={proyect.deploy}>
                       <button
                         className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
@@ -50,7 +50,6 @@ export default function Proyects() {
                     <Link href={proyect.repository} target="_blank">
                       <button
                         className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
-                        
                         rel="noreferrer"
                       >
                         <span className="text-sm">Repositorio</span>
@@ -60,8 +59,8 @@ export default function Proyects() {
                 </div>
               </div>
 
-              <div className="md:w-1/2 mx-auto items-center">
-                <video className="w-full pb-20 pl-4" controls>
+              <div className="md:w-1/2 mx-auto items-center z-0">
+                <video className="w-full pb-20 pl-4 z-0" controls>
                   <source src={proyect.video} type="video/mp4" />
                   Tu navegador no soporta el elemento de video.
                 </video>

@@ -14,7 +14,7 @@ export default function Habilidades() {
           <p className="mb-2  text-gray-400 text-justify">{pHabilidades.uno}</p>
         </div>
         <div className="w-90vw mx-auto p-10">
-          <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-8 font-bold dark:font-normal aos-init aos-animate">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 text-center py-8 font-bold dark:font-normal aos-init aos-animate">
             {habilities.map((hability, i) => (
               <div
                 className="bg-slate-200 dark:bg-[#928652] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500 items-center inline-block"
@@ -25,7 +25,7 @@ export default function Habilidades() {
                   <img
                     src={hability.image}
                     alt={hability.skill}
-                    style={{ width: "150px", height: "150px" }}
+                    className="w-48 h-48"
                   />
                 </div>
                 <p
