@@ -21,7 +21,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="/"
+                    href="#intro"
                   >
                     Inicio
                   </a>
@@ -29,7 +29,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="/"
+                    href="#about-me"
                   >
                     Sobre mi
                   </a>
@@ -37,7 +37,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="/"
+                    href="#skills"
                   >
                     Habilidades
                   </a>
@@ -45,7 +45,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="/"
+                    href="#proyects"
                   >
                     Proyectos
                   </a>
@@ -53,7 +53,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="/"
+                    href="#contact"
                   >
                     Contacto
                   </a>
