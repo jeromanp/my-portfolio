@@ -4,6 +4,7 @@ import Intro from "@/components/Intro";
 import Habilidades from "@/components/Habilidades";
 import Proyects from "@/components/Proyects";
 import FormContact from "@/components/FormContact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           <FormContact/>
         </section>
       </main>
+      <Footer />
     </Layout>
   );
 }
