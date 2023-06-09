@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -7,11 +8,13 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row items-start lg:justify-between gap-12">
           <div className="flex flex-col gap-6 ml-10">
             <h3 className="font-medium text-custom-azul">Jose Eduardo Román</h3>
-            <img
-              className="h-40 w-auto object-cover rounded-full"
-              src="/imagen/img-me.jpg"
-              alt="logo"
-            />
+            <Link href="/">
+              <img
+                className="h-40 w-auto object-cover rounded-full"
+                src="/imagen/img-me.jpg"
+                alt="logo"
+              />
+            </Link>
           </div>
 
           <div className="flex flex-col gap-12 lg:gap-6">
