@@ -18,10 +18,10 @@ export default function Proyects() {
         <div className="mt-10">
           {misProyectos.map((proyect, i) => (
             <div
-              className="flex flex-col md:flex-row items-center justify-center h-full p-10"
+              className="flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-10"
               key={i}
             >
-              <div className="md:w-1/2">
+              <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
                 <div className="mb-4 p-5">
                   <h1 className="font-bold text-4xl mb-4 cursor-text text-custom-oro">
                     {proyect.title}
@@ -59,7 +59,7 @@ export default function Proyects() {
                 </div>
               </div>
 
-              <div className="md:w-1/2 mx-auto items-center z-0">
+              <div className="xs:w-[100%] sm:w-[100%] md:w-1/2 mx-auto items-center z-0">
                 <video className="w-full pb-20 pl-4 z-0" controls>
                   <source src={proyect.video} type="video/mp4" />
                   Tu navegador no soporta el elemento de video.
