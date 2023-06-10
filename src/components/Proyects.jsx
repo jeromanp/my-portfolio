@@ -25,7 +25,7 @@ export default function Proyects() {
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
                 <div className="mb-3 p-2 sm:p-2 md:p-0 lg:p-5">
-                  <h1 className="text-2xl sm:text-3x1 md:text-4x1 lg:text-4x1 font-bold mb-4 text-custom-oro_2 font-bold mb-4 cursor-text text-custom-oro">
+                  <h1 className="text-xl sm:text-2x1 md:text-3x1 lg:text-3x1 font-bold mb-4 text-custom-oro_2 font-bold mb-4 cursor-text text-custom-oro">
                     {proyect.title}
                   </h1>
 
