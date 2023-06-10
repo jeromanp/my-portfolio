@@ -5,7 +5,7 @@ export default function Habilidades() {
   return (
     <div className="w-full max-w-screen-xl mx-auto items-center justify-between font-mono text-sm  bg-custom-azul">
       <div className="p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
-        <h1 className="text-4xl font-bold mb-4 text-custom-oro_2">
+        <h1 className="text-2xl sm:text-3x1 md:text-4x1 lg:text-4x1 font-bold mb-4 text-custom-oro_2">
           Habilidades
         </h1>
 
