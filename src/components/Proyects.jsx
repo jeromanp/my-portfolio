@@ -4,9 +4,11 @@ import Link from "next/link";
 export default function Proyects() {
   return (
     <div className="z-0 w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
-      <div className="p-20">
-        <h1 className="text-4xl font-bold mb-4 text-custom-oro">Proyectos</h1>
-        <div className="text-xl">
+      <div className="p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
+        <h1 className="text-2xl sm:text-3x1 md:text-4x1 lg:text-4x1 font-bold mb-4 text-custom-oro">
+          Proyectos
+        </h1>
+        <div className="text-xs md:text-lg lg:text-xl">
           <p className="mb-2 text-gray-500 text-justify">
             {proyectos.parrafo_1}
           </p>
@@ -15,24 +17,27 @@ export default function Proyects() {
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-1 sm:mt-5 md:mt10 lg:mt-10">
           {misProyectos.map((proyect, i) => (
             <div
-              className="flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-10"
+              className="flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-1 sm:p-5 md:p-10 lg:p-10"
               key={i}
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
-                <div className="mb-4 p-5">
-                  <h1 className="font-bold text-4xl mb-4 cursor-text text-custom-oro">
+                <div className="mb-3 p-2 sm:p-2 md:p-0 lg:p-5">
+                  <h1 className="text-xl sm:text-2x1 md:text-3x1 lg:text-3x1 font-bold mb-4 text-custom-oro_2 font-bold mb-4 cursor-text text-custom-oro">
                     {proyect.title}
                   </h1>
-                  <p className="cursor-text text-justify text-m whitespace-pre-line text-gray-400">
-                    {proyect.description}
-                  </p>
-                  <br />
-                  <p className="cursor-text text-justify text-m whitespace-pre-line text-green-500">
-                    Tecnologías: {proyect.tecnologies}
-                  </p>
+
+                  <div className="text-xs sm: text-md md:text-md lg:text-xl">
+                    <p className="cursor-text text-justify text-m whitespace-pre-line text-gray-400">
+                      {proyect.description}
+                    </p>
+                    <br />
+                    <p className="cursor-text text-justify text-m whitespace-pre-line text-green-500">
+                      Tecnologías: {proyect.tecnologies}
+                    </p>
+                  </div>
                 </div>
 
                 <div className="items-center">
@@ -59,8 +64,8 @@ export default function Proyects() {
                 </div>
               </div>
 
-              <div className="xs:w-[100%] sm:w-[100%] md:w-1/2 mx-auto items-center z-0">
-                <video className="w-full pb-20 pl-4 z-0" controls>
+              <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0">
+                <video className="w-full pb-10 pl-4 z-0" controls>
                   <source src={proyect.video} type="video/mp4" />
                   Tu navegador no soporta el elemento de video.
                 </video>

@@ -5,8 +5,8 @@ export default function Process() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
       <div>
-        <h1 className="text-4xl font-bold mb-4 mt-5 text-center text-custom-oro_2 mb-20">
-          En proceso de desarrollo ...
+        <h1 className="text-2xl sm:text-3x1 md:text-4x1 lg:text-4x1 font-bold mb-4 text-custom-oro_2 font-bold text-center mb-10 sm:mb-12 md:mb-20 lg:mb-20">
+          En desarrollo ...
         </h1>
       </div>
 
