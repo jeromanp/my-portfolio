@@ -326,3 +326,7 @@ body {
   color: white;
   background: #c8740d;
 }
+
+.error {
+  color: rgb(199, 67, 67);
+}
