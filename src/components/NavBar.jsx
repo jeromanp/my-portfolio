@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const navigation = [
   { name: "Inicio", href: "#intro", current: true },
@@ -34,18 +35,24 @@ export default function Example() {
 
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-8 w-auto lg:hidden"
-                    src="/imagen/logo.jpg"
-                    alt="logo"
-                  />
-                  <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="/imagen/logo.jpg"
-                    alt="logo"
-                  />
+                  <Link href="/">
+                    <img
+                      className="block h-8 w-auto lg:hidden"
+                      src="/imagen/logo.jpg"
+                      alt="logo"
+                    />
+                  </Link>
+
+                  <Link href="/">
+                    <img
+                      className="hidden h-8 w-auto lg:block"
+                      src="/imagen/logo.jpg"
+                      alt="logo"
+                    />
+                  </Link>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+
+                <div className="hidden sm:ml-20 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
