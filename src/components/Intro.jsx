@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className="w-full max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto pt-36 md:pt-20 md:pb-10">
+    <div className="w-full max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto pt-10 md:pt-20 md:pb-10">
       <h1 className="text-2xl sm:text-3x1 md:text-4x1 lg:text-4x1  font-bold text-custom-oro_2 text-center">
         {infoPersonal.name}
       </h1>

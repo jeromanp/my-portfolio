@@ -4,20 +4,22 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="flex-1 bg-custom-oro text-custom-azul">
-      <div className="container mx-auto py-12 lg:py-14 xl:py-20 pl-10 pr-20">
-        <div className="flex flex-col lg:flex-row items-start lg:justify-between gap-12">
-          <div className="flex flex-col gap-6 ml-10">
-            <h3 className="font-medium text-custom-azul">Jose Eduardo Román</h3>
-            <Link href="/">
-              <img
-                className="h-40 w-auto object-cover rounded-full"
-                src="/imagen/img-me.jpg"
-                alt="logo"
-              />
-            </Link>
+      <div className="container mx-auto py-12 lg:py-14 xl:py-20 mx-auto flex justify-center items-center">
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
+          <div className="flex flex-col gap-6 mx-auto flex justify-center items-center">
+            <h3 className="font-medium text-custom-azul mx-auto">Jose Eduardo Román</h3>
+            <div className="w-30 h-30 md:w-60 sm:h-60 sm:w-70 md:h-70 mx-auto flex justify-center items-center">
+              <Link href="/">
+                <img
+                  className="h-20 sm:h-30 md:h-40 lg:h-50 w-auto object-cover rounded-full"
+                  src="/imagen/img-me.jpg"
+                  alt="me"
+                />
+              </Link>
+            </div>
           </div>
 
-          <div className="flex flex-col gap-12 lg:gap-6">
+          <div className="hidden sm:flex md:flex lg:flex flex-col gap-12 lg:gap-6 mx-auto flex justify-center items-center">
             <div className="flex flex-col lg:flex-row gap-12 lg:items-center lg:justify-end">
               <ul className="flex flex-col lg:flex-col items-start lg:items-center flex-wrap gap-6">
                 <li>Mapa del sitio</li>
@@ -65,9 +67,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
-            <h3 className="mb-4 flex flex-col">Mis redes sociales</h3>
-
+          <div className="p-4 sm:p-0 sm:pl-10 lg:pl-20 mx-auto items-center flex justify-center flex-col">
+            <div className="mx-auto items-center flex">
+              <h3 className="mb-4 flex flex-col">Mis redes sociales</h3>
+            </div>
             <div className="flex flex-col lg:flex-row gap-12 lg:items-center lg:justify-end">
               <ul className="flex items-center gap-x-4 gap-y-2 flex-wrap">
                 <li>
@@ -75,7 +78,7 @@ export default function Footer() {
                     <img
                       src="/svg-social-networks/gmail.svg"
                       alt="email"
-                      className="w-10 h-10 transition duration-300 transform hover:scale-125"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
                     />
                   </a>
                 </li>
@@ -85,7 +88,7 @@ export default function Footer() {
                     <img
                       src="/svg-social-networks/github.svg"
                       alt="github"
-                      className="w-10 h-10 transition duration-300 transform hover:scale-125"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
                     />
                   </a>
                 </li>
@@ -98,7 +101,7 @@ export default function Footer() {
                     <img
                       src="/svg-social-networks/linkedin.svg"
                       alt="linkedin"
-                      className="w-10 h-10 transition duration-300 transform hover:scale-125"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
                     />
                   </a>
                 </li>
@@ -111,7 +114,7 @@ export default function Footer() {
                     <img
                       src="/svg-social-networks/whatsapp.svg"
                       alt="whatsapp"
-                      className="w-10 h-10 transition duration-300 transform hover:scale-125"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
                     />
                   </a>
                 </li>
@@ -121,7 +124,7 @@ export default function Footer() {
                     <img
                       src="/svg-social-networks/slack.svg"
                       alt="slack"
-                      className="w-10 h-10 transition duration-300 transform hover:scale-125"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
                     />
                   </a>
                 </li>
@@ -131,7 +134,7 @@ export default function Footer() {
                     <img
                       src="/svg-social-networks/discord.svg"
                       alt="discord"
-                      className="w-10 h-10 transition duration-300 transform hover:scale-125"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
                     />
                   </a>
                 </li>
@@ -141,7 +144,7 @@ export default function Footer() {
                     <img
                       src="/svg-social-networks/cv.svg"
                       alt="cv"
-                      className="w-10 h-10 transition duration-300 transform hover:scale-125"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
                     />
                   </a>
                 </li>
