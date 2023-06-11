@@ -1,6 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const navigation = [
   { name: "Inicio", href: "#intro", current: true },
@@ -15,8 +16,31 @@ function classNames(...classes) {
 }
 
 export default function Example() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Disclosure as="nav" className="bg-custom-oro">
+    <Disclosure
+      as="nav"
+      className={`bg-custom-oro fixed top-0 z-50 w-full transition-transform ${
+        isScrolled ? "transform translate-y-0" : "transform -translate-y-full"
+      }`}
+    >
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -37,7 +61,7 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
                     <img
-                      className="block h-8 w-auto lg:hidden"
+                      className="block h-12 w-auto lg:hidden"
                       src="/imagen/logo.jpg"
                       alt="logo"
                     />
@@ -45,7 +69,7 @@ export default function Example() {
 
                   <Link href="/">
                     <img
-                      className="hidden h-8 w-auto lg:block"
+                      className="hidden h-10 w-auto lg:block"
                       src="/imagen/logo.jpg"
                       alt="logo"
                     />
