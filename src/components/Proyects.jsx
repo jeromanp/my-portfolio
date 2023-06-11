@@ -63,12 +63,14 @@ export default function Proyects() {
                 </div>
               </div>
 
-              <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0">
-                <video className="w-full pb-10 pl-4 z-0" controls>
-                  <source src={proyect.video} type="video/mp4" />
-                  Tu navegador no soporta el elemento de video.
-                </video>
-              </div>
+              {proyect.video ? (
+                <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0">
+                  <video className="w-full pb-10 pl-4 z-0" controls>
+                    <source src={proyect.video} type="video/mp4" />
+                    Tu navegador no soporta el elemento de video.
+                  </video>
+                </div>
+              ) : null}
             </div>
           ))}
         </div>
