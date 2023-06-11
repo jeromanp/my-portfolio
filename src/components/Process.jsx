@@ -2,6 +2,10 @@ import React from "react";
 import Link from "next/link";
 
 export default function Process() {
+  const goBack = () => {
+    window.history.back();
+  };
+
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
       <div>
@@ -19,15 +23,12 @@ export default function Process() {
         <div className="👍"></div>
       </div>
 
-      <Link href="/">
-        <button
-          className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro mt-20"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="text-sm">Ir al Inicio</span>
-        </button>
-      </Link>
+      <button
+        className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro mt-20"
+        onClick={goBack}
+      >
+        <span className="text-sm">Volver</span>
+      </button>
     </div>
   );
 }

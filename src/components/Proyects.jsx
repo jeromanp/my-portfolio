@@ -42,10 +42,9 @@ export default function Proyects() {
 
                 <div className="items-center">
                   <div className="mb-4 flex justify-center space-x-2">
-                    <Link href={proyect.deploy}>
+                    <Link href={proyect.deploy} target="_blank">
                       <button
                         className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
-                        target="_blank"
                         rel="noreferrer"
                       >
                         <span className="text-sm">Deploy</span>
@@ -64,12 +63,14 @@ export default function Proyects() {
                 </div>
               </div>
 
-              <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0">
-                <video className="w-full pb-10 pl-4 z-0" controls>
-                  <source src={proyect.video} type="video/mp4" />
-                  Tu navegador no soporta el elemento de video.
-                </video>
-              </div>
+              {proyect.video ? (
+                <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0">
+                  <video className="w-full pb-10 pl-4 z-0" controls>
+                    <source src={proyect.video} type="video/mp4" />
+                    Tu navegador no soporta el elemento de video.
+                  </video>
+                </div>
+              ) : null}
             </div>
           ))}
         </div>
