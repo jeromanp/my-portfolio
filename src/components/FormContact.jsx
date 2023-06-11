@@ -6,15 +6,11 @@ import Swal from "sweetalert2";
 import "react-toastify/dist/ReactToastify.css";
 import { contactoInfo } from "@/utils/data";
 
-
-// Los estilos hacen que aparezca bien, el container los trae y el toast lo ejecuta
-
 export default function ContactForm() {
   const [errors, setErrors] = useState({});
   const [inputs, setInputs] = useState();
   const input = useRef();
 
-  // Envía el mail
   const sendEmail = async () => {
     try {
       return await emailjs.sendForm(
@@ -24,25 +20,26 @@ export default function ContactForm() {
         process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY
       );
     } catch (error) {
-      toast.error("Upss!!, Hay un problema con el servicio, intenta más tarde.", {
-        position: "top-right",
-        autoClose: false,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "colored",
-      });
+      toast.error(
+        "Upss!!, Hay un problema con el servicio, intenta más tarde.",
+        {
+          position: "top-right",
+          autoClose: false,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        }
+      );
     }
   };
 
-  // Ejecuta el envío de mail, activa el toast y reinicia el form
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (Object.values(errors).some((error) => error !== null)) {
-      // Si hay un error, se evita hacer el submit y tira un alert vintage
-      Swal.fire("Debes correjir los errores", "", "warning");
+      Swal.fire("Debes corregir los errores", "", "warning");
       return;
     }
     const response = await sendEmail();
@@ -61,26 +58,24 @@ export default function ContactForm() {
     e.target.reset();
   };
 
-  // Controla formulario en cada cambio
   const handleChange = (e) => {
     const { name, value } = e.target;
-    // Validaciones de inputs
     let error = null;
 
     switch (name) {
       case "user_name":
-        if (value.length > 64) {
-          error = "El nombre debe tener como máximo 64 caracteres";
+        if (value.length > 30) {
+          error = "El nombre debe tener como máximo 30 caracteres";
         }
         break;
       case "user_email":
         const emailRegex = /^\S+@\S+\.\S+$/;
         if (!emailRegex.test(value)) {
           error =
-            "Por favor ingrese una dirección de correo electrónico válida";
+            "Ingrese una dirección de correo electrónico válida";
         }
-        if (value.length > 96) {
-          error = "El email debe tener como máximo 96 caracteres";
+        if (value.length > 50) {
+          error = "El email debe tener como máximo 50 caracteres";
         }
         break;
       case "message":
@@ -124,17 +119,18 @@ export default function ContactForm() {
           </p>
         </div>
 
-
-      <ToastContainer />
-      <form ref={input} onSubmit={handleSubmit} className="form mx-auto mt-5 md:mt-10 lg:mt-20">
-
-
+        <ToastContainer />
+        <form
+          ref={input}
+          onSubmit={handleSubmit}
+          className="form mx-auto mt-5 md:mt-10 lg:mt-20 "
+        >
           <div className="space-y-2">
             <label className="text-brand-green text-xs font-semibold pl-1 block">
               Nombre
             </label>
 
-            <div className="relative overflow-hidden rounded-lg">
+            <div className="relative overflow-hidden rounded-lg w-full">
               <input
                 id="nombre"
                 placeholder="Ingresa tu nombre"
@@ -202,13 +198,13 @@ export default function ContactForm() {
             </div>
           </div>
 
-        <div className="mt-6 flex justify-end">
-          <button className="fancy">
-            <span className="py-1">Enviar</span>
-          </button>
-        </div>
-      </form>
-    </div>
+          <div className="mt-6 flex justify-end">
+            <button className="fancy">
+              <span className="py-1">Enviar</span>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
