@@ -236,7 +236,7 @@ body {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   max-width: 350px;
   background-color: custom-azul;
   padding: 20px;
@@ -244,22 +244,22 @@ body {
   position: relative;
 }
 
-.message {
+/* .message {
   color: rgba(88, 87, 87, 0.822);
   font-size: 14px;
-}
+} */
 
-.flexy {
+/* .flexy {
   display: flex;
   width: 100%;
   gap: 6px;
-}
+} */
 
-.form label {
+/* .form label {
   position: relative;
-}
+} */
 
-.form label input {
+/* .form label input {
   width: 100%;
   padding: 10px 10px 20px 10px;
   outline: 0;
@@ -267,27 +267,23 @@ body {
   border-radius: 5px;
   background-color: #928652;
   cursor: text;
-}
+} */
 
-.form label input::placeholder {
+/* .form label input::placeholder {
   color: #e4c560;
-}
+} */
 
-textarea {
+/* textarea {
   background-color: #928652;
   cursor: text;
-}
+} */
 
 .form textarea::placeholder {
   color: #e4c560;
 }
 
-.input01 {
-  width: 100%;
-  padding: 10px 10px 20px 10px;
-  outline: 0;
-  border: 1px solid rgba(105, 105, 105, 0.397);
-  border-radius: 5px;
+.form input::placeholder {
+  color: #e4c560;
 }
 
 .fancy {
@@ -295,7 +291,7 @@ textarea {
   border: 2px solid #fff;
   border-radius: 0px;
   box-sizing: border-box;
-  color: #860f0f;
+  color: #928652;
   cursor: pointer;
   display: inline-block;
   font-weight: 390;
@@ -313,19 +309,6 @@ textarea {
   font-size: 13px;
 }
 
-.fancy::before {
-  content: " ";
-  width: 1.7rem;
-  height: 2px;
-  background: #cacaca;
-  top: 50%;
-  left: 1.5em;
-  position: absolute;
-  transform: translateY(-50%);
-  transform: translateX(230%);
-  transform-origin: center;
-}
-
 .fancy .text {
   font-size: 1.125em;
   line-height: 1.33333em;
@@ -339,58 +322,7 @@ textarea {
   transform: translateX(30%);
 }
 
-/* .fancy .top-key {
-  height: 2px;
-  width: 1.5625rem;
-  top: -2px;
-  left: 0.625rem;
-  position: absolute;
-  background: white;
-  transition: width 0.5s ease-out, left 0.3s ease-out;
-} */
-
-/* .fancy .bottom-key-1 {
-  height: 2px;
-  width: 1.5625rem;
-  right: 1.875rem;
-  bottom: -2px;
-  position: absolute;
-  background: white;
-  transition: width 0.5s ease-out, right 0.3s ease-out;
-} */
-
-/* .fancy .bottom-key-2 {
-  height: 2px;
-  width: 0.625rem;
-  right: 0.625rem;
-  bottom: -2px;
-  position: absolute;
-  background: white;
-  transition: width 0.5s ease-out, right 0.3s ease-out;
-} */
-
 .fancy:hover {
   color: white;
-  background: #633a08;
-}
-
-.fancy:hover::before {
-  width: 1.5rem;
-  background: #928652;
-}
-
-.fancy:hover .text {
-  color: #928652;
-  padding-left: 1.5em;
-}
-
-.fancy:hover .top-key {
-  left: -2px;
-  width: 0px;
-}
-
-.fancy:hover .bottom-key-1,
-.fancy:hover .bottom-key-2 {
-  right: 0;
-  width: 0;
+  background: #c8740d;
 }
