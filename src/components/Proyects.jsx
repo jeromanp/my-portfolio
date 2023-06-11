@@ -42,10 +42,9 @@ export default function Proyects() {
 
                 <div className="items-center">
                   <div className="mb-4 flex justify-center space-x-2">
-                    <Link href={proyect.deploy}>
+                    <Link href={proyect.deploy} target="_blank">
                       <button
                         className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
-                        target="_blank"
                         rel="noreferrer"
                       >
                         <span className="text-sm">Deploy</span>
