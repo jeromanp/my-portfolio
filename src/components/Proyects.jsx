@@ -5,7 +5,7 @@ export default function Proyects() {
   return (
     <div className="z-0 w-90 max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
       <div className="p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
-        <h1 className="text-2xl sm:text-3x1 md:text-4x1 lg:text-4x1 font-bold mb-4 text-custom-oro">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro">
           Proyectos
         </h1>
         <div className="text-xs md:text-lg lg:text-xl">
@@ -25,7 +25,7 @@ export default function Proyects() {
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
                 <div className="mb-3 p-2 sm:p-2 md:p-0 lg:p-5">
-                  <h1 className="text-xl sm:text-2x1 md:text-3x1 lg:text-3x1 font-bold mb-4 text-custom-oro_2 font-bold mb-4 cursor-text text-custom-oro">
+                  <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 font-bold mb-4 cursor-text text-white">
                     {proyect.title}
                   </h1>
 
