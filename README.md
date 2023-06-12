@@ -1,38 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Portfolio
+Este es mi portfolio personal, creado con React, Next.js, JavaScript y Tailwind CSS.
 
-## Getting Started
+Acerca del proyecto
+Este proyecto utiliza la potencia de React y Next.js para crear una aplicación de página única que muestra mi información personal, habilidades, proyectos y formas de contacto. Está diseñado para ser moderno, responsive y fácilmente personalizable.
 
-First, run the development server:
+El frontend del proyecto está construido utilizando React, una biblioteca de JavaScript popular para construir interfaces de usuario interactivas. Next.js es utilizado como el framework de desarrollo de React, proporcionando características adicionales como enrutamiento, renderizado del lado del servidor y generación estática.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+La apariencia y el diseño se han logrado utilizando Tailwind CSS, un framework CSS utilitario que permite un desarrollo rápido y fácil de aplicaciones web. Con Tailwind CSS, pude aplicar estilos personalizados y responsivos al proyecto de manera eficiente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El proyecto también hace uso de JavaScript para manejar la lógica y la interactividad de la aplicación. Además, se han utilizado características y bibliotecas adicionales, como @headlessui/react y heroicons/react, para mejorar la experiencia de usuario y proporcionar componentes listos para usar.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Despliegue
+El proyecto se puede implementar fácilmente utilizando la plataforma Vercel, que está optimizada para aplicaciones Next.js. Simplemente sigue los pasos proporcionados en el archivo Deploy on Vercel para desplegar tu propia instancia del portfolio.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Aprende más
+Si deseas aprender más sobre React, Next.js y Tailwind CSS, te recomiendo los siguientes recursos:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Documentación de Next.js: Aprende sobre las características y la API de Next.js.
+Aprende Next.js: Un tutorial interactivo de Next.js.
+Documentación de Tailwind CSS: Obtén información detallada sobre cómo utilizar Tailwind CSS.
+OpenAI: Recurso principal para información y desarrollo de modelos de lenguaje.
+¡Siéntete libre de explorar el código fuente de este proyecto y personalizarlo según tus necesidades!
