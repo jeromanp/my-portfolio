@@ -39,12 +39,12 @@ export default function Example() {
       as="nav"
       className={`bg-custom-azul fixed top-0 z-50 w-full transition-transform ${
         isScrolled ? "transform translate-y-0" : "transform -translate-y-full"
-      } border-b-2 border-custom-oro_2`}
+      } border-b-2 border-custom-oro_2 fixed`}
     >
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
+          <div className="mx-auto max-w-7xl px-5 sm:px-7 lg:px-10">
+            <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-custom-oro hover:bg-custom-oro hover:text-custom-azul focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -69,7 +69,7 @@ export default function Example() {
 
                   <Link href="/">
                     <img
-                      className="hidden h-10 w-auto lg:block"
+                      className="hidden h-12 w-auto lg:block"
                       src="/imagen/logo.jpg"
                       alt="logo"
                     />
@@ -86,7 +86,7 @@ export default function Example() {
                           item.current
                             ? "bg-gray-900 text-white"
                             : "text-custom-oro hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "rounded-md px-3 py-2 text-md lg:text-lg font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
