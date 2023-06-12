@@ -71,8 +71,7 @@ export default function ContactForm() {
       case "user_email":
         const emailRegex = /^\S+@\S+\.\S+$/;
         if (!emailRegex.test(value)) {
-          error =
-            "Ingrese una dirección de correo electrónico válida";
+          error = "Ingrese una dirección de correo electrónico válida";
         }
         if (value.length > 50) {
           error = "El email debe tener como máximo 50 caracteres";
@@ -123,7 +122,7 @@ export default function ContactForm() {
         <form
           ref={input}
           onSubmit={handleSubmit}
-          className="form mx-auto mt-5 md:mt-10 lg:mt-20 "
+          className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl"
         >
           <div className="space-y-2">
             <label className="text-brand-green text-xs font-semibold pl-1 block">
