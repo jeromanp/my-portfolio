@@ -20,14 +20,14 @@ export default function Habilidades() {
                 className="bg-slate-200 dark:bg-[#928652] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-200 items-center inline-block"
                 key={i}
               >
-                <div className="p-1 items-center inline-block max-w-50 h-auto md:max-w-200 md:h-auto">
+                <div className="p-1 items-center inline-block max-w-50 h-auto md:max-w-200 md:h-auto shadow-2xl shadow-custom-azul">
                   <img
                     src={hability.image}
                     alt={hability.skill}
                   />
                 </div>
                 <p
-                  className="text-md sm:text-lg md:text-lg lg:text-xl mt-4  pb-5 text-center"
+                  className="text-md sm:text-lg md:text-lg lg:text-xl mt-4  pb-5 text-center "
                   style={{ wordWrap: "break-word" }}
                 >
                   {hability.skill}
