@@ -12,7 +12,7 @@ El frontend del proyecto está construido utilizando React, una biblioteca de Ja
 
 La apariencia y el diseño se han logrado utilizando Tailwind CSS, un framework CSS utilitario que permite un desarrollo rápido y fácil de aplicaciones web. Con Tailwind CSS, pude aplicar estilos personalizados y responsivos al proyecto de manera eficiente.
 
-El proyecto también hace uso de JavaScript para manejar la lógica y la interactividad de la aplicación. Además, se han utilizado características y bibliotecas adicionales, como `@headlessui/react` y `heroicons/react`, para mejorar la experiencia de usuario y proporcionar componentes listos para usar.
+El proyecto también hace uso de JavaScript para manejar la lógica y la interactividad de la aplicación. Además, se han utilizado características y bibliotecas adicionales, para mejorar la experiencia de usuario y proporcionar componentes listos para usar.
 
 ## Capturas de pantalla
 
