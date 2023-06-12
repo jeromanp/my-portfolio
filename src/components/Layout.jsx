@@ -5,8 +5,9 @@ export default function Layout({ children }) {
   return (
     <>
      <Head>
-     <title>my portfolio</title>
+     <title>Jose Eduardo Roman</title>
         <meta name="description" content="Webside Portfolio Jose Eduardo Roman"></meta>
+        <link rel="icon" href="/imagen/logo.jpg" />
      </Head>
       <NavBar />
 
