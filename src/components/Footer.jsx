@@ -1,13 +1,28 @@
 import React from "react";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Footer() {
+  const [showModal, setShowModal] = useState(false);
+  const [currentModal, setCurrentModal] = useState(null);
+
+  const openModal = (modal) => {
+    setCurrentModal(modal);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setCurrentModal(null);
+    setShowModal(false);
+  };
   return (
     <footer className="flex-1 bg-custom-oro text-custom-azul">
       <div className="container mx-auto py-12 lg:py-14 xl:py-20 mx-auto flex justify-center items-center">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
           <div className="flex flex-col gap-6 mx-auto flex justify-center items-center">
-            <h3 className="font-medium text-custom-azul mx-auto">Jose Eduardo Román</h3>
+            <h3 className="font-medium text-custom-azul mx-auto">
+              Jose Eduardo Román
+            </h3>
             <div className="w-30 h-30 md:w-60 sm:h-60 sm:w-70 md:h-70 mx-auto flex justify-center items-center">
               <Link href="/">
                 <img
@@ -120,7 +135,7 @@ export default function Footer() {
                 </li>
 
                 <li>
-                  <a target="_blank" href="">
+                  <a onClick={() => openModal("modal1")}>
                     <img
                       src="/svg-social-networks/slack.svg"
                       alt="slack"
@@ -130,7 +145,7 @@ export default function Footer() {
                 </li>
 
                 <li>
-                  <a target="_blank" href="">
+                  <a onClick={() => openModal("modal2")}>
                     <img
                       src="/svg-social-networks/discord.svg"
                       alt="discord"
@@ -138,6 +153,45 @@ export default function Footer() {
                     />
                   </a>
                 </li>
+
+                {showModal && (
+                  <div className="fixed inset-0 flex items-center justify-center z-50">
+                    <div className="bg-custom-azul rounded-lg p-6 ">
+                      {currentModal === "modal1" && (
+                        <div>
+                          <button
+                            onClick={closeModal}
+                            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-1 rounded"
+                          >
+                            ❌
+                          </button>
+                          <h2 className="text-xl font-bold mb-4 text-white">
+                            Buscame como:{" "}
+                            <strong className="text-yellow-800">
+                              Jose Eduardo Roman
+                            </strong>
+                          </h2>
+                        </div>
+                      )}
+                      {currentModal === "modal2" && (
+                        <div>
+                          <button
+                            onClick={closeModal}
+                            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-1 rounded"
+                          >
+                            ❌
+                          </button>
+                          <h2 className="text-xl font-bold mb-4 text-white">
+                            Buscame como:{" "}
+                            <strong className="text-yellow-800">
+                              Jose Eduardo Roman#0856
+                            </strong>
+                          </h2>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
 
                 <li>
                   <a target="_blank" href="/working">
