@@ -156,16 +156,16 @@ export default function Footer() {
 
                 {showModal && (
                   <div className="fixed inset-0 flex items-center justify-center z-50">
-                    <div className="bg-custom-azul rounded-lg p-6 ">
+                    <div className="bg-custom-azul rounded-lg p-6 border border-white relative">
                       {currentModal === "modal1" && (
-                        <div>
+                        <div className="">
                           <button
                             onClick={closeModal}
-                            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-1 rounded"
+                            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-1 rounded absolute top-0 right-0 mt-2 mr-2"
                           >
                             ❌
                           </button>
-                          <h2 className="text-xl font-bold mb-4 text-white">
+                          <h2 className="text-xl font-bold mb-4 text-white mt-5">
                             Buscame como:{" "}
                             <strong className="text-yellow-800">
                               Jose Eduardo Roman
@@ -177,11 +177,11 @@ export default function Footer() {
                         <div>
                           <button
                             onClick={closeModal}
-                            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-1 rounded"
+                            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-1 rounded absolute top-0 right-0 mt-2 mr-2"
                           >
                             ❌
                           </button>
-                          <h2 className="text-xl font-bold mb-4 text-white">
+                          <h2 className="text-xl font-bold mb-4 text-white mt-5">
                             Buscame como:{" "}
                             <strong className="text-yellow-800">
                               Jose Eduardo Roman#0856
