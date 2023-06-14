@@ -72,9 +72,10 @@ export const proyectos = {
 export const misProyectos = [
   {
     title: "Rick and Morty",
-    description: "El proyecto fue realizado durante los módulos 2 y 3 del bootcamp de Henry (ARG) y se enfocó en el desarrollo tanto del frontend como del backend. En el módulo 2, se adquirieron conocimientos en React y Redux para manejar estados globales, renderizar información de interés y aplicar estilos utilizando CSS. Se utilizó la API de Rick and Morty para obtener datos y mostrarlos en la aplicación.\n En el módulo 3, se creó un servidor utilizando Express para manejar las solicitudes del frontend. El servidor procesaba las solicitudes y devolvía las respuestas al frontend, permitiendo una mejor organización y prácticas de diseño y operación en la página web. También se implementó un manejo de errores para evitar problemas en la aplicación.\n Actualmente, el proyecto se encuentra en proceso de ser desplegado y se compartirá el enlace una vez esté disponible",
+    description: "El proyecto fue realizado durante los módulos 2 y 3 del bootcamp de Henry (ARG) y se enfocó en el desarrollo tanto del frontend como del backend. En el módulo 2, se adquirieron conocimientos en React y Redux para manejar estados globales, renderizar información de interés y aplicar estilos utilizando CSS. Se utilizó la API de Rick and Morty para obtener datos y mostrarlos en la aplicación.\n En el módulo 3, se creó un servidor utilizando Express para manejar las solicitudes del frontend. El servidor procesaba las solicitudes y devolvía las respuestas al frontend, permitiendo una mejor organización y prácticas de diseño y operación en la página web. También se implementó un manejo de errores para evitar problemas en la aplicación.\n \nIMPORTANTE!! Para acceder ingresar al deploy usar:\n \nUsername: jeroman@gmail.com,\nPassword: 1password",
     video:"/video/RyM-JERP-FT-33b.mp4",
-    tecnologies:"Javascript, React, Redux, Express",
+    tecnologies:"Javascript, CSS Modules, React JS, Redux, Express JS",
+    production:"Control de versiones: GitHub, BackEnd: Railway, FrontEnd: Vercel",
     repository:"https://github.com/jeromanp/Proyecto-Rick-and-Morty",
     deploy:"https://rick-and-morty-jeromanp.vercel.app/",    
   },
