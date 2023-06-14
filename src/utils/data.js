@@ -76,7 +76,7 @@ export const misProyectos = [
     video:"/video/RyM-JERP-FT-33b.mp4",
     tecnologies:"Javascript, React, Redux, Express",
     repository:"https://github.com/jeromanp/Proyecto-Rick-and-Morty",
-    deploy:"/working",    
+    deploy:"https://rick-and-morty-jeromanp.vercel.app/",    
   },
   {
     title:"Proyecto Individual: Countries",
