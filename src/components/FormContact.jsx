@@ -109,10 +109,10 @@ export default function ContactForm() {
   return (
     <div className="w-full max-w-screen-xl mx-auto items-center justify-between font-mono text-sm bg-custom-azul">
       <div className="p-5 sm:p-7 md:p-10 lg:p-20 xl:p-20">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro_2">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro_2 animate-fadeInLeft">
           Contacto
         </h1>
-        <div className="text-xs md:text-lg lg:text-xl">
+        <div className="text-xs md:text-lg lg:text-xl animate-fadeInDown">
           <p className="mb-2 text-gray-500 text-justify">
             {contactoInfo.parrafo_1}
           </p>
@@ -122,7 +122,7 @@ export default function ContactForm() {
         <form
           ref={input}
           onSubmit={handleSubmit}
-          className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl"
+          className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl animate-slideUp"
         >
           <div className="space-y-2">
             <label className="text-brand-green text-xs font-semibold pl-1 block">
