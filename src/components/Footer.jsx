@@ -166,7 +166,7 @@ export default function Footer() {
                             ❌
                           </button>
                           <h2 className="text-xl font-bold mb-4 text-white mt-5">
-                            Buscame como:{" "}
+                            Búscame como:{" "}
                             <strong className="text-yellow-800">
                               Jose Eduardo Roman
                             </strong>
@@ -182,7 +182,7 @@ export default function Footer() {
                             ❌
                           </button>
                           <h2 className="text-xl font-bold mb-4 text-white mt-5">
-                            Buscame como:{" "}
+                            Búscame como:{" "}
                             <strong className="text-yellow-800">
                               Jose Eduardo Roman#0856
                             </strong>
