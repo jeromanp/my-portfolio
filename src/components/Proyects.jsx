@@ -42,14 +42,25 @@ export default function Proyects() {
 
                 <div className="items-center animate-fadeOut">
                   <div className="mb-4 flex justify-center space-x-2">
-                    <Link href={proyect.deploy} target="_blank">
-                      <button
-                        className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
-                        rel="noreferrer"
-                      >
-                        <span className="text-sm">Deploy</span>
-                      </button>
-                    </Link>
+                    {proyect.title === "Hostería Hueney Ruca" ? (
+                      <Link href={proyect.deploy} target="_blank">
+                        <button
+                          className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                          rel="noreferrer"
+                        >
+                          <span className="text-sm">Deploy</span>
+                        </button>
+                      </Link>
+                    ) : (
+                      <Link href={proyect.deploy}>
+                        <button
+                          className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                          rel="noreferrer"
+                        >
+                          <span className="text-sm">Deploy</span>
+                        </button>
+                      </Link>
+                    )}
 
                     <Link href={proyect.repository} target="_blank">
                       <button
