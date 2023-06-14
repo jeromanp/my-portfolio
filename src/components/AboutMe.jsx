@@ -1,5 +1,4 @@
 import { aboutMe } from "@/utils/data";
-import "animate.css";
 
 export default function AboutMe() {
   return (
