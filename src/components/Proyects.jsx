@@ -34,8 +34,11 @@ export default function Proyects() {
                       {proyect.description}
                     </p>
                     <br />
-                    <p className="cursor-text text-justify text-m whitespace-pre-line text-green-500">
-                      Tecnologías: {proyect.tecnologies}
+                    <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
+                      Tecnologías utilizadas: <span className="text-green-500">{proyect.tecnologies}</span>
+                    </p>
+                    <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
+                      Servicios de despliegue: <span className="text-red-500">{proyect.production}</span> 
                     </p>
                   </div>
                 </div>
