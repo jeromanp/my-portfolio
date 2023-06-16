@@ -84,9 +84,9 @@ export const misProyectos = [
     description:"El proyecto consistió en desarrollar una aplicación en React/Redux que permitió mostrar información de distintos países utilizando la API externa restcountries. Los requerimientos mínimos incluyeron: \n\nFRONTEND \n\n° Página inicial con una imagen de fondo y un botón para ingresar al home.\n° Ruta principal que incluyó un campo de búsqueda para encontrar países por nombre, una lista de países con su bandera, nombre y continente, opciones de filtrado y ordenamiento, y paginado.\n° Ruta de detalle de país que muestrará información detallada de un país, incluyendo su bandera, nombre, código, continente, capital, subregión, área, población y actividades turísticas asociadas.\n° Ruta de creación de actividad turística que incluía un formulario controlado con campos como nombre, dificultad, duración y temporada, y permite seleccionar/agregar varios países en simultáneo.\n° Validación del formulario de creación con JavaScript.\n° Uso de una base de datos con las entidades de País y ° Actividad Turística, estableciendo una relación de muchos a muchos entre ellas.\n\n BACKEND\n\n Se desarrolló un servidor en Node/Express con las siguientes rutas:\n° GET /countries: Para traer todos los países desde restcountries, los guarda en la base de datos y los devuelve en un formato adecuado para la ruta principal.\n° GET /countries/{idPais}: Obtiene el detalle de un país en particular, incluyendo los datos solicitados en la ruta de detalle de país y las actividades turísticas asociadas.\n° GET /countries?name=: Obtiene los países que coincidan con el nombre pasado como query parameter.\n° POST /activities: Recibe los datos del formulario de creación de actividad turística y crea una nueva actividad relacionada con los países correspondientes en la base de datos.",
     video:"/video/PI-Countries.mp4",
     tecnologies:"Javascript, React JS, Redux, Node, Express JS, Sequelize/PostgreSQL, CSS Modules.",
-    production:"Control de versiones: GitHub.",
+    production:"Control de versiones: GitHub, FrontEnd: Vercel",
     repository:"https://github.com/jeromanp/pi-countries",
-    deploy:"/working",
+    deploy:"https://pi-countries-jeromanp.vercel.app/",
   },
   {
     title:"IziQ Study",
