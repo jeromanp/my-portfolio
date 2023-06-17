@@ -154,6 +154,16 @@ export default function Footer() {
                   </a>
                 </li>
 
+                <li>
+                  <a onClick={() => openModal("modal3")}>
+                    <img
+                      src="/svg-social-networks/cv.svg"
+                      alt="cv"
+                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
+                    />
+                  </a>
+                </li>
+
                 {showModal && (
                   <div className="fixed inset-0 flex items-center justify-center z-50">
                     <div className="bg-custom-azul rounded-lg p-6 border border-white relative">
@@ -189,19 +199,28 @@ export default function Footer() {
                           </h2>
                         </div>
                       )}
+                      {currentModal === "modal3" && (
+                        <div className="">
+                          <button
+                            onClick={closeModal}
+                            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-1 rounded absolute top-0 right-0 mt-2 mr-2"
+                          >
+                            ❌
+                          </button>
+                          <h2 className="text-xl font-bold mb-4 text-white mt-5">
+                            ¿Que deseas hacer?
+                          </h2>
+                          <a className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" target="_blank" href="https://drive.google.com/file/d/1WJgvn7_TSJ8n791FkRjBWK9lRT8EHvrt/view">Ver CV</a>
+
+                          <a href="/doc/CV-jeromanp.pdf" download="CV_jeromanp.pdf" className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" onClick={closeModal}>Descargar CV</a>
+
+                        </div>
+                      )}
                     </div>
                   </div>
                 )}
 
-                <li>
-                  <a target="_blank" href="/working">
-                    <img
-                      src="/svg-social-networks/cv.svg"
-                      alt="cv"
-                      className="h-6 sm:h-9 md:h-10 lg:h-10 w-auto transition duration-300 transform hover:scale-125"
-                    />
-                  </a>
-                </li>
+                
               </ul>
             </div>
           </div>
