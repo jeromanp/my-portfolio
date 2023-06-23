@@ -8,7 +8,7 @@ export default function Proyects() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro animate-fadeInLeft">
           Proyectos
         </h1>
-        <div className="text-xs md:text-lg lg:text-xl animate-fadeInDown">
+        <div className="text-xs md:text-lg lg:text-xl animate-fadeInDown whitespace-pre-line">
           <p className="mb-2 text-gray-500 text-justify">
             {proyectos.parrafo_1}
           </p>
