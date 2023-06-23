@@ -14,8 +14,9 @@ export const aboutMe = {
 };
 
 export const pHabilidades = {
-  uno: "Dentro del bootcamp de Henry, que consta de mas de +700 horas teórico-prácticas, he desarrollado aplicaciones usando estas tecnologías:",
+  uno: "Dentro del bootcamp de Henry, que consta de más de 700 horas teórico-prácticas, he tenido la oportunidad de desarrollar aplicaciones utilizando una amplia gama de tecnologías, a continuación se mencionan las más importantes:",
 };
+
 
 export const habilities = [
   {
