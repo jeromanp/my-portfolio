@@ -1,18 +1,33 @@
 import { proyectos, misProyectos } from "@/utils/data";
 import Link from "next/link";
+import { useInView } from "react-intersection-observer";
 
 export default function Proyects() {
+  const [inViewRef, inView] = useInView({
+    triggerOnce: true, // Solo activa la animación una vez
+  });
   return (
     <div className="z-0 w-90 items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
       <div className="p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
-        <h1 className="nothing text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro animate-fadeInLeft">
+        <h1
+          ref={inViewRef}
+          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2  ${
+            inView ? "animate__animated animate__zoomInDown" : ""
+          }`}
+        >
           Proyectos
         </h1>
-        <div className="quick text-xs md:text-lg lg:text-xl animate-fadeInDown whitespace-pre-line">
-          <p className="mb-2 text-gray-500 text-justify">
+
+        <div
+          ref={inViewRef}
+          className={`quick text-xs md:text-lg lg:text-xl whitespace-pre-line  ${
+            inView ? "animate__animated animate__jackInTheBox" : ""
+          }`}
+        >
+          <p className="mb-2  text-gray-400 text-justify">
             {proyectos.parrafo_1}
           </p>
-          <p className="mb-2 text-gray-500 text-justify">
+          <p className="mb-2  text-gray-400 text-justify ">
             {proyectos.parrafo_2}
           </p>
         </div>
@@ -25,21 +40,30 @@ export default function Proyects() {
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
                 <div className="mb-3 p-2 sm:p-2 md:p-0 lg:p-5 animate-fadeInUp">
-                  <h1 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 font-bold mb-4 cursor-text text-white">
+                  <h1 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 cursor-text text-white">
                     {proyect.title}
                   </h1>
 
                   <div className="quick text-xs sm: text-md md:text-md lg:text-xl">
-                    <p className="cursor-text text-justify text-m whitespace-pre-line text-gray-400">
+                    {/* <p className="cursor-text text-justify text-m whitespace-pre-line text-gray-400">
                       {proyect.description}
-                    </p>
+                    </p> */}
                     <br />
                     <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
-                      Tecnologías utilizadas: <span className="text-green-500">{proyect.tecnologies}</span>
+                      Tecnologías utilizadas:{" "}
+                      <span className="text-green-500">
+                        {proyect.tecnologies}
+                      </span>
                     </p>
                     <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
-                      Servicios de despliegue: <span className="text-red-500">{proyect.production}</span> 
+                      Servicios de despliegue:{" "}
+                      <span className="text-red-500">{proyect.production}</span>
                     </p>
+                    <button
+                          className="bg-custom-azul inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-blanco hover:text-custom-azul cursor-pointer px-2 rounded-lg border border-custom-oro"
+                        >
+                          <span className="text-sm">Ver más...</span>
+                        </button>
                   </div>
                 </div>
 
