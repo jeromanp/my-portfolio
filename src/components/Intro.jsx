@@ -23,17 +23,23 @@ export default function Intro() {
             {infoPersonal.professionTwo}
           </p>
         </div>
+      </div>
 
-        <div className="w-20 h-auto md:w-60 lg:w-80 mx-auto flex justify-center items-center">
+
+      <div
+        ref={inViewRef}
+        className={` md:w-60 lg:w-80 mx-auto flex justify-center items-center  ${inView ? "animate__animated animate__flipInX" : ""}`}
+      >
+        
           <div className="w-full h-full flex justify-center items-center">
             <img
               src="/imagen/img-me.jpg"
               alt="meImage"
               className="object-cover rounded-full max-w-full max-h-full pt-2 shadow-lg"
+              style={{width:"35vh",height:"auto"}}
             />
           </div>
         </div>
-      </div>
     </div>
   );
 }
