@@ -16,11 +16,11 @@ export default function Footer() {
     setShowModal(false);
   };
   return (
-    <footer className="flex-1 bg-custom-oro text-custom-azul">
-      <div className="container mx-auto py-12 lg:py-14 xl:py-20 mx-auto flex justify-center items-center">
+    <footer className="quick flex-1 bg-custom-oro text-custom-azul">
+      <div className="container py-12 lg:py-14 xl:py-20 mx-auto flex justify-center items-center">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
-          <div className="flex flex-col gap-6 mx-auto flex justify-center items-center">
-            <h3 className="font-medium text-custom-azul mx-auto">
+          <div className="flex flex-col gap-6 mx-auto justify-center items-center">
+            <h3 className="nothing text-2xl font-medium text-custom-azul mx-auto">
               Jose Eduardo Román
             </h3>
             <div className="w-30 h-30 md:w-60 sm:h-60 sm:w-70 md:h-70 mx-auto flex justify-center items-center">

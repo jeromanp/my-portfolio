@@ -107,9 +107,9 @@ export default function ContactForm() {
     gsap.to(`[name=${e.target.name}] + .bigdot`, { scale: 0, duration: 0.2 });
 
   return (
-    <div className="w-full max-w-screen-xl mx-auto items-center justify-between font-mono text-sm bg-custom-azul">
+    <div className="quick w-full max-w-screen-xl mx-auto items-center justify-between font-mono text-sm bg-custom-azul">
       <div className="p-5 sm:p-7 md:p-10 lg:p-20 xl:p-20">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro_2 animate-fadeInLeft">
+        <h1 className="nothing text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro_2 animate-fadeInLeft">
           Contacto
         </h1>
         <div className="text-xs md:text-lg lg:text-xl animate-fadeInDown">
