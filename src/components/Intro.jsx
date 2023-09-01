@@ -4,10 +4,10 @@ import React from "react";
 export default function Intro() {
   return (
     <div className="w-full max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto pt-10 md:pt-20 md:pb-10">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-custom-oro_2 text-center animate-fadeInLeft ">
+      <h1 className="nothing text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-custom-oro_2 text-center animate-fadeInLeft ">
         {infoPersonal.name}
       </h1>
-      <div className="text-sm md:text-xl lg:text-2xl animate-slideUp">
+      <div className="indie text-sm md:text-xl lg:text-2xl animate-slideUp">
         <p className="text-center mt-4 md:mt-9 text-gray-400">
           {infoPersonal.professionOne}
         </p>
@@ -20,7 +20,7 @@ export default function Intro() {
         <div className="w-full h-full flex justify-center items-center animate-pulse">
           <img
             src="/imagen/img-me.jpg"
-            alt="me"
+            alt="meImage"
             className="object-cover rounded-full max-w-full max-h-full pt-2 shadow-lg"
           />
         </div>

@@ -5,15 +5,15 @@ export default function Habilidades() {
   return (
     <div className="w-full max-w-screen-xl mx-auto items-center justify-between font-mono text-sm  bg-custom-azul">
       <div className="p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro_2 animate-fadeInLeft">
+        <h1 className="nothing text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro_2 animate-fadeInLeft">
           Habilidades
         </h1>
 
-        <div className="text-xs md:text-lg lg:text-xl animate-fadeInDown">
+        <div className="quick text-xs md:text-lg lg:text-xl animate-fadeInDown">
           <p className="mb-2  text-gray-400 text-justify">{pHabilidades.uno}</p>
         </div>
 
-        <div className="w-90vw mx-auto p-10">
+        <div className="quick w-90vw mx-auto p-10">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center py-8 font-bold dark:font-normal aos-init aos-animate">
             {habilities.map((hability, i) => (
               <div
