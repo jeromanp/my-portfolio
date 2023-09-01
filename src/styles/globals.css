@@ -26,6 +26,25 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2 {
+  margin: 0;
+}
+
 /* Process */
 
 .🤚 {
