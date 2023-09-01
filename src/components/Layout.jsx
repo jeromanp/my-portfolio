@@ -20,7 +20,7 @@ export default function Layout({ children }) {
      </Head>
       <NavBar />
 
-      <main className="container mx-auto">{children}</main>
+      <main className="w-full">{children}</main>
     </>
   );
 }

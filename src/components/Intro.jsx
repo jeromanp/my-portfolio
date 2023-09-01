@@ -7,7 +7,7 @@ export default function Intro() {
     triggerOnce: true, // Solo activa la animación una vez
   });
   return (
-    <div className="h-full w-full max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto pt-10 md:pt-20 md:pb-10">
+    <div className="h-full w-full items-center justify-between text-sm bg-custom-azul mx-auto pt-10 md:pt-20 md:pb-10">
       <div
         ref={inViewRef}
         className={`  ${inView ? "animate__animated animate__fadeInDownBig" : ""}`}

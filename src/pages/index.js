@@ -9,7 +9,6 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <Layout>
-      <main>
         <section id="intro">
           <Intro />
         </section>
@@ -29,7 +28,6 @@ export default function Home() {
         <section id="contact">
           <FormContact/>
         </section>
-      </main>
       <Footer />
     </Layout>
   );
