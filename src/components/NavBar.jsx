@@ -2,6 +2,8 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+
 
 const navigation = [
   { name: "Inicio", href: "#intro", current: false },
@@ -34,6 +36,10 @@ export default function Example() {
     };
   }, []);
 
+  const [inViewRef, inView] = useInView({
+    triggerOnce: true, // Solo activa la animación una vez
+  });
+
   return (
     <Disclosure
       as="nav"
@@ -43,7 +49,11 @@ export default function Example() {
     >
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-5 sm:px-7 lg:px-10">
+              <div
+        ref={inViewRef}
+        className={`mx-auto max-w-7xl px-5 sm:px-7 lg:px-10  ${inView ? "animate__animated animate__fadeInLeftBig" : ""}`}
+      >
+          
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
