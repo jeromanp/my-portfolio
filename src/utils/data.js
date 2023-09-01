@@ -80,7 +80,7 @@ export const misProyectos = [
     video: "/video/RyM-JERP-FT-33b.mp4",
     tecnologies: "Javascript, CSS Modules, React JS, Redux, Express JS.",
     production:
-      "Control de versiones: GitHub, BackEnd: Railway, FrontEnd: Vercel.",
+      "Control de versiones: GitHub, BackEnd: Render, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/Proyecto-Rick-and-Morty",
     deploy: "https://rick-and-morty-jeromanp.vercel.app/",
   },
