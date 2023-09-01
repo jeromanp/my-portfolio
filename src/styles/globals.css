@@ -16,6 +16,33 @@
   }
 }
 
+@font-face {
+  font-family: Nothing;
+  src: url("/fonts/Nothing.ttf");
+}
+
+.nothing{
+  font-family: Nothing, 'Times New Roman', Times, serif
+}
+
+@font-face {
+  font-family: Indie;
+  src: url("/fonts/Indie.ttf");
+}
+
+.indie{
+  font-family: Indie, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: Quick;
+  src: url("/fonts/Quick.ttf");
+}
+
+.quick{
+  font-family: Quick, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
