@@ -37,7 +37,7 @@ export default function Example() {
   return (
     <Disclosure
       as="nav"
-      className={`bg-custom-azul fixed top-0 z-50 w-full transition-transform ${
+      className={`bg-custom-azul quick fixed top-0 z-50 w-full transition-transform ${
         isScrolled ? "transform translate-y-0" : "transform -translate-y-full"
       } border-b-2 border-custom-oro_2 fixed`}
     >
