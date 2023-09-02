@@ -67,9 +67,9 @@ export const habilities = [
 
 export const proyectos = {
   parrafo_1:
-    "Durante el programa, he adquirido conocimientos y experiencia práctica en el desarrollo web utilizando HTML, CSS y JavaScript, así como en el uso de frameworks y bibliotecas populares como React, Next y Redux.\n\n Además, he trabajado con bases de datos relacionales utilizando SQL y he adquirido experiencia en el diseño y construcción de API RESTful utilizando Node.js y Express.\n\n También he explorado el mundo del desarrollo full-stack, creando aplicaciones completas que integran tanto el frontend como el backend.\n\n Durante el bootcamp, hemos abordado temas fundamentales como control de versiones con Git, metodologías ágiles de desarrollo de software, pruebas unitarias y funcionales, y despliegue de aplicaciones en entornos de producción.",
+    "Durante el programa, he adquirido conocimientos y experiencia práctica en el desarrollo web utilizando HTML, CSS y JavaScript, así como en el uso de frameworks y bibliotecas populares como React, Next y Redux. Además, he trabajado con bases de datos relacionales utilizando SQL y he adquirido experiencia en el diseño y construcción de API RESTful utilizando Node.js y Express. También he explorado el mundo del desarrollo full-stack, creando aplicaciones completas que integran tanto el frontend como el backend.\n\n Durante el bootcamp, hemos abordado temas fundamentales como control de versiones con Git, metodologías ágiles de desarrollo de software, pruebas unitarias y funcionales, y despliegue de aplicaciones en entornos de producción.",
   parrafo_2:
-    "\nEs por ello que a continuación se describen aquellos proyectos que tuvieron un impacto importante en mi carrera y que me ayudaron a mejorar y perfeccionar parte de las cosas que iba aprendiendo",
+    "\nEs por ello que a continuación se describen aquellos proyectos que tuvieron un impacto importante en mi carrera y que me ayudaron a mejorar y perfeccionar parte de las cosas que iba aprendiendo.",
 };
 
 export const misProyectos = [

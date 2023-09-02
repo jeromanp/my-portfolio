@@ -7,7 +7,7 @@ export default function Intro() {
     triggerOnce: true, // Solo activa la animación una vez
   });
   return (
-    <div className="h-full w-full max-w-screen-xl items-center justify-between font-mono text-sm bg-custom-azul mx-auto pt-10 md:pt-20 md:pb-10">
+    <div className="h-full w-full items-center justify-between text-sm bg-custom-azul mx-auto">
       <div
         ref={inViewRef}
         className={`  ${inView ? "animate__animated animate__fadeInDownBig" : ""}`}
@@ -23,17 +23,23 @@ export default function Intro() {
             {infoPersonal.professionTwo}
           </p>
         </div>
+      </div>
 
-        <div className="w-20 h-auto md:w-60 lg:w-80 mx-auto flex justify-center items-center">
+
+      <div
+        ref={inViewRef}
+        className={` w-40 md:w-60 lg:w-80 mx-auto flex justify-center items-center  ${inView ? "animate__animated animate__flipInX" : ""}`}
+      >
+        
           <div className="w-full h-full flex justify-center items-center">
             <img
               src="/imagen/img-me.jpg"
               alt="meImage"
-              className="object-cover rounded-full max-w-full max-h-full pt-2 shadow-lg"
+              style={{width:"35vh",height:"auto"}}
+              className="w-10 h-auto object-cover rounded-full max-w-full max-h-full pt-4 shadow-lg"
             />
           </div>
         </div>
-      </div>
     </div>
   );
 }
