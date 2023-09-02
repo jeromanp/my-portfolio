@@ -1,11 +1,14 @@
+import { useState } from "react";
 import { proyectos, misProyectos } from "@/utils/data";
 import Link from "next/link";
+import Modal from "@/components/Modal";
 import { useInView } from "react-intersection-observer";
 
 export default function Proyects() {
   const [inViewRef, inView] = useInView({
-    triggerOnce: true, // Solo activa la animación una vez
+    triggerOnce: true,
   });
+
   return (
     <div className="z-0 w-90 items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
       <div className="p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
@@ -39,15 +42,12 @@ export default function Proyects() {
               key={i}
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
-                <div className="mb-3 p-2 sm:p-2 md:p-0 lg:p-5 animate-fadeInUp">
+                <div className="mb-2 p-2 sm:p-2 md:p-0 lg:p-5 animate-fadeInUp">
                   <h1 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 cursor-text text-white">
                     {proyect.title}
                   </h1>
 
                   <div className="quick text-xs sm: text-md md:text-md lg:text-xl">
-                    {/* <p className="cursor-text text-justify text-m whitespace-pre-line text-gray-400">
-                      {proyect.description}
-                    </p> */}
                     <br />
                     <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
                       Tecnologías utilizadas:{" "}
@@ -59,11 +59,12 @@ export default function Proyects() {
                       Servicios de despliegue:{" "}
                       <span className="text-red-500">{proyect.production}</span>
                     </p>
-                    <button
-                          className="bg-custom-azul inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-blanco hover:text-custom-azul cursor-pointer px-2 rounded-lg border border-custom-oro"
-                        >
-                          <span className="text-sm">Ver más...</span>
-                        </button>
+                    <div className="pt-2 flex items-start">
+                      <Modal
+                        title={proyect.title}
+                        description={proyect.description}
+                      />
+                    </div>
                   </div>
                 </div>
 
