@@ -35,7 +35,13 @@ export default function Proyects() {
           </p>
         </div>
 
-        <div className="mt-1 sm:mt-5 md:mt10 lg:mt-10">
+        <div
+          ref={inViewRef}
+          className={`mt-1 sm:mt-5 md:mt10 lg:mt-10  ${
+            inView ? "animate__animated animate__flipInY" : ""
+          }`}
+        >
+        
           {misProyectos.map((proyect, i) => (
             <div
               className="flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-1 sm:p-5 md:p-10 lg:p-10"
