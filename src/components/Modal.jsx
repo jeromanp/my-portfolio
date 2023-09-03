@@ -21,14 +21,14 @@ export default function Modal({ title, description }) {
       </button>
 
       {isModalOpen && (
-        <div className="fixed z-10 inset-16 overflow-y-scroll">
-          <div className="p-20 flex items-center justify-center">
+        <div className="fixed z-10 inset-12 overflow-y-scroll">
+          <div className="p-2 pt-12 flex items-center justify-center">
             <div className="fixed inset-0 bg-gray-800 opacity-80"></div>
 
-            <div className="bg-blue-200 p-4 rounded-lg shadow-lg relative flex items-center justify-between rounded-t-md border-b-2  border-neutral-100 border-opacity-100 dark:border-opacity-50">
+            <div className="bg-blue-200 p-2 sm:p-4 rounded-lg shadow-lg relative flex items-center justify-between rounded-t-md border-b-2 border-neutral-100 border-opacity-100 dark:border-opacity-50">
               <button
                 onClick={closeModal}
-                className="absolute top-2 right-2 m-2 text-gray-600 hover:text-gray-800"
+                className="absolute top-2 right-2 m-2 text-red-600 hover:text-gray-800"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -46,11 +46,11 @@ export default function Modal({ title, description }) {
                 </svg>
               </button>
               <div>
-                <div className="p-5">
+                <div className="p-2 sm:p-5">
                   <h3 className="indie text-3xl font-medium  text-red-800 pt-5 pb-3 pl-2">
                     <b>{title}</b>
                   </h3>
-                  <div className="quick relative p-4 text-gray-900 text-justify">
+                  <div className="quick relative p-4 text-gray-900 text-justify whitespace-pre-line">
                     <p>{description}</p>
                   </div>
                 </div>

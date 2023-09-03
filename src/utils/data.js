@@ -118,6 +118,18 @@ export const misProyectos = [
     repository: "https://github.com/Mark-kus/hueney-ruca",
     deploy: "https://hueney-ruca-git-develop-mark-kus.vercel.app/",
   },
+  {
+    title: "R&R Perfumes",
+    description:
+      "Esta página web ha sido cuidadosamente diseñada para un negocio local ubicado en mi área, permitiendo a los posibles clientes explorar su amplia gama de productos de manera conveniente. Nuestra plataforma se presenta como una Landing Page concisa pero altamente efectiva, que ofrece una experiencia única a los visitantes. \n\nEntre las características destacadas se incluyen poderosos filtros que permiten a los usuarios explorar productos por género y buscar específicamente por nombre o marca de perfumes. Estos filtros hacen que la búsqueda de productos sea fácil y precisa.\n\n El sitio web cuenta con una impresionante Hero Imagen en la página de inicio para atraer la atención de los visitantes de inmediato. La sección 'Acerca de' proporciona una visión general del negocio, su historia y su compromiso con la calidad.Además, implementé un formulario de contacto altamente funcional que está conectado directamente con la cuenta de la persona encargada del negocio. Este formulario se ha diseñado para garantizar la precisión y validez de los datos ingresados antes de enviarlos, lo que facilita la comunicación efectiva entre los visitantes y el negocio. \n\nEn resumen, nuestro sitio web ofrece una experiencia completa para los usuarios, proporcionando información esencial y herramientas útiles para explorar y ponerse en contacto con el negocio local. Estamos encantados de brindar esta plataforma a nuestros clientes y esperamos que disfruten de su visita mientras exploran nuestras ofertas de productos de alta calidad.",
+    video: "",
+    image: "/imagen/RyR.PNG",
+    tecnologies: "Javascript, Next JS, React JS, Animate CSS",
+    production:
+      "Control de versiones: GitHub, BackEnd: NextJS, FrontEnd: Vercel.",
+    repository: "https://github.com/jeromanp/ryr",
+    deploy: "https://ryrperfumes.vercel.app/",
+  },
 ];
 
 export const contactoInfo = {
