@@ -41,7 +41,6 @@ export default function Proyects() {
             inView ? "animate__animated animate__flipInY" : ""
           }`}
         >
-        
           {misProyectos.map((proyect, i) => (
             <div
               className="flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-1 sm:p-5 md:p-10 lg:p-10"
@@ -114,6 +113,12 @@ export default function Proyects() {
                     <source src={proyect.video} type="video/mp4" />
                     Tu navegador no soporta el elemento de video.
                   </video>
+                </div>
+              ) : null}
+
+              {proyect.image ? (
+                <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0 animate-spinnerGrow">
+                  <img src={proyect.image} alt={proyect.title} className="p-4" />
                 </div>
               ) : null}
             </div>
