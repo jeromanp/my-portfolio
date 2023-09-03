@@ -5,11 +5,15 @@ import { ToastContainer, toast } from "react-toastify";
 import Swal from "sweetalert2";
 import "react-toastify/dist/ReactToastify.css";
 import { contactoInfo } from "@/utils/data";
+import { useInView } from "react-intersection-observer";
 
 export default function ContactForm() {
   const [errors, setErrors] = useState({});
   const [inputs, setInputs] = useState();
   const input = useRef();
+  const [inViewRef, inView] = useInView({
+    triggerOnce: true, // Solo activa la animación una vez
+  });
 
   const sendEmail = async () => {
     try {
@@ -109,16 +113,34 @@ export default function ContactForm() {
   return (
     <div className="quick w-full mx-auto items-center justify-between font-mono text-sm bg-custom-azul">
       <div className="p-5 sm:p-7 md:p-10 lg:p-20 xl:p-20">
-        <h1 className="nothing text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-custom-oro_2 animate-fadeInLeft">
+      <h1
+          ref={inViewRef}
+          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2  ${
+            inView ? "animate__animated animate__zoomInDown" : ""
+          }`}
+        >
           Contacto
         </h1>
-        <div className="text-xs md:text-lg lg:text-xl animate-fadeInDown">
+        <div
+          ref={inViewRef}
+          className={`text-xs md:text-lg lg:text-xl animate-fadeInDown ${
+            inView ? "animate__animated animate__jackInTheBox" : ""
+          }`}
+        >
+        
           <p className="mb-2 text-gray-500 text-justify">
             {contactoInfo.parrafo_1}
           </p>
         </div>
 
         <ToastContainer />
+        <div
+          ref={inViewRef}
+          className={`quick text-xs md:text-lg lg:text-xl  ${
+            inView ? "animate__animated animate__flip" : ""
+          }`}
+        >
+
         <form
           ref={input}
           onSubmit={handleSubmit}
@@ -203,6 +225,8 @@ export default function ContactForm() {
             </button>
           </div>
         </form>
+        </div>
+
       </div>
     </div>
   );
