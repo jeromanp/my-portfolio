@@ -38,7 +38,7 @@ export default function Proyects() {
         <div
           ref={inViewRef}
           className={`mt-1 sm:mt-5 md:mt10 lg:mt-10  ${
-            inView ? "animate__animated animate__flipInY" : ""
+            inView ? "animate__animated animate__rotateInDownLeft" : ""
           }`}
         >
           {misProyectos.map((proyect, i) => (
