@@ -137,7 +137,7 @@ export default function ContactForm() {
         <div
           ref={inViewRef}
           className={`quick text-xs md:text-lg lg:text-xl  ${
-            inView ? "animate__animated animate__flip" : ""
+            inView ? "animate__animated animate__lightSpeedInLeft" : ""
           }`}
         >
 
