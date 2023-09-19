@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
-
 const navigation = [
   { name: "Inicio", href: "#intro", current: false },
   { name: "Sobre mí", href: "#about-me", current: false },
@@ -45,15 +44,16 @@ export default function Example() {
       as="nav"
       className={`bg-custom-azul quick fixed top-0 z-50 w-full transition-transform ${
         isScrolled ? "transform translate-y-0" : "transform -translate-y-full"
-      } border-b-2 border-custom-oro_2 fixed`}
+      } border-b-2 border-custom-oro_2 fixed sticky-top`}
     >
       {({ open }) => (
         <>
-              <div
-        ref={inViewRef}
-        className={`mx-auto max-w-7xl px-5 sm:px-7 lg:px-10  ${inView ? "animate__animated animate__fadeInLeftBig" : ""}`}
-      >
-          
+          <div
+            ref={inViewRef}
+            className={`mx-auto max-w-7xl px-5 sm:px-7 lg:px-10  ${
+              inView ? "animate__animated animate__fadeInLeftBig" : ""
+            }`}
+          >
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -71,38 +71,32 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
                     <img
-                      className="block h-12 w-auto lg:hidden"
-                      src="/imagen/logo.jpg"
-                      alt="logo"
-                    />
-                  </Link>
-
-                  <Link href="/">
-                    <img
-                      className="hidden h-12 w-auto lg:block"
+                      className="hidden w-auto sm:inline md:h-12 lg:h-20 lg:block my-1"
                       src="/imagen/logo.jpg"
                       alt="logo"
                     />
                   </Link>
                 </div>
 
-                <div className="hidden sm:ml-20 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-custom-oro hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-md lg:text-lg font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                <div className="container flex items-center ">
+                  <div className="hidden md:inline flex items-center sm:ml-20 sm:block">
+                    <div className="flex space-x-4 ">
+                      {navigation.map((item) => (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className={classNames(
+                            item.current
+                              ? "bg-gray-900 text-white"
+                              : "text-custom-oro hover:bg-gray-700 hover:text-white",
+                            "rounded-md px-3 py-2 text-md lg:text-xl font-medium"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>

@@ -19,11 +19,11 @@ export default function Habilidades() {
         </h1>
         <div
           ref={inViewRef}
-          className={`quick text-xs md:text-lg lg:text-xl  ${
+          className={`quick text-xs md:text-lg lg:text-lg  ${
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
-          <p className="mb-2  text-gray-400 text-justify">{pHabilidades.uno}</p>
+          <p className="mb-2 text-gray-400 text-justify">{pHabilidades.uno}</p>
         </div>
 
         <div className="quick w-90vw mx-auto p-10">

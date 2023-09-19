@@ -45,16 +45,16 @@ export default function Modal({ title, description }) {
                   />
                 </svg>
               </button>
-              <div>
-                <div className="p-2 sm:p-5">
-                  <h3 className="indie text-3xl font-medium  text-red-800 pt-5 pb-3 pl-2">
+              <div className="container">
+                <div className="p-1 sm:p-5">
+                  <h3 className="indie text-2xl font-medium  text-red-800 pt-5 pb-3 pl-2">
                     <b>{title}</b>
                   </h3>
-                  <div className="quick relative p-4 text-gray-900 text-justify whitespace-pre-line">
+                  <div className="quick text-md relative p-4 text-gray-900 text-justify whitespace-pre-line">
                     <p>{description}</p>
                   </div>
                 </div>
-                <div className="mt-4 pl-10">
+                <div className="flex justify-center">
                   <button
                     onClick={closeModal}
                     className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
