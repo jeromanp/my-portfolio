@@ -16,12 +16,15 @@ export default function AboutMe() {
         
         <div
         ref={inViewRef}
-        className={`quick text-xs md:text-lg lg:text-xl whitespace-pre-line  ${inView ? "animate__animated animate__jackInTheBox" : ""}`}
+        className={`quick text-xs md:text-lg lg:text-lg whitespace-pre-line  ${inView ? "animate__animated animate__jackInTheBox" : ""}`}
       >
           <p className="mb-2  text-gray-400 text-justify">{aboutMe.intro}</p>
           <p className="mb-2  text-gray-400 text-justify ">{aboutMe.estudio}</p>
           <p className="mb-2  text-gray-400 text-justify">
             {aboutMe.experiencia}
+          </p>
+          <p className="mb-2  text-gray-400 text-justify">
+            {aboutMe.reciente}
           </p>
         </div>
       </div>

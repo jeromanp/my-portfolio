@@ -123,7 +123,7 @@ export default function ContactForm() {
         </h1>
         <div
           ref={inViewRef}
-          className={`text-xs md:text-lg lg:text-xl animate-fadeInDown ${
+          className={`text-xs md:text-lg lg:text-lg animate-fadeInDown ${
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
