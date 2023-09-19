@@ -11,12 +11,13 @@ export const aboutMe = {
     "\nRealicé mis estudios en la Universidad Nacional Autónoma de México, donde obtuve el título de Ingeniería en Telecomunicaciones, Sistemas y Electrónica con especialidad en Comunicaciones. Además, he completado dos diplomados en Redes e Interconectividad con tecnologías de Cisco (CCNA y CCNP), ampliando mis conocimientos en el campo de las comunicaciones.",
   experiencia:
     "\nHe acumulado una experiencia laboral de casi 2 años en una empresa proveedora de servicios de internet a nivel nacional. Durante mi tiempo allí, desempeñé un papel fundamental en la operación, instalación, revisión y mantenimiento de los equipos que brindaban servicios de video, voz y datos a los suscriptores. Esta experiencia me permitió desarrollar habilidades técnicas sólidas y aprender sobre la importancia de la calidad y el servicio al cliente.",
+  reciente:
+    "\nEn septiembre de 2022, decidí aprender todo sobre la programación web, desde mi época estudiantil siempre quize evitarla a toda costa, porque tenía el pensamiento que eso no era para mi, sin embargo derribando obstáculos mentales e incluso renunciando a mi empleo por cumplir mi suelo, decidi entrar en el Bootcamp de Henry (ARG) para que con ayuda de sus profesores y su comunidad estudiantil pudiera lograr mi objetivo, cumpliendo así 7 meses dentro de esta instancia donde además de ofrecerme las herramientas básicas e innovadoras del desarrollo web, conocí a personas increibles que me ayudaron a crecer profesionalmente y como persona, después de mas de 700 horas teorico-práctica, pude graduarme a finales del mes de mayo de 2023. Ahora me encuentro en búsqueda laboral donde pueda aportar mis conocimientos, un lugar que me permita aprender aún más y así cuemplir mi meta de entrar al mundo de TI.",
 };
 
 export const pHabilidades = {
-  uno: "Dentro del bootcamp de Henry, que consta de más de 700 horas teórico-prácticas, he tenido la oportunidad de desarrollar aplicaciones utilizando una amplia gama de tecnologías, a continuación se mencionan las más importantes:",
+  uno: "En el bootcamp de Henry, tuve la oportunidad de desarrollar aplicaciones utilizando una amplia gama de tecnologías, a continuación se mencionan las más importantes:",
 };
-
 
 export const habilities = [
   {
