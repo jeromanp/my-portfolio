@@ -16,11 +16,11 @@ export default function Footer() {
     setShowModal(false);
   };
   return (
-    <footer className="quick flex-1 bg-custom-oro text-custom-azul">
+    <footer className="quick flex-1 bg-custom-oro_3 text-custom-azul">
       <div className="container py-12 lg:py-14 xl:py-20 mx-auto flex justify-center items-center">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
           <div className="flex flex-col gap-6 mx-auto justify-center items-center">
-            <h3 className="nothing text-2xl font-medium text-custom-azul mx-auto">
+            <h3 className="nothing text-3xl text-custom-oro font-bold mx-auto">
               Jose Eduardo Román
             </h3>
             <div className="w-30 h-30 md:w-60 sm:h-60 sm:w-70 md:h-70 mx-auto flex justify-center items-center">
@@ -37,7 +37,7 @@ export default function Footer() {
           <div className="hidden sm:flex md:flex lg:flex flex-col gap-12 lg:gap-6 mx-auto flex justify-center items-center">
             <div className="flex flex-col lg:flex-row gap-12 lg:items-center lg:justify-end">
               <ul className="flex flex-col lg:flex-col items-start lg:items-center flex-wrap gap-6">
-                <li>Mapa del sitio</li>
+                <li className="text-custom-oro">Mapa del sitio</li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
@@ -84,7 +84,7 @@ export default function Footer() {
 
           <div className="p-4 sm:p-0 sm:pl-10 lg:pl-20 mx-auto items-center flex justify-center flex-col">
             <div className="mx-auto items-center flex">
-              <h3 className="mb-4 flex flex-col">Mis redes sociales</h3>
+              <h3 className="mb-4 flex flex-col text-custom-oro">Mis redes sociales</h3>
             </div>
             <div className="flex flex-col lg:flex-row gap-12 lg:items-center lg:justify-end">
               <ul className="flex items-center gap-x-4 gap-y-2 flex-wrap">

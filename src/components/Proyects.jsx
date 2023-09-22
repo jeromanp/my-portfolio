@@ -48,7 +48,7 @@ export default function Proyects() {
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
                 <div className="mb-2 p-2 sm:p-2 md:p-0 lg:p-5 animate-fadeInUp">
-                  <h1 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 cursor-text text-white">
+                  <h1 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 cursor-text text-cyan-500">
                     {proyect.title}
                   </h1>
 
@@ -78,7 +78,7 @@ export default function Proyects() {
                     {proyect.deploy === "/working" ? (
                       <Link href={proyect.deploy}>
                         <button
-                          className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                          className="bg-custom-oro_3 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
                           rel="noreferrer"
                         >
                           <span className="text-sm">Deploy</span>
@@ -87,7 +87,7 @@ export default function Proyects() {
                     ) : (
                       <Link href={proyect.deploy} target="_blank">
                         <button
-                          className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                          className="bg-custom-oro_3 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
                           rel="noreferrer"
                         >
                           <span className="text-sm">Deploy</span>
@@ -97,7 +97,7 @@ export default function Proyects() {
 
                     <Link href={proyect.repository} target="_blank">
                       <button
-                        className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                        className="bg-custom-oro_3 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
                         rel="noreferrer"
                       >
                         <span className="text-sm">Repositorio</span>

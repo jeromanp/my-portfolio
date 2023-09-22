@@ -19,28 +19,32 @@
 @font-face {
   font-family: Nothing;
   src: url("/fonts/Nothing.ttf");
+  font-display: block;
 }
 
-.nothing{
-  font-family: Nothing, 'Times New Roman', Times, serif
+.nothing {
+  font-family: Nothing, "Times New Roman", Times, serif;
 }
 
 @font-face {
   font-family: Indie;
   src: url("/fonts/Indie.ttf");
+  font-display: block;
 }
 
-.indie{
-  font-family: Indie, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.indie {
+  font-family: Indie, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 @font-face {
   font-family: Quick;
   src: url("/fonts/Quick.ttf");
+  font-display: block;
 }
 
-.quick{
-  font-family: Quick, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.quick {
+  font-family: Quick, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body {
@@ -290,7 +294,6 @@ h2 {
   position: relative;
 }
 
-
 .form textarea::placeholder {
   color: #e4c560;
 }
@@ -344,12 +347,6 @@ h2 {
   color: rgb(199, 67, 67);
 }
 
-
 /*======================
     Animations
 =======================*/
-
-
-
-
-

@@ -15,7 +15,7 @@ export default function Modal({ title, description }) {
     <div>
       <button
         onClick={openModal}
-        className="bg-orange-400 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border text-sm"
+        className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border text-sm"
       >
         Abrir Descripción
       </button>
