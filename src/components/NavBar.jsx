@@ -72,7 +72,7 @@ export default function Example() {
                   <Link href="/">
                     <img
                       className="hidden w-auto sm:inline md:h-12 lg:h-20 lg:block my-1"
-                      src="/imagen/logo2.png"
+                      src="/imagen/logo2.PNG"
                       alt="logo"
                     />
                   </Link>
