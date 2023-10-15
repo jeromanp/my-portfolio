@@ -259,12 +259,8 @@ h2 {
 }
 
 .four_zero_four_bg h1 {
-  font-size: 100px;
+  /* font-size: 100px; */
   z-index: 999;
-}
-
-.four_zero_four_bg h3 {
-  font-size: 90px;
 }
 
 .link_404 {
