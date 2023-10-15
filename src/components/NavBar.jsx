@@ -25,7 +25,7 @@ export default function NavBar() {
       {({ open }) => (
         <>
           <div
-            className="mx-auto max-w-7xl px-5 sm:px-7 lg:px-10"
+            className="container mx-auto max-w-7xl px-5 sm:px-7 lg:px-10"
           >
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

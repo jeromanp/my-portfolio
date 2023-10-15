@@ -112,7 +112,7 @@ export default function ContactForm() {
 
   return (
     <div className="quick w-full mx-auto items-center justify-between font-mono text-sm bg-custom-azul">
-      <div className="p-5 sm:p-7 md:p-10 lg:p-20 xl:p-20">
+      <div className="mx auto container p-5 sm:p-7 md:p-10 lg:p-20 xl:p-20">
       <h1
           ref={inViewRef}
           className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2  ${

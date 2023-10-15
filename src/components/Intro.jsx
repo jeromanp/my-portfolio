@@ -10,8 +10,8 @@ export default function Intro() {
     <div className=" pt-12 sticky h-full w-full items-center justify-between text-sm bg-custom-azul mx-auto">
       <div
         ref={inViewRef}
-        className={` w-40 md:w-60 lg:w-80 mx-auto flex justify-center items-center  ${
-          inView ? "animate__animated animate__flipInX" : ""
+        className={`container w-40 md:w-60 lg:w-80 mx-auto flex justify-center items-center  ${
+          inView ? "animate__animated animate__bounce" : ""
         }`}
       >
         <div className="py-5 w-full h-full flex justify-center items-center">
@@ -26,7 +26,7 @@ export default function Intro() {
       <div
         ref={inViewRef}
         className={`container mx-auto  ${
-          inView ? "animate__animated animate__fadeInDownBig" : ""
+          inView ? "animate__animated animate__backInDown" : ""
         }`}
       >
         <h1 className="nothing text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-custom-oro_2 text-center">
