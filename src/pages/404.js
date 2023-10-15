@@ -8,7 +8,7 @@ export default function custom404() {
           <div className="col-sm-12 ">
             <div className="col-sm-10 col-sm-offset-1  text-center">
               <div className="four_zero_four_bg">
-                <h1 className="nothing text-center text-custom-azul text-3xl pt-10"><b>Error 404!!</b></h1>
+                <h1 className="nothing text-center text-custom-azul text-4xl md:text-5xl lg:text-6xl pt-10"><b>Error 404!!</b></h1>
               </div>
 
               <div className="indie contant_box_404 text-2xl">

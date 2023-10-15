@@ -41,7 +41,7 @@ export default function Intro() {
           </p>
         </div>
         <div className="indie text-sm md:text-xl lg:text-2xl py-10 ">
-          <p text-center text-gray-400>
+          <p className="text-justify text-gray-400 mx-10">
             <b className="text-custom-oro">¡Bienvenido a mi sitio web!</b><br/><br/> Aquí tendrás la oportunidad de
             conocer más acerca de mí, explorar algunos de los emocionantes
             proyectos en los que he tenido el placer de trabajar y descubrir las
