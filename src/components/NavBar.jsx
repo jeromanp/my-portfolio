@@ -51,8 +51,8 @@ export default function NavBar() {
                   </Link>
                 </div>
 
-                <div className="container flex items-center">
-                  <div className="hidden md:inline flex items-center sm:ml-20 sm:block">
+                <div className=" flex items-center">
+                  <div className=" container hidden md:inline items-center sm:ml-20 sm:block">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
                         <a
@@ -62,7 +62,7 @@ export default function NavBar() {
                             item.current
                               ? "bg-gray-900 text-white"
                               : "text-custom-oro hover:bg-gray-700 hover:text-white",
-                            "rounded-md px-3 py-2 text-md lg:text-xl font-medium"
+                            "rounded-md px-1 lg:px-2 py-1 text-md lg:text-xl font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
                         >
