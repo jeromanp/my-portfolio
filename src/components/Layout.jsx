@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Head from "next/head";
 
@@ -34,10 +35,16 @@ export default function Layout({ children }) {
           content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
         />
         <meta name="twitter:image" content="/imagen/logo3.png" />
-      </Head>
-      <NavBar />
 
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </Head>
+
+      <NavBar />
       <main className="w-full">{children}</main>
+      <Footer />
     </>
   );
 }

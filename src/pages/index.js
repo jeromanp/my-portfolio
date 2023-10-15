@@ -10,27 +10,8 @@ import CountVisit from "@/components/CountVisit";
 export default function Home() {
   return (
     <Layout>
-      <CountVisit />
-        <section id="intro">
-          <Intro />
-        </section>
-
-        <section id="about-me">
-          <AboutMe />
-        </section>
-
-        <section id="skills">
-          <Habilidades />
-        </section>
-
-        <section id="proyects">
-          <Proyects />
-        </section>
-
-        <section id="contact">
-          <FormContact/>
-        </section>
-      <Footer />
+      {/* <CountVisit /> */}
+      <Intro />
     </Layout>
   );
 }

@@ -41,7 +41,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="#intro"
+                    href="/"
                   >
                     Inicio
                   </a>
@@ -49,7 +49,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="#about-me"
+                    href="/sobre-mi"
                   >
                     Sobre mi
                   </a>
@@ -57,7 +57,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="#skills"
+                    href="/habilidades"
                   >
                     Habilidades
                   </a>
@@ -65,7 +65,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="#proyects"
+                    href="/proyectos"
                   >
                     Proyectos
                   </a>
@@ -73,7 +73,7 @@ export default function Footer() {
                 <li className="border-b-2 text-custom-blanco">
                   <a
                     className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
-                    href="#contact"
+                    href="/contacto"
                   >
                     Contacto
                   </a>
@@ -82,6 +82,7 @@ export default function Footer() {
             </div>
           </div>
 
+{/*  */}
           <div className="p-4 sm:p-0 sm:pl-10 lg:pl-20 mx-auto items-center flex justify-center flex-col">
             <div className="mx-auto items-center flex">
               <h3 className="mb-4 flex flex-col text-custom-oro">Mis redes sociales</h3>
@@ -224,6 +225,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+          {/*  */}
         </div>
       </div>
     </footer>
