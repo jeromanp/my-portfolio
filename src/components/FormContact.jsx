@@ -82,7 +82,7 @@ export default function ContactForm() {
           error = "El email debe tener como máximo 50 caracteres";
         }
         break;
-      case "message":
+      case "user_message":
         value.length < 6
           ? (error = "El mensaje es muy corto")
           : value.length > 500
@@ -208,15 +208,15 @@ export default function ContactForm() {
                   className="bg-transparent text-brand-green resize-none 
 											font-medium border-2 p-3 relative z-10 border-brand-green 
 											w-full rounded-lg h-40 focus:outline-none focus:text-white"
-                  name="message"
+                  name="user_message"
                   placeholder="Tu mensaje..."
                   onChange={handleChange}
                   onFocus={inputFocus}
                   onBlur={inputBlur}
                   required
                 />
-                {errors.message && (
-                  <div className="error">{errors.message}</div>
+                {errors.user_message && (
+                  <div className="error">{errors.user_message}</div>
                 )}
                 <span className="bigdot bg-brand-green w-[800px] h-[800px] left-[-200px] top-[-400px] absolute rounded-full pointer-events-none"></span>
               </div>
