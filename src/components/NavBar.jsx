@@ -5,54 +5,27 @@ import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 const navigation = [
-  { name: "Inicio", href: "#intro", current: false },
-  { name: "Sobre mí", href: "#about-me", current: false },
-  { name: "Habilidades", href: "#skills", current: false },
-  { name: "Proyectos", href: "#proyects", current: false },
-  { name: "Contacto", href: "#contact", current: false },
+  { name: "Inicio", href: "/", current: false },
+  { name: "Sobre mí", href: "/sobre-mi", current: false },
+  { name: "Habilidades", href: "/habilidades", current: false },
+  { name: "Proyectos", href: "/proyectos", current: false },
+  { name: "Contacto", href: "/contacto", current: false },
 ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const [inViewRef, inView] = useInView({
-    triggerOnce: true, // Solo activa la animación una vez
-  });
-
+export default function NavBar() {
   return (
     <Disclosure
       as="nav"
-      className={`bg-custom-azul quick fixed top-0 z-50 w-full transition-transform ${
-        isScrolled ? "transform translate-y-0" : "transform -translate-y-full"
-      } border-b-2 border-custom-oro_2 fixed sticky-top`}
+      className="bg-custom-azul sticky quick top-0 z-50 w-full border-b-2 border-custom-oro_2"
     >
       {({ open }) => (
         <>
           <div
-            ref={inViewRef}
-            className={`mx-auto max-w-7xl px-5 sm:px-7 lg:px-10  ${
-              inView ? "animate__animated animate__fadeInLeftBig" : ""
-            }`}
+            className="mx-auto max-w-7xl px-5 sm:px-7 lg:px-10"
           >
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -78,9 +51,9 @@ export default function Example() {
                   </Link>
                 </div>
 
-                <div className="container flex items-center ">
+                <div className="container flex items-center">
                   <div className="hidden md:inline flex items-center sm:ml-20 sm:block">
-                    <div className="flex space-x-4 ">
+                    <div className="flex space-x-4">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
@@ -113,7 +86,7 @@ export default function Example() {
                   className={classNames(
                     item.current
                       ? "bg-gray-900 text-white"
-                      : "text-custom-oro hover:bg-gray-700 hover:text-white",
+                      : "text-custom-oro hover-bg-gray-700 hover-text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
@@ -128,3 +101,4 @@ export default function Example() {
     </Disclosure>
   );
 }
+
