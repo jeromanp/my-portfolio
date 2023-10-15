@@ -43,7 +43,7 @@ export default function Proyects() {
         >
           {misProyectos.map((proyect, i) => (
             <div
-              className="flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-1 sm:p-5 md:p-10 lg:p-10"
+              className="mx-auto container flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-1 sm:p-5 md:p-10 lg:p-10"
               key={i}
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">

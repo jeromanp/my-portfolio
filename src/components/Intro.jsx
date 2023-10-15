@@ -10,7 +10,7 @@ export default function Intro() {
     <div className=" pt-12 sticky h-full w-full items-center justify-between text-sm bg-custom-azul mx-auto">
       <div
         ref={inViewRef}
-        className={` w-40 md:w-60 lg:w-80 mx-auto flex justify-center items-center  ${
+        className={`container w-40 md:w-60 lg:w-80 mx-auto flex justify-center items-center  ${
           inView ? "animate__animated animate__flipInX" : ""
         }`}
       >
