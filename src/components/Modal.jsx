@@ -25,7 +25,7 @@ export default function Modal({ title, description }) {
           <div className="p-2 pt-12 flex items-center justify-center">
             <div className="sticky inset-0 bg-gray-800 opacity-80"></div>
 
-            <div className="bg-blue-200 w-[40vh] md:w-[60vh] lg:w-[130vh] p-2 sm:p-4 rounded-lg shadow-lg relative flex items-center justify-between rounded-t-md border-b-2 border-neutral-100 border-opacity-100 dark:border-opacity-50">
+            <div className="bg-blue-200 w-[100%] p-2 sm:p-4 rounded-lg shadow-lg relative flex items-center justify-between rounded-t-md border-b-2 border-neutral-100 border-opacity-100 dark:border-opacity-50">
               <button
                 onClick={closeModal}
                 className="absolute top-2 right-2 m-2 text-red-600 hover:text-gray-800"
@@ -46,18 +46,18 @@ export default function Modal({ title, description }) {
                 </svg>
               </button>
               <div className="container">
-                <div className="p-1 sm:p-5">
-                  <h3 className="indie text-2xl font-medium  text-red-800 pt-5 pb-3 pl-2">
+                <div className="p-1 md:p-1">
+                  <h3 className="indie text-xl md:text-2xl font-medium  text-red-800 pt-5 pb-3 pl-2">
                     <b>{title}</b>
                   </h3>
-                  <div className="quick text-md relative p-4 text-gray-900 text-justify whitespace-pre-line">
+                  <div className="quick text-md lg:text-base relative p-4 text-gray-900 text-justify whitespace-pre-line">
                     <p>{description}</p>
                   </div>
                 </div>
                 <div className="flex justify-center">
                   <button
                     onClick={closeModal}
-                    className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
+                    className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded text-base"
                   >
                     Cerrar
                   </button>
