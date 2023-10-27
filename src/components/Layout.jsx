@@ -45,7 +45,7 @@ export default function Layout({ children }) {
         <meta name="ICBM" content="19.432608, -99.133209" />
 
         {/* <!-- Etiqueta meta para idioma --> */}
-        <meta http-equiv="Content-Language" content="es" />
+        <meta httpEquiv="Content-Language" content="es" />
 
         {/* <!-- Etiqueta meta para palabras clave específicas de tu portafolio --> */}
         <meta
@@ -127,6 +127,16 @@ export default function Layout({ children }) {
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+          as="style"
+        />
+        <link
+          rel="preload"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          as="style"
         />
       </Head>
 
