@@ -12,7 +12,7 @@ export default function Layout({ children }) {
           name="description"
           content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
         ></meta>
-        <link rel="icon" href="/imagen/logo3.png" />
+        <link rel="icon" href="/imagen/logo.png" />
         <meta name="author" content="Jose Eduardo Roman Piña" />
 
         {/* Metadatos para redes sociales */}
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
           property="og:description"
           content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
         />
-        <meta property="og:image" content="/imagen/logo3.png" />
+        <meta property="og:image" content="/imagen/logo.png" />
         <meta property="og:url" content="https://www.jeromanp.website" />
         <meta
           name="twitter:title"
@@ -34,7 +34,7 @@ export default function Layout({ children }) {
           name="twitter:description"
           content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
         />
-        <meta name="twitter:image" content="/imagen/logo3.png" />
+        <meta name="twitter:image" content="/imagen/logo.png" />
         {/* Nueva metaetiqueta para mostrar la ubicación geográfica */}
         <meta name="geo.region" content="MX" />
         <meta

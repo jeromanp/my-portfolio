@@ -68,16 +68,18 @@ export const habilities = [
 
 export const gestion = [
   {
-    skill:"Github",
-    image:"/svg-social-networks/github.svg",
-  }, {
-    skill:"Metodología SCRUM",
-    image:"/svg-habilities/scrum.svg",
-  },{
-    skill:"Trello",
-    image:"/svg-habilities/trello.svg"
-  }
-]
+    skill: "Github",
+    image: "/svg-social-networks/github.svg",
+  },
+  {
+    skill: "Metodología SCRUM",
+    image: "/svg-habilities/scrum.svg",
+  },
+  {
+    skill: "Trello",
+    image: "/svg-habilities/trello.svg",
+  },
+];
 
 // export const others = [
 //   {
@@ -149,6 +151,18 @@ export const misProyectos = [
       "Control de versiones: GitHub, BackEnd: NextJS, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/ryr",
     deploy: "https://ryrperfumes.vercel.app/",
+  },
+  {
+    title: "Next.JS - Notion",
+    description:
+      "Este proyecto propone una solución innovadora que combina la potencia de Next.js, un popular framework de desarrollo web, con Notion, una plataforma de gestión de contenidos en línea, para generar páginas estáticas de manera automática y dinámica.\n\nNext.js como Motor de Generación de Páginas Estáticas: Se utiliza para crear páginas web estáticas de alto rendimiento. Esto garantiza una experiencia de usuario rápida y eficiente, ya que las páginas se generan de antemano y se almacenan en caché.\n\nNotion como Fuente de Contenido: Notion es una plataforma de colaboración y gestión de proyectos que permite a los usuarios crear y editar contenido de manera colaborativa. Notion actúa como una fuente centralizada de contenido, donde lel usuario puede crear y actualizar contenido de manera intuitiva.\n\nImportación Automatizada desde Notion: Se creo un sistema de importación automatizada que toma el contenido de Notion y lo utiliza para generar páginas estáticas. Esto significa que las actualizaciones realizadas en Notion se reflejan instantáneamente en las páginas estáticas, lo que simplifica en gran medida el proceso de gestión de contenido.\n\nEscalabilidad y Rendimiento: Gracias a la generación de páginas estáticas y a la utilización de tecnologías como Next.js, este proyecto es altamente escalable y ofrece un rendimiento excepcional, incluso en sitios web con mucho tráfico.",
+    video: "",
+    image: "/imagen/notion.PNG",
+    tecnologies: "Javascript, Next JS, React JS, Notion",
+    production:
+      "Control de versiones: GitHub, BackEnd: ----, FrontEnd: Vercel.",
+    repository: "https://github.com/jeromanp/nextjs-notion",
+    deploy: "https://nextjs-notion-ruby.vercel.app/",
   },
 ];
 
