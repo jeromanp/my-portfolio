@@ -81,11 +81,20 @@ export const gestion = [
   },
 ];
 
-// export const others = [
-//   {
-
-//   }
-// ]
+export const others = [
+  {
+    skill: "CCNA - CCNP",
+    image: "/svg-habilities/cisco.svg",
+  },
+  {
+    skill: "Redes HFC",
+    image: "/svg-habilities/network.svg",
+  },
+  {
+    skill: "Electrónica",
+    image: "/svg-habilities/electronica.svg",
+  },
+];
 
 export const proyectos = {
   parrafo_1:
@@ -165,14 +174,16 @@ export const misProyectos = [
     deploy: "https://nextjs-notion-ruby.vercel.app/",
   },
   {
-    title:"Ecommerce",
-    description:"Este proyecto es la composición del uso de dos grandes tecnologías como es Sanity, Stripe y Next JS, Sanity es un sistema de gestión de contenido (CMS) moderno y flexible, diseñado para ser personalizable y escalable. Para este proyecto Sanity se empleo para crear una interfaz de administración y una base de datos para almacenas y gestionar contenido, como ejemplo utilizamos un ecommerce relacionado a la venta de tenis.\n\nStripe muy popular en el mundo del desarrollo para recibir pagos en línea de manera segura fue empleada para simular una compra en la tienda de acuerdo al producto(s) que el usuario quisiera adquirir.\n\nNextJS un popular framework de React fue adapatdo para mostrar el contenido visual, creación de componentes y lógica dentras de la tienda en línea.\n\nPodemos entrar al deploy y observar los diferentes productos con los que cuenta la tienda en líena, podemos leer una decripción del producto, así como el precio. Tenemos la opción de agregar al carrito de compras o directamente comprar el producto. Podemos ir agregando productos como queramos. Al solicitar el pago se genera un total y si accedemos a continuar, nos redirije al checkout de Stripe para realizar el pago, si es aceptado el pago o cancelado seremos dirijidos a dicha página y así continuar navegando.\n\n. Por el momento se pueden hacer pagos con esta tarjeta en modo de prueba:\n\nTarjeta: 4242 4242 4242 4242\n\nMM/AA: cualquiera siempre y cuando no sea una fecha pasada a la venta.\n\nCVV: cualquiera",
-    video:"",
-    image:"/imagen/Ecommerce.PNG",
-    tecnologies:"Javascript, React, NextJS, Sanity, Stripe ",
-    production:"Control de versiones: GitHub, BackEnd: Next JS, FrontEnd: Vercel.",
-    repository:"https://github.com/jeromanp/ecommerce-next-sanity",
-    deploy:"https://ecommerce-next-sanity-wine.vercel.app/"
+    title: "Ecommerce",
+    description:
+      "Este proyecto es la composición del uso de dos grandes tecnologías como es Sanity, Stripe y Next JS, Sanity es un sistema de gestión de contenido (CMS) moderno y flexible, diseñado para ser personalizable y escalable. Para este proyecto Sanity se empleo para crear una interfaz de administración y una base de datos para almacenas y gestionar contenido, como ejemplo utilizamos un ecommerce relacionado a la venta de tenis.\n\nStripe muy popular en el mundo del desarrollo para recibir pagos en línea de manera segura fue empleada para simular una compra en la tienda de acuerdo al producto(s) que el usuario quisiera adquirir.\n\nNextJS un popular framework de React fue adapatdo para mostrar el contenido visual, creación de componentes y lógica dentras de la tienda en línea.\n\nPodemos entrar al deploy y observar los diferentes productos con los que cuenta la tienda en líena, podemos leer una decripción del producto, así como el precio. Tenemos la opción de agregar al carrito de compras o directamente comprar el producto. Podemos ir agregando productos como queramos. Al solicitar el pago se genera un total y si accedemos a continuar, nos redirije al checkout de Stripe para realizar el pago, si es aceptado el pago o cancelado seremos dirijidos a dicha página y así continuar navegando.\n\n. Por el momento se pueden hacer pagos con esta tarjeta en modo de prueba:\n\nTarjeta: 4242 4242 4242 4242\n\nMM/AA: cualquiera siempre y cuando no sea una fecha pasada a la venta.\n\nCVV: cualquiera",
+    video: "",
+    image: "/imagen/Ecommerce.PNG",
+    tecnologies: "Javascript, React, NextJS, Sanity, Stripe ",
+    production:
+      "Control de versiones: GitHub, BackEnd: Next JS, FrontEnd: Vercel.",
+    repository: "https://github.com/jeromanp/ecommerce-next-sanity",
+    deploy: "https://ecommerce-next-sanity-wine.vercel.app/",
   },
 ];
 
