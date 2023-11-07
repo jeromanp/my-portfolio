@@ -32,7 +32,7 @@ export default function Habilidades() {
             {habilities.map((hability, i) => (
               <div
               ref={inViewRef}
-              className={`shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-200 items-center inline-block hover:animate-pulse ${inView ? "animate__animated animate__rollIn" : ""}`}
+              className={`shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-200 items-center inline-block hover:animate-pulse ${inView ? "animate__animated animate__headShake" : ""}`}
               key={i}
             >
                 
