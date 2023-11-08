@@ -64,6 +64,14 @@ export default function Proyects() {
                       Servicios de despliegue:{" "}
                       <span className="text-red-500">{proyect.production}</span>
                     </p>
+                    <p>
+                      Visible para estos dispositivos:{" "} { proyect.name_dispositive}
+                      <img
+                        src={proyect.dispositive}
+                        alt="dispositivo"
+                        className=" ml-5 my-2 w-16 h-auto hover:animate-bounce"
+                      />{" "}
+                    </p>
                     <div className="pt-2 flex items-start">
                       <Modal
                         title={proyect.title}
@@ -118,7 +126,11 @@ export default function Proyects() {
 
               {proyect.image ? (
                 <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0 animate-spinnerGrow">
-                  <img src={proyect.image} alt={proyect.title} className="p-4" />
+                  <img
+                    src={proyect.image}
+                    alt={proyect.title}
+                    className="p-4"
+                  />
                 </div>
               ) : null}
             </div>
