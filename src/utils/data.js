@@ -16,7 +16,7 @@ export const aboutMe = {
 };
 
 export const pHabilidades = {
-  uno: "En el bootcamp de Henry, tuve la oportunidad de desarrollar aplicaciones utilizando una amplia gama de tecnologías, a continuación se mencionan las más importantes:",
+  uno: "A continuación se describen parte de mis habilidades para el desarrollo web fullstack, adémas agrego otras habilidades que consolidan mi formación profesional",
 };
 
 export const habilities = [
