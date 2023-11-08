@@ -114,6 +114,8 @@ export const misProyectos = [
       "Control de versiones: GitHub, BackEnd: Render, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/Proyecto-Rick-and-Morty",
     deploy: "https://rick-and-morty-jeromanp.vercel.app/",
+    dispositive: "/computadora.svg",
+    name_dispositive:"Computadora",
   },
   {
     title: "Countries",
@@ -125,6 +127,9 @@ export const misProyectos = [
     production: "Control de versiones: GitHub, FrontEnd: Vercel",
     repository: "https://github.com/jeromanp/pi-countries",
     deploy: "https://pi-countries-jeromanp.vercel.app/",
+    dispositive: "/computadora.svg",
+    name_dispositive:"Computadora",
+
   },
   {
     title: "IziQ Study",
@@ -136,6 +141,9 @@ export const misProyectos = [
     production: "Control de versiones: GitHub.",
     repository: "https://github.com/Armax7/IziQ-Study/tree/development",
     deploy: "/working",
+    dispositive: "/computadora.svg",
+    name_dispositive:"Computadora",
+
   },
   {
     title: "Hostería Hueney Ruca",
@@ -148,6 +156,9 @@ export const misProyectos = [
       "Control de versiones: GitHub , Base de datos: Supabase, BackEnd y FrontEnd: Vercel.",
     repository: "https://github.com/Mark-kus/hueney-ruca",
     deploy: "https://hueney-ruca-git-develop-mark-kus.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive:"Computadora, tablet o smartphone",
+
   },
   {
     title: "R&R Perfumes",
@@ -160,6 +171,9 @@ export const misProyectos = [
       "Control de versiones: GitHub, BackEnd: NextJS, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/ryr",
     deploy: "https://ryrperfumes.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive:"Computadora, tablet o smartphone",
+
   },
   {
     title: "Next.JS - Notion",
@@ -172,6 +186,9 @@ export const misProyectos = [
       "Control de versiones: GitHub, BackEnd: ----, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/nextjs-notion",
     deploy: "https://nextjs-notion-ruby.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive:"Computadora, tablet o smartphone",
+
   },
   {
     title: "Tienda en línea",
@@ -184,6 +201,9 @@ export const misProyectos = [
       "Control de versiones: GitHub, BackEnd: Next JS, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/ecommerce-next-sanity",
     deploy: "https://ecommerce-next-sanity-wine.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive:"Computadora, tablet o smartphone",
+
   },
 ];
 
