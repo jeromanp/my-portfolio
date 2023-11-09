@@ -44,7 +44,7 @@ export default function NavBar() {
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
                     <img
-                      className="hidden w-auto sm:inline md:h-12 lg:h-20 lg:block my-1"
+                      className="hidden w-auto sm:inline md:w-40 lg:w-60 lg:block my-1"
                       src="/imagen/logo2.PNG"
                       alt="logo"
                     />
