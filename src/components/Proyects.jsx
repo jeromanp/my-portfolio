@@ -65,11 +65,12 @@ export default function Proyects() {
                       <span className="text-red-500">{proyect.production}</span>
                     </p>
                     <p>
-                      Visible para estos dispositivos:{" "} { proyect.name_dispositive}
+                      Visible para estos dispositivos:{" "}
+                      <span className="text-purple-400">{proyect.name_dispositive}</span>
                       <img
                         src={proyect.dispositive}
                         alt="dispositivo"
-                        className=" ml-5 my-2 w-16 h-auto hover:animate-bounce"
+                        className=" ml-5 my-2 w-10 md:w-14 lg:w-16 h-auto hover:animate-bounce"
                       />{" "}
                     </p>
                     <div className="pt-2 flex items-start">
@@ -117,10 +118,19 @@ export default function Proyects() {
 
               {proyect.video ? (
                 <div className="sm:w-[100%] md:w-1/2 mx-auto items-center z-0 animate-spinnerGrow">
-                  <video className="w-full pb-10 pl-4 z-0" controls>
-                    <source src={proyect.video} type="video/mp4" />
+                  {/* <video className="w-full pb-10 pl-4 z-0" controls>
+                    <source src="https://www.youtube.com/watch?v=q2AvcqIsRt4" />
                     Tu navegador no soporta el elemento de video.
-                  </video>
+                  </video> */}
+                  <iframe
+                    // width="560"
+                    height="315"
+                    src={proyect.video}
+                    title={proyect.name}
+                    frameborder="0"
+                    allowfullscreen
+                    className="w-[100%] pb-10 pl-4 z-0"
+                  ></iframe>
                 </div>
               ) : null}
 
