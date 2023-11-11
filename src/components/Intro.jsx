@@ -21,10 +21,10 @@ export default function Intro() {
               <h1 className="text-3xl md:text-6xl p-2 text-custom-oro_2 tracking-loose">
                 Hola!!{" "}
               </h1>
-              <h2 className="text-xl md:text-3xl lg:text-5xl leading-relaxed md:leading-snug mb-2">
+              <h2 className="text-xl md:text-3xl lg:text-5xl leading-relaxed md:leading-snug mb-2 md:mb-5 lg:ml-8">
                 Soy {infoPersonal.name}
               </h2>
-              <p className="text-sm md:text-base lg:text-xl text-gray-50 mb-4 flex text-center justify-center items-center">
+              <p className="text-sm md:text-base lg:text-xl text-gray-50 mb-4 mx-2 flex text-center justify-center items-center">
                 {infoPersonal.professionOne} e {infoPersonal.professionTwo}
               </p>
               <a
@@ -34,8 +34,8 @@ export default function Intro() {
                 Contactame
               </a>
             </div>
-            <div className="p-1 mt-1 mb-2 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
-              <div className="h-48 flex flex-wrap content-center">
+            <div className="md:mb-0 md:mt-0 lg:w-2/3  justify-center">
+              <div className="h-48 flex flex-wrap content-center md:my-10">
                 <div
                   ref={inViewRef}
                   className={`${
@@ -44,7 +44,7 @@ export default function Intro() {
                 >
                   <img
                     // style={{ width: "30vh", height: "auto" }}
-                    className="mx-4 my-7 h-auto object-cover rounded-full max-w-full max-h-full pt-4 shadow-lg w-20 lg:w-48 md:w-40 hidden md:inline"
+                    className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-20 lg:w-40 md:w-40 hidden md:inline"
                     src="/imagen/hero2.PNG"
                     alt="Developer"
                   />
@@ -57,7 +57,7 @@ export default function Intro() {
                 >
                   <img
                     // style={{ width: "35vh", height: "auto" }}
-                    className="h-auto object-cover rounded-full max-w-full max-h-full pt-4 lg:-my-20 w-24 lg:w-60 md:w-48 inline"
+                    className="h-auto object-cover max-w-full rounded-full max-h-full pt-4 lg:my-5 lx:-my-20 w-24 lg:w-48 xl:w-60 md:w-40 inline"
                     src="/imagen/img-me.jpg"
                     alt="JERP"
                   />
@@ -70,7 +70,7 @@ export default function Intro() {
                 >
                   <img
                     // style={{ width: "30vh", height: "auto" }}
-                    className="mx-4 my-7 h-auto object-cover rounded-full max-w-full max-h-full pt-4 shadow-lg w-24 lg:w-48 md:w-40 hidden md:inline"
+                    className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-24 lg:w-40 md:w-40 hidden md:inline"
                     src="/imagen/hero1.PNG"
                     alt="Telecom"
                   />
@@ -80,7 +80,7 @@ export default function Intro() {
           </div>
           <div
             ref={inViewRef}
-            className={`indie text-sm md:text-xl lg:text-2xl md:py-10 mx-2 md:mx-12 ${
+            className={`indie text-sm md:text-xl lg:text-2xl md:py-0 mx-2 md:mx-12 ${
               inView ? "animate__animated animate__bounceInLeft" : ""
             }`}
           >
