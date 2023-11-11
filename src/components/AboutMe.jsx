@@ -8,7 +8,7 @@ export default function AboutMe() {
   });
   return (
     <div className="w-full items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
-      <div className="p-5 sm:p-5 md:p-10 lg:p-20">
+      <div className="p-5 sm:p-5 md:p-10 lg:p-20 md:mx-12">
       <h1
         ref={inViewRef}
         className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2  ${inView ? "animate__animated animate__zoomInDown" : ""}`}
