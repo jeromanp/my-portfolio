@@ -23,7 +23,7 @@ export default function Proyects() {
 
         <div
           ref={inViewRef}
-          className={`quick text-xs md:text-lg lg:text-lg whitespace-pre-line  ${
+          className={`quick text-xs md:text-lg lg:text-lg whitespace-pre-line md:mx-12 ${
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
