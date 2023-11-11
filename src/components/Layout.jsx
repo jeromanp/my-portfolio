@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
+          content="Hola soy Jose Eduardo Roman, Desarrollador Web Fullstack con background en Redes y Telecomunicaciones. Ven y conoce mi sitio web. Puedes tener acceso a los proyectos que he realizado en esta nueva etapa profesional en mi vida. "
         ></meta>
         <link rel="icon" href="/imagen/logo.png" />
         <meta name="author" content="Jose Eduardo Roman Piña" />
@@ -39,7 +39,7 @@ export default function Layout({ children }) {
         <meta name="geo.region" content="MX" />
         <meta
           name="geo.placename"
-          content="Ciudad de México, Estado de México"
+          content="Ciudad de México, Estado de México, Estado de Hidalgo"
         />
         <meta name="geo.position" content="19.432608;-99.133209" />
         <meta name="ICBM" content="19.432608, -99.133209" />
@@ -50,7 +50,7 @@ export default function Layout({ children }) {
         {/* <!-- Etiqueta meta para palabras clave específicas de tu portafolio --> */}
         <meta
           name="keywords"
-          content="Desarrollo web, Desarrollador Fullstack, Desarrollo de aplicaciones, Redes, Telecomunicaciones, Portafolio, Desarrollador Fullstack, José Eduardo Román"
+          content="Desarrollo web, Desarrollador Fullstack, Desarrollo de aplicaciones, Redes, Telecomunicaciones, Portafolio, Desarrollador Fullstack, José Eduardo Román, Bootcamp, Henry"
         />
 
         {/* <!-- Etiqueta meta para especificar el idioma y país del contenido --> */}
