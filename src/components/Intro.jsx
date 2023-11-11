@@ -14,11 +14,11 @@ export default function Intro() {
           <div className="container mx-auto flex flex-col lg:flex-row items-center my-2 md:my-20">
             <div
               ref={inViewRef}
-              className={`flex flex-col w-full lg:w-1/3 justify-center items-center mx-20 ${
+              className={`flex flex-col w-full lg:w-1/3 justify-center items-center mx-20 md:mx-5 ${
                 inView ? "animate__animated animate__backInDown" : ""
               }`}
             >
-              <h1 className="text-3xl md:text-6xl p-2 text-custom-oro_2 tracking-loose">
+              <h1 className="text-3xl md:text-6xl text-custom-oro_2 tracking-loose">
                 Hola!!{" "}
               </h1>
               <h2 className="text-xl md:text-3xl lg:text-5xl leading-relaxed md:leading-snug mb-2 md:mb-5 lg:ml-8">
@@ -29,7 +29,7 @@ export default function Intro() {
               </p>
               <a
                 href="/contacto"
-                className="bg-custom-oro hover:bg-custom-oro_3 hover:text-white text-custom-azul rounded shadow hover:shadow-lg py-2 px-4 border border-custom-oro_3 text-lg"
+                className="bg-custom-oro_2 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border text-xl"
               >
                 Contactame
               </a>
