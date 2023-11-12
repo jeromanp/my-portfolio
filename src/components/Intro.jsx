@@ -45,7 +45,7 @@ export default function Intro() {
                   <img
                     // style={{ width: "30vh", height: "auto" }}
                     className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-20 lg:w-40 md:w-40 hidden md:inline"
-                    src="/imagen/hero2.PNG"
+                    src="/imagen/hero2.png"
                     alt="Developer"
                   />
                 </div>
@@ -71,7 +71,7 @@ export default function Intro() {
                   <img
                     // style={{ width: "30vh", height: "auto" }}
                     className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-24 lg:w-40 md:w-40 hidden md:inline"
-                    src="/imagen/hero1.PNG"
+                    src="/imagen/hero1.png"
                     alt="Telecom"
                   />
                 </div>
