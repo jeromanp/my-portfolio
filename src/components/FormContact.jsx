@@ -115,119 +115,130 @@ export default function ContactForm() {
 
   return (
     <div className="quick w-full mx-auto items-center justify-between font-mono text-sm bg-custom-azul">
-      <div className="mx auto container p-5 sm:p-7 md:p-10 md:mx-12 lg:p-20 xl:p-20">
-        <h1
-          ref={inViewRef}
-          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2  ${
-            inView ? "animate__animated animate__zoomInDown" : ""
-          }`}
-        >
-          Contacto
-        </h1>
+      <div className="mx-auto md:container container pt-10 pb-10">
+        <div className="">
+          <h1
+            ref={inViewRef}
+            className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2 w-full md:pl-10 pl-5  ${
+              inView ? "animate__animated animate__zoomInDown" : ""
+            }`}
+          >
+            Contacto
+          </h1>
+        </div>
         <div
           ref={inViewRef}
           className={`text-xs md:text-lg lg:text-lg animate-fadeInDown ${
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
-          <p className="mb-2 text-gray-500 text-justify">
+          <p className="mb-2 text-gray-500 text-justify md:mx-10 mx-5">
             {contactoInfo.parrafo_1}
           </p>
         </div>
 
         <ToastContainer />
-        <div
-          ref={inViewRef}
-          className={`quick text-xs md:text-lg lg:text-xl  ${
-            inView ? "animate__animated animate__lightSpeedInLeft" : ""
-          }`}
-        >
-          <form
-            ref={input}
-            onSubmit={handleSubmit}
-            className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl animate-slideUp"
+        <div className="flex flex-col md:flex-row items-center  mx-auto">
+          <div className="md:w-1/2 items-center justify-center flex">
+            <img
+              src="https://img.freepik.com/foto-gratis/mensaje-chat-linea-concepto-texto-social_53876-167132.jpg?w=740&t=st=1699778394~exp=1699778994~hmac=1b74d4bf279b9f0f1d0abc15ed17022c184f789db13247ceb4c2f042ce0c0922"
+              alt="Contactame"
+              className="h-auto max-w-[30%] md:max-w-[70%] rounded-full my-5"
+            />
+          </div>
+          <div
+            ref={inViewRef}
+            className={`quick text-xs md:text-lg lg:text-xl md:w-1/2 w-full  ${
+              inView ? "animate__animated animate__lightSpeedInLeft" : ""
+            }`}
           >
-            <div className="space-y-2">
-              <label className="text-brand-green text-xs font-semibold pl-1 block">
-                Nombre
-              </label>
+            <form
+              ref={input}
+              onSubmit={handleSubmit}
+              className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl animate-slideUp"
+            >
+              <div className="space-y-2">
+                <label className="text-brand-green text-xs font-semibold pl-1 block">
+                  Nombre
+                </label>
 
-              <div className="relative overflow-hidden rounded-lg w-full">
-                <input
-                  id="nombre"
-                  placeholder="Ingresa tu nombre"
-                  className="bg-transparent text-brand-green border-2 p-3 
+                <div className="relative overflow-hidden rounded-lg w-full">
+                  <input
+                    id="nombre"
+                    placeholder="Ingresa tu nombre"
+                    className="bg-transparent text-brand-green border-2 p-3 
 											relative z-10 border-brand-green w-full rounded-lg 
 											focus:outline-none focus:text-white font-medium
 											focus:placeholder:text-white focus:placeholder:text-opacity-70"
-                  name="user_name"
-                  onChange={handleChange}
-                  onFocus={inputFocus}
-                  onBlur={inputBlur}
-                  required
-                />
-                {errors.user_name && (
-                  <div className="error">{errors.user_name}</div>
-                )}
-                <span className="bigdot bg-brand-green w-[800px] h-[800px] left-[-200px] top-[-400px] absolute rounded-full pointer-events-none"></span>
+                    name="user_name"
+                    onChange={handleChange}
+                    onFocus={inputFocus}
+                    onBlur={inputBlur}
+                    required
+                  />
+                  {errors.user_name && (
+                    <div className="error">{errors.user_name}</div>
+                  )}
+                  <span className="bigdot bg-brand-green w-[800px] h-[800px] left-[-200px] top-[-400px] absolute rounded-full pointer-events-none"></span>
+                </div>
               </div>
-            </div>
 
-            <div className="space-y-2">
-              <label className="text-brand-green text-xs font-semibold pl-1 block">
-                Email
-              </label>
-              <div className="relative overflow-hidden rounded-lg">
-                <input
-                  id="email"
-                  placeholder="Ingresa tu email"
-                  className="bg-transparent text-brand-green border-2 p-3 
+              <div className="space-y-2">
+                <label className="text-brand-green text-xs font-semibold pl-1 block">
+                  Email
+                </label>
+                <div className="relative overflow-hidden rounded-lg">
+                  <input
+                    id="email"
+                    placeholder="Ingresa tu email"
+                    className="bg-transparent text-brand-green border-2 p-3 
 											relative z-10 border-brand-green w-full rounded-lg 
 											focus:outline-none focus:text-white font-medium
 											focus:placeholder:text-white focus:placeholder:text-opacity-70"
-                  name="user_email"
-                  onChange={handleChange}
-                  onFocus={inputFocus}
-                  onBlur={inputBlur}
-                  required
-                />
-                {errors.user_email && (
-                  <div className="error">{errors.user_email}</div>
-                )}
-                <span className="bigdot bg-brand-green w-[800px] h-[800px] left-[-200px] top-[-400px] absolute rounded-full pointer-events-none"></span>
+                    name="user_email"
+                    onChange={handleChange}
+                    onFocus={inputFocus}
+                    onBlur={inputBlur}
+                    required
+                  />
+                  {errors.user_email && (
+                    <div className="error">{errors.user_email}</div>
+                  )}
+                  <span className="bigdot bg-brand-green w-[800px] h-[800px] left-[-200px] top-[-400px] absolute rounded-full pointer-events-none"></span>
+                </div>
               </div>
-            </div>
 
-            <div className="space-y-2">
-              <label className="text-brand-green text-xs font-semibold pl-1 block">
-                Mensaje
-              </label>
-              <div className="relative overflow-hidden rounded-lg">
-                <textarea
-                  id="mensaje"
-                  className="bg-transparent text-brand-green resize-none 
+              <div className="space-y-2">
+                <label className="text-brand-green text-xs font-semibold pl-1 block">
+                  Mensaje
+                </label>
+                <div className="relative overflow-hidden rounded-lg">
+                  <textarea
+                    id="mensaje"
+                    className="bg-transparent text-brand-green resize-none 
 											font-medium border-2 p-3 relative z-10 border-brand-green 
 											w-full rounded-lg h-40 focus:outline-none focus:text-white"
-                  name="user_message"
-                  placeholder="Tu mensaje..."
-                  onChange={handleChange}
-                  onFocus={inputFocus}
-                  onBlur={inputBlur}
-                  required
-                />
-                {errors.user_message && (
-                  <div className="error">{errors.user_message}</div>
-                )}
-                <span className="bigdot bg-brand-green w-[800px] h-[800px] left-[-200px] top-[-400px] absolute rounded-full pointer-events-none"></span>
+                    name="user_message"
+                    placeholder="Tu mensaje..."
+                    onChange={handleChange}
+                    onFocus={inputFocus}
+                    onBlur={inputBlur}
+                    required
+                  />
+                  {errors.user_message && (
+                    <div className="error">{errors.user_message}</div>
+                  )}
+                  <span className="bigdot bg-brand-green w-[800px] h-[800px] left-[-200px] top-[-400px] absolute rounded-full pointer-events-none"></span>
+                </div>
               </div>
-            </div>
 
-            <div className="mt-6 flex justify-end">
-              <button className="fancy">
-                <span className="py-1">Enviar</span>
-              </button>
-            </div>
-          </form>
+              <div className="mt-6 flex justify-end">
+                <button className="fancy">
+                  <span className="py-1">Enviar</span>
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
