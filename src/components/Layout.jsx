@@ -6,8 +6,12 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Jose Eduardo Roman</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* Metadatos globales */}
+        <title>Jose Eduardo Roman 💻📡</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
         <meta
           name="description"
           content="Hola soy Jose Eduardo Roman, Desarrollador Web Fullstack con background en Redes y Telecomunicaciones. Ven y conoce mi sitio web. Puedes tener acceso a los proyectos que he realizado en esta nueva etapa profesional en mi vida. "
@@ -16,25 +20,27 @@ export default function Layout({ children }) {
         <meta name="author" content="Jose Eduardo Roman Piña" />
 
         {/* Metadatos para redes sociales */}
-        <meta
-          property="og:title"
-          content="Jose Eduardo Roman - Desarrollador Fullstack"
-        />
+
+        {/* FACEBOOK */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.jeromanp.website" />
+        <meta property="og:title" content="Jose Eduardo Roman 💻" />
         <meta
           property="og:description"
           content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
         />
         <meta property="og:image" content="/imagen/logo.png" />
-        <meta property="og:url" content="https://www.jeromanp.website" />
+
+        {/* TwITTER */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.jeromanp.website" />
+        <meta property="twitter:title" content="Jose Eduardo Roman 💻" />
         <meta
-          name="twitter:title"
-          content="Jose Eduardo Roman - Desarrollador Fullstack"
-        />
-        <meta
-          name="twitter:description"
+          property="twitter:description"
           content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
         />
-        <meta name="twitter:image" content="/imagen/logo.png" />
+        <meta property="twitter:image" content="/imagen/logo.png" />      
+
         {/* Nueva metaetiqueta para mostrar la ubicación geográfica */}
         <meta name="geo.region" content="MX" />
         <meta
@@ -50,7 +56,7 @@ export default function Layout({ children }) {
         {/* <!-- Etiqueta meta para palabras clave específicas de tu portafolio --> */}
         <meta
           name="keywords"
-          content="Desarrollo web, Desarrollador Fullstack, Desarrollo de aplicaciones, Redes, Telecomunicaciones, Portafolio, Desarrollador Fullstack, José Eduardo Román, Bootcamp, Henry"
+          content="desarrollo web, desarrollador Fullstack, desarrollo de aplicaciones, redes, telecomunicaciones, portafolio, desarrollador fullstack, José Eduardo Román, bootcamp, Henry, desarrollador, web, javascript, react, next, redux, supabase"
         />
 
         {/* <!-- Etiqueta meta para especificar el idioma y país del contenido --> */}
@@ -85,7 +91,7 @@ export default function Layout({ children }) {
         <meta name="copyright" content="© 2023 José Eduardo Román Piña" />
 
         {/* <!-- Etiqueta meta para indicar la duración de la vigencia del contenido --> */}
-        <meta name="revised" content="2023-10-15" />
+        <meta name="revised" content="2023-12-11" />
 
         {/* <!-- Etiqueta meta para especificar los términos y condiciones de uso --> */}
         <meta
