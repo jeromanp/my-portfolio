@@ -13,7 +13,7 @@ export const aboutMe = {
     "\nHe acumulado una experiencia laboral de casi 2 años en una empresa proveedora de servicios de internet a nivel nacional. Durante mi tiempo allí, desempeñé un papel fundamental en la operación, instalación, revisión y mantenimiento de los equipos que brindaban servicios de video, voz y datos a los suscriptores. Esta experiencia me permitió desarrollar habilidades técnicas sólidas y aprender sobre la importancia de la calidad y el servicio al cliente.",
   reciente:
     "\nEn septiembre de 2022, tomé la decisión de sumergirme en el mundo de la programación web, a pesar de que durante mi época estudiantil había evitado esta área a toda costa debido a la creencia de que no era lo adecuado para mí. Sin embargo, decidí superar mis barreras mentales y, con la determinación de cumplir mi sueño, incluso renuncié a mi empleo anterior. Me uní al Bootcamp de Henry en Argentina, donde pasé siete meses dedicado por completo a aprender sobre desarrollo web. Durante este tiempo, no solo adquirí habilidades fundamentales y de vanguardia en programación, sino que también tuve la oportunidad de conocer a personas increíbles. Esta comunidad de estudiantes y los profesores me apoyaron en mi crecimiento tanto profesional como personal. Después de más de 700 horas de aprendizaje teórico y práctico, finalmente me gradué a finales de mayo de 2023.",
-    ahora: "Ahora me encuentro en busqueda laboral activa y así continue aprendiendo más sobre este maravilloso mundo del desarrollo. Por lo tanto me sigo preparando haciendo proyectos y aprendiendo nuevas tecnologías para expardir aún más mis conocimeintos "
+    ahora: "Ahora me encuentro en busqueda laboral activa y así continue aprendiendo más sobre este maravilloso mundo del desarrollo. Por lo tanto me sigo preparando haciendo proyectos y aprendiendo nuevas tecnologías para expardir aún más mis conocimientos. "
 };
 
 export const pHabilidades = {
@@ -101,7 +101,7 @@ export const proyectos = {
   parrafo_1:
     "Durante el programa, he adquirido conocimientos y experiencia práctica en el desarrollo web utilizando HTML, CSS y JavaScript, así como en el uso de frameworks y bibliotecas populares como React, NextJS y Redux. Además, he trabajado con bases de datos relacionales utilizando SQL y he adquirido experiencia en el diseño y construcción de API RESTful utilizando Node.js y Express. También he explorado el mundo del desarrollo full-stack, creando aplicaciones completas que integran tanto el frontend como el backend.\n\n Durante el bootcamp, aborde temas fundamentales como control de versiones con Git, metodologías ágiles de desarrollo de software, pruebas unitarias y funcionales, y despliegue de aplicaciones en entornos de producción.",
   parrafo_2:
-    "\nA continuación presento los proyectos que he realizado desde que inicie esta etapa en el mundo del desarrollo web",
+    "\nA continuación presento los proyectos más destacados que he realizado desde que inicie esta etapa en el mundo del desarrollo web",
 };
 
 export const misProyectos = [
