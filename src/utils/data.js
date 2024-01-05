@@ -154,7 +154,7 @@ export const misProyectos = [
     tecnologies: "Javascript, React, Next JS, Supabase, Stripe, Tailwind CSS.",
     production:
       "Control de versiones: GitHub , Base de datos: Supabase, BackEnd y FrontEnd: Vercel.",
-    repository: "https://hueney-ruca-pf.vercel.app/",
+    repository: "https://github.com/jeromanp/hueney-ruca",
     deploy: "https://hueney-ruca-pf.vercel.app/",
     dispositive: "/responsivo.svg",
     name_dispositive: "Computadora, tablet o smartphone",
