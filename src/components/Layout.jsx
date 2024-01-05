@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         {/* Metadatos globales */}
-        <title>Jose Eduardo Roman 💻📡</title>
+        <title>Jose Eduardo Roman | 💻 Desarrollador Web Fullstack | 📡 Ingeniero en Telecomunicaciones</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, viewport-fit=cover"
