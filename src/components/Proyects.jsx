@@ -11,7 +11,7 @@ export default function Proyects() {
 
   return (
     <div className="z-0 w-90 items-center justify-between font-mono text-sm bg-custom-azul mx-auto">
-      <div className="p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
+      <div className="container mx-auto p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
         <h1
           ref={inViewRef}
           className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2  ${

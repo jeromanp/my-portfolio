@@ -16,7 +16,9 @@ export default function Footer() {
     setShowModal(false);
   };
   return (
-    <footer className="quick flex-1 bg-custom-oro_3 text-custom-azul">
+    <div className="h-screen">
+      
+    <footer className="quick flex-1 bg-custom-oro_3 text-custom-azul h-full">
       <div className="container py-10 lg:py-12 xl:py-14 mx-auto flex justify-center items-center">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
           <div className="flex flex-col gap-6 mx-auto justify-center items-center">
@@ -229,5 +231,7 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </div>
+
   );
 }
