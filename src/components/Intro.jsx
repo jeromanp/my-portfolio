@@ -9,8 +9,8 @@ export default function Intro() {
   return (
     <>
       {/* ////////////////////// */}
-      <section>
-        <div className="bg-custom-azul text-white py-10">
+      <section className="h-full">
+        <div className="bg-custom-azul text-white py-10 md:h-full">
           <div className="container mx-auto flex flex-col lg:flex-row items-center my-2 md:my-20">
             <div
               ref={inViewRef}
@@ -18,12 +18,15 @@ export default function Intro() {
                 inView ? "animate__animated animate__backInDown" : ""
               }`}
             >
-              <h1 className="text-3xl md:text-6xl text-custom-oro_2 tracking-loose">
+              <h1 className="text-3xl md:text-6xl text-custom-oro_2 tracking-loose lg:my-5">
                 Hola!!{" "}
               </h1>
-              <h2 className="text-xl md:text-3xl lg:text-5xl leading-relaxed md:leading-snug mb-2 md:mb-5 lg:ml-8">
-                Soy {infoPersonal.name}
-              </h2>
+              <div className="flex justify-center items-center">
+                <h2 className="text-xl md:text-3xl lg:text-5xl leading-relaxed md:leading-snug mb-2 md:mb-5 lg:ml-8 mx-auto text-center">
+                  Soy {infoPersonal.name}
+                </h2>
+              </div>
+
               <p className="text-sm md:text-base lg:text-xl text-gray-50 mb-4 mx-2 flex text-center justify-center items-center">
                 {infoPersonal.professionOne} e {infoPersonal.professionTwo}
               </p>
@@ -80,11 +83,11 @@ export default function Intro() {
           </div>
           <div
             ref={inViewRef}
-            className={`indie text-sm md:text-xl lg:text-2xl md:py-0 mx-2 md:mx-12 ${
+            className={`indie text-sm flex justify-center md:text-xl lg:text-2xl md:py-0 mx-2 md:mx-12 h-auto ${
               inView ? "animate__animated animate__bounceInLeft" : ""
             }`}
           >
-            <p className="text-justify text-gray-400 mx-10">
+            <p className=" text-justify text-gray-400 mx-10">
               <br /> Aquí tendrás la oportunidad de conocer más acerca de mí,
               explorar algunos de los emocionantes proyectos en los que he
               tenido el placer de trabajar y descubrir las habilidades que me
