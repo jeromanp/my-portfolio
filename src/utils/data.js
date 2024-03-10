@@ -210,7 +210,7 @@ export const misProyectos = [
     image: "/imagen/fehpag.PNG",
     tecnologies: "Javascript, Next JS, React JS, Animate CSS",
     production: "Control de versiones: GitHub, BackEnd: N/A, FrontEnd: Vercel.",
-    repository: "Privado",
+    repository: "/working",
     deploy: "https://fehpag.com/",
     dispositive: "/responsivo.svg",
     name_dispositive: "Computadora, tablet o smartphone",
