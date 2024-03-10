@@ -13,7 +13,8 @@ export const aboutMe = {
     "\nHe acumulado una experiencia laboral de casi 2 años en una empresa proveedora de servicios de internet a nivel nacional. Durante mi tiempo allí, desempeñé un papel fundamental en la operación, instalación, revisión y mantenimiento de los equipos que brindaban servicios de video, voz y datos a los suscriptores. Esta experiencia me permitió desarrollar habilidades técnicas sólidas y aprender sobre la importancia de la calidad y el servicio al cliente.",
   reciente:
     "\nEn septiembre de 2022, tomé la decisión de sumergirme en el mundo de la programación web, a pesar de que durante mi época estudiantil había evitado esta área a toda costa debido a la creencia de que no era lo adecuado para mí. Sin embargo, decidí superar mis barreras mentales y, con la determinación de cumplir mi sueño, incluso renuncié a mi empleo anterior. Me uní al Bootcamp de Henry en Argentina, donde pasé siete meses dedicado por completo a aprender sobre desarrollo web. Durante este tiempo, no solo adquirí habilidades fundamentales y de vanguardia en programación, sino que también tuve la oportunidad de conocer a personas increíbles. Esta comunidad de estudiantes y los profesores me apoyaron en mi crecimiento tanto profesional como personal. Después de más de 700 horas de aprendizaje teórico y práctico, finalmente me gradué a finales de mayo de 2023.",
-    ahora: "Ahora me encuentro en busqueda laboral activa y así continue aprendiendo más sobre este maravilloso mundo del desarrollo. Por lo tanto me sigo preparando haciendo proyectos y aprendiendo nuevas tecnologías para expardir aún más mis conocimientos. "
+  ahora:
+    "Ahora me encuentro en busqueda laboral activa y así continue aprendiendo más sobre este maravilloso mundo del desarrollo. Por lo tanto me sigo preparando haciendo proyectos y aprendiendo nuevas tecnologías para expardir aún más mis conocimientos. ",
 };
 
 export const pHabilidades = {
@@ -198,6 +199,19 @@ export const misProyectos = [
       "Control de versiones: GitHub, BackEnd: Next JS, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/ecommerce-next-sanity",
     deploy: "https://ecommerce-next-sanity-wine.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive: "Computadora, tablet o smartphone",
+  },
+  {
+    title: "FEHPAG",
+    description:
+      "Este sitio web fue desarrollado para una pequeña empresa local en proceso de crecimiento, con el objetivo de expandir su presencia en el mercado y conectar con más clientes. La Landing Page está diseñada con secciones estratégicas que destacan los servicios ofrecidos, detalles sobre la empresa y la forma de contacto. \n\nUna característica notable del sitio es la integración de la API de WhatsApp, lo que permite a los visitantes contactar directamente con la empresa con facilidad. Además, se anima a los usuarios a seguir la empresa en sus redes sociales para mantenerse al día con las últimas noticias y actualizaciones.\n\n La página web es completamente responsiva, lo que garantiza una experiencia de usuario consistente en diversos dispositivos y tamaños de pantalla.\n\nCada aspecto del sitio web ha sido cuidadosamente considerado para ofrecer una experiencia atractiva y útil para los visitantes, con el objetivo de facilitar la conexión entre la empresa y su audiencia.",
+    video: "",
+    image: "/imagen/fehpag.PNG",
+    tecnologies: "Javascript, Next JS, React JS, Animate CSS",
+    production: "Control de versiones: GitHub, BackEnd: N/A, FrontEnd: Vercel.",
+    repository: "Privado",
+    deploy: "https://fehpag.com/",
     dispositive: "/responsivo.svg",
     name_dispositive: "Computadora, tablet o smartphone",
   },
