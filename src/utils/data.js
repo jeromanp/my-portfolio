@@ -215,6 +215,19 @@ export const misProyectos = [
     dispositive: "/responsivo.svg",
     name_dispositive: "Computadora, tablet o smartphone",
   },
+  {
+    title: "RoPi Cars",
+    description:
+      "Este proyecto es el resultado de usar la API de Ninjas en su version de Cars, en la cual se hacen solicitudes GET para obtener información de un vehículo de acerdo a la marca, modelo o tipo de combustible.\n\n También fue un proyecto con el cual empecé a usar Typescript como lenguaje de desarrollo lo cual me ayudo a conocer acerca del lenguajes y algunas ventajas en comparación a javascript.\n\nEn el contenido se muestra una Hero que hace mención al proyecto y la sección principal con dos inputs que serán los encargados de filtrar la información de los vehículos. Al hacer click sobre un determinado coche, podemos ver los detalles del vehículo. Cabe mencionar que esta aplicación ocupa una segunda API que muestra las imagenes del coche, sin embargo al ser una API de paga se omitió y se empleó una imagen para todos los vehículos.",
+    video: "",
+    image: "/imagen/api-cars.PNG",
+    tecnologies: "Typescript, Next JS, React JS, Headless UI",
+    production: "Control de versiones: GitHub, BackEnd: N/A, FrontEnd: Vercel.",
+    repository: "https://github.com/jeromanp/api-cars/",
+    deploy: "https://api-cars-pink.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive: "Computadora, tablet o smartphone",
+  },
 ];
 
 export const contactoInfo = {
