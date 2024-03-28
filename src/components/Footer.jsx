@@ -213,9 +213,9 @@ export default function Footer() {
                           <h2 className="text-xl font-bold mb-4 text-white mt-5">
                             ¿Que deseas hacer?
                           </h2>
-                          <a className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" target="_blank" href="https://drive.google.com/file/d/1WJgvn7_TSJ8n791FkRjBWK9lRT8EHvrt/view">Ver CV</a>
+                          <a className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" target="_blank" href="https://drive.google.com/file/d/1WAqDToFDsIHQDofy4oa8iZR5e0v5wPx_/view">Ver CV</a>
 
-                          <a href="/doc/CV-jeromanp.pdf" download="CV_jeromanp.pdf" className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" onClick={closeModal}>Descargar CV</a>
+                          <a href="/doc/JERP.pdf" download="CV-JERP.pdf" className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" onClick={closeModal}>Descargar CV</a>
 
                         </div>
                       )}
