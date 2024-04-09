@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="description"
-          content="Hola soy Jose Eduardo Roman, Desarrollador Web Fullstack con background en Redes y Telecomunicaciones. Ven y conoce mi sitio web. Puedes tener acceso a los proyectos que he realizado en esta nueva etapa profesional en mi vida. "
+          content="Hola soy Jose Eduardo Roman 😃, Desarrollador Web Fullstack con experiencia en Redes y Telecomunicaciones. Conoce mi sitio web y visualiza los proyectos con lo que he aprendido grandes cosas dentro del mundo de TI."
         ></meta>
         <link rel="icon" href="/imagen/logo.png" />
         <meta name="author" content="Jose Eduardo Roman Piña" />
