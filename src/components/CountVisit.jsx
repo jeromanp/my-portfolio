@@ -4,7 +4,7 @@ export default function CountVisit() {
   return (
     <div className="w-full bg-custom-azul">
       <div className="container mx-auto flex items-center justify-center ">
-        <h1 className="text-lime-600 text-xl mr-2 my-5">Visitantes:</h1>
+        <h2 className="text-lime-600 text-xl mr-2 my-5">Visitantes:</h2>
         <a
           href="https://www.contadorvisitasgratis.com"
           title="contador de visitas com"

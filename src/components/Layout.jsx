@@ -31,6 +31,52 @@ export default function Layout({ children }) {
         />
         <meta property="og:image" content="/imagen/logo.png" />
 
+        {/* Schema Markup */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "http://schema.org",
+              "@type": "WebPage",
+              "name": "Jose Eduardo Roman",
+              "description": "Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones. Conoce mi sitio web y visualiza los proyectos con lo que he aprendido grandes cosas dentro del mundo de TI.",
+              "url": "https://www.jeromanp.website",
+              "author": {
+                "@type": "Person",
+                "name": "Jose Eduardo Roman Piña"
+              },
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.jeromanp.website"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Sobre mí",
+                    "item": "https://www.jeromanp.website/sobre-mi"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Proyectos",
+                    "item": "https://www.jeromanp.website/proyectos"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Contacto",
+                    "item": "https://www.jeromanp.website/contacto"
+                  }
+                ]
+              }
+            }
+          `}
+        </script>
+
         {/* TwITTER */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.jeromanp.website" />
@@ -52,7 +98,7 @@ export default function Layout({ children }) {
 
         {/* <!-- Etiqueta meta para idioma --> */}
         <meta httpEquiv="Content-Language" content="es" />
-
+        <meta name="language" content="Spanish" />
         {/* <!-- Etiqueta meta para palabras clave específicas de tu portafolio --> */}
         <meta
           name="keywords"
