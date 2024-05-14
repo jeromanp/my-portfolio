@@ -119,7 +119,7 @@ export default function ContactForm() {
         <div className="">
           <h1
             ref={inViewRef}
-            className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2 w-full md:pl-10 pl-5  ${
+            className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2 w-full md:pl-10 pl-5 hover:text-gray-200  ${
               inView ? "animate__animated animate__zoomInDown" : ""
             }`}
           >
@@ -132,7 +132,7 @@ export default function ContactForm() {
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
-          <p className="mb-2 text-gray-500 text-justify md:mx-10 mx-5">
+          <p className="mb-2 text-gray-500 text-justify md:mx-10 mx-5 hover:text-white">
             {contactoInfo.parrafo_1}
           </p>
         </div>
@@ -141,9 +141,9 @@ export default function ContactForm() {
         <div className="flex flex-col md:flex-row items-center  mx-auto">
           <div className="md:w-1/2 items-center justify-center flex">
             <img
-              src="https://img.freepik.com/foto-gratis/mensaje-chat-linea-concepto-texto-social_53876-167132.jpg?w=740&t=st=1699778394~exp=1699778994~hmac=1b74d4bf279b9f0f1d0abc15ed17022c184f789db13247ceb4c2f042ce0c0922"
+              src="https://kwmjganrkoyleqdillhu.supabase.co/storage/v1/object/public/contacto/an-imaginative-3d-image-simulating-a-contact-form--02KAPfhKSk6DjyQL3kQpPA-4YM_7hZwRJmeJTx8JUxwIQ.jpeg"
               alt="Contactame"
-              className="h-auto max-w-[30%] md:max-w-[70%] rounded-full my-5"
+              className="h-auto max-w-[30%] md:max-w-[70%] rounded-full my-5 hover:opacity-60"
             />
           </div>
           <div
@@ -158,7 +158,7 @@ export default function ContactForm() {
               className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl animate-slideUp"
             >
               <div className="space-y-2">
-                <label className="text-brand-green text-xs font-semibold pl-1 block">
+                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-sky-400">
                   Nombre
                 </label>
 
@@ -184,7 +184,7 @@ export default function ContactForm() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-brand-green text-xs font-semibold pl-1 block">
+                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-sky-400">
                   Email
                 </label>
                 <div className="relative overflow-hidden rounded-lg">
@@ -209,7 +209,7 @@ export default function ContactForm() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-brand-green text-xs font-semibold pl-1 block">
+                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-sky-400">
                   Mensaje
                 </label>
                 <div className="relative overflow-hidden rounded-lg">
