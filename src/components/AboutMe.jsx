@@ -10,7 +10,7 @@ export default function AboutMe() {
       <div className="container mx-auto p-5 sm:p-5 md:p-10 lg:p-20 md:mx-12">
         <h1
           ref={inViewRef}
-          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-10 text-custom-oro_2  ${
+          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-10 text-custom-oro_2 hover:text-gray-200 ${
             inView ? "animate__animated animate__zoomInDown" : ""
           }`}
         >
@@ -24,30 +24,30 @@ export default function AboutMe() {
           }`}
         >
           <div className="md:w-1/2 order-2">
-            <h2 className="text-2xl text-sky-700 ">
+            <h2 className="text-2xl text-sky-700 hover:text-sky-400">
               1. ¿Qué debes saber de mi?
             </h2>
-            <p className="pb-10 pt-9 text-gray-400 text-justify">
+            <p className="pb-10 pt-9 text-gray-400 text-justify hover:text-white">
               {aboutMe.intro}
             </p>
-            <h2 className="text-2xl text-sky-700">
+            <h2 className="text-2xl text-sky-700 hover:text-sky-400">
               2. ¿Cuál es mi formación académica?
             </h2>
-            <p className="pb-10 text-gray-400 text-justify ">
+            <p className="pb-10 text-gray-400 text-justify  hover:text-white">
               {aboutMe.estudio}
             </p>
-            <h2 className="text-2xl text-sky-700">3. ¿Dónde he trabajado?</h2>
-            <p className="pb-10 text-gray-400 text-justify">
+            <h2 className="text-2xl text-sky-700 hover:text-sky-400">3. ¿Dónde he trabajado?</h2>
+            <p className="pb-10 text-gray-400 text-justify hover:text-white">
               {aboutMe.experiencia}
             </p>
-            <h2 className="text-2xl text-sky-700 ">
+            <h2 className="text-2xl text-sky-700 hover:text-sky-400">
               4. ¿Porqué aprender Desarrollo Web?
             </h2>
-            <p className="pb-10 text-gray-400 text-justify">
+            <p className="pb-10 text-gray-400 text-justify hover:text-white">
               {aboutMe.reciente}
             </p>
-            <h2 className="text-2xl text-sky-700 ">5. ¿Cuál es mi objetivo?</h2>
-            <p className="pb-10 pt-10 text-gray-400 text-justify">
+            <h2 className="text-2xl text-sky-700 hover:text-sky-400">5. ¿Cuál es mi objetivo?</h2>
+            <p className="pb-10 pt-10 text-gray-400 text-justify hover:text-white">
               {aboutMe.ahora}
             </p>
           </div>
