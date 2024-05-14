@@ -18,17 +18,17 @@ export default function Intro() {
                 inView ? "animate__animated animate__backInDown" : ""
               }`}
             >
-              <h1 className="text-3xl md:text-6xl text-custom-oro_2 tracking-loose lg:my-5">
+              <h1 className="text-3xl md:text-6xl text-custom-oro_2 tracking-loose lg:my-5 hover:text-gray-200">
                 Hola!!{" "}
               </h1>
               <div className="flex justify-center items-center">
                 <h2 className="text-xl md:text-3xl lg:text-5xl leading-relaxed md:leading-snug mb-2 md:mb-5 lg:ml-8 mx-auto text-center">
-                  Soy {infoPersonal.name}
+                  Soy <b className="hover:text-blue-500">{infoPersonal.name}</b>
                 </h2>
               </div>
 
               <p className="text-sm md:text-base lg:text-xl text-gray-50 mb-4 mx-2 flex text-center justify-center items-center">
-                {infoPersonal.professionOne} e {infoPersonal.professionTwo}
+                <i className="hover:text-green-500">{infoPersonal.professionOne}</i> e <i className="hover:text-green-500">{infoPersonal.professionTwo}</i>
               </p>
               <a
                 href="/contacto"
@@ -87,7 +87,7 @@ export default function Intro() {
               inView ? "animate__animated animate__bounceInLeft" : ""
             }`}
           >
-            <p className=" text-justify text-gray-400 mx-10">
+            <p className=" text-justify text-gray-400 mx-10 hover:text-white">
               <br /> Aquí tendrás la oportunidad de conocer más acerca de mí,
               explorar algunos de los emocionantes proyectos en los que he
               tenido el placer de trabajar y descubrir las habilidades que me
