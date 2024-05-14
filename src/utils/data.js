@@ -66,6 +66,10 @@ export const habilities = [
     skill: "Supabase",
     image: "/svg-habilities/supabase.svg",
   },
+  {
+    skill: "Figma",
+    image: "/svg-habilities/figma.svg",
+  },
 ];
 
 export const gestion = [
