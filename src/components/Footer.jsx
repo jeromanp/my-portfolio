@@ -22,13 +22,13 @@ export default function Footer() {
       <div className="container py-10 lg:py-12 xl:py-14 mx-auto flex justify-center items-center">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
           <div className="flex flex-col gap-6 mx-auto justify-center items-center">
-            <h3 className="nothing text-xl md:text-3xl text-custom-oro font-bold mx-auto">
+            <h3 className="nothing text-xl md:text-3xl text-custom-oro font-bold mx-auto hover:text-custom-azul">
               Jose Eduardo Román
             </h3>
             <div className="w-30 h-30 md:w-60 sm:h-60 sm:w-70 md:h-70 mx-auto flex justify-center items-center">
               <Link href="/">
                 <img
-                  className="h-20 sm:h-30 md:h-40 lg:h-50 w-auto object-cover rounded-full"
+                  className="h-20 sm:h-30 md:h-40 lg:h-50 w-auto object-cover rounded-full hover:opacity-70"
                   src="/imagen/img-me.jpg"
                   alt="me"
                 />
@@ -42,7 +42,7 @@ export default function Footer() {
                 <li className="text-custom-oro">Mapa del sitio</li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-sky-300 transition-colors duration-300"
                     href="/"
                   >
                     Inicio
@@ -50,7 +50,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
+                    className="block py-1.5 text-base text-white transition-colors duration-300 hover:text-sky-300"
                     href="/sobre-mi"
                   >
                     Sobre mi
@@ -58,7 +58,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-sky-300 transition-colors duration-300"
                     href="/habilidades"
                   >
                     Habilidades
@@ -66,7 +66,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-sky-300l transition-colors duration-300"
                     href="/proyectos"
                   >
                     Proyectos
@@ -74,7 +74,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-custom-azul transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-sky-300 transition-colors duration-300"
                     href="/contacto"
                   >
                     Contacto
