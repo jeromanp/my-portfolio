@@ -14,7 +14,7 @@ export default function Proyects() {
       <div className="container mx-auto p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
         <h2
           ref={inViewRef}
-          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2  ${
+          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2 hover:text-gray-200 ${
             inView ? "animate__animated animate__zoomInDown" : ""
           }`}
         >
@@ -27,10 +27,10 @@ export default function Proyects() {
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
-          <p className="mb-2  text-gray-400 text-justify">
+          <p className="mb-2  text-gray-400 text-justify hover:text-white">
             {proyectos.parrafo_1}
           </p>
-          <p className="mb-2  text-gray-400 text-justify ">
+          <p className="mb-2  text-gray-400 text-justify hover:text-white ">
             {proyectos.parrafo_2}
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function Proyects() {
             >
               <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
                 <div className="mb-2 p-2 sm:p-2 md:p-0 lg:p-5 animate-fadeInUp">
-                  <h2 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 cursor-text text-cyan-500">
+                  <h2 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 cursor-text text-cyan-500 hover:text-sky-300">
                     {proyect.title}
                   </h2>
 
@@ -56,17 +56,17 @@ export default function Proyects() {
                     <br />
                     <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
                       Tecnologías utilizadas:{" "}
-                      <span className="text-green-500">
+                      <span className="text-green-500 hover:text-green-300">
                         {proyect.tecnologies}
                       </span>
                     </p>
                     <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
                       Servicios de despliegue:{" "}
-                      <span className="text-red-500">{proyect.production}</span>
+                      <span className="text-red-500 hover:text-red-300">{proyect.production}</span>
                     </p>
                     <p>
                       Visible para estos dispositivos:{" "}
-                      <span className="text-purple-400">{proyect.name_dispositive}</span>
+                      <span className="text-purple-400 hover:text-purple-300">{proyect.name_dispositive}</span>
                       <img
                         src={proyect.dispositive}
                         alt="dispositivo"
