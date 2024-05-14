@@ -36,7 +36,9 @@ export default function AboutMe() {
             <p className="pb-10 text-gray-400 text-justify  hover:text-white">
               {aboutMe.estudio}
             </p>
-            <h2 className="text-2xl text-sky-700 hover:text-sky-400">3. ¿Dónde he trabajado?</h2>
+            <h2 className="text-2xl text-sky-700 hover:text-sky-400">
+              3. ¿Dónde he trabajado?
+            </h2>
             <p className="pb-10 text-gray-400 text-justify hover:text-white">
               {aboutMe.experiencia}
             </p>
@@ -46,17 +48,19 @@ export default function AboutMe() {
             <p className="pb-10 text-gray-400 text-justify hover:text-white">
               {aboutMe.reciente}
             </p>
-            <h2 className="text-2xl text-sky-700 hover:text-sky-400">5. ¿Cuál es mi objetivo?</h2>
+            <h2 className="text-2xl text-sky-700 hover:text-sky-400">
+              5. ¿Cuál es mi objetivo?
+            </h2>
             <p className="pb-10 pt-10 text-gray-400 text-justify hover:text-white">
               {aboutMe.ahora}
             </p>
           </div>
           <div className="md:w-1/2 flex flex-col justify-center items-center order-1 md:order-2 lg:max-w-[70%]">
-            <img
-              src="/imagen/img-me.jpg"
-              alt=""
-              className="w-full md:w-[70vw] h-auto p-10 justify-center hidden md:inline"
-            />
+              <img
+                src="/imagen/me.jpg"
+                alt=""
+                className="w-full md:w-[70vw] h-auto p-10 justify-center hidden md:inline "
+              />
             <img
               src="/imagen/hero2.png"
               alt=""
