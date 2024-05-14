@@ -47,8 +47,8 @@ export default function Intro() {
                 >
                   <img
                     // style={{ width: "30vh", height: "auto" }}
-                    className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-20 lg:w-40 md:w-40 hidden md:inline"
-                    src="/imagen/hero2.png"
+                    className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-20 lg:w-40 md:w-40 hidden md:inline rounded-3xl hover:rounded-full"
+                    src="/imagen/hero2.jpeg"
                     alt="Developer"
                   />
                 </div>
@@ -60,7 +60,7 @@ export default function Intro() {
                 >
                   <img
                     // style={{ width: "35vh", height: "auto" }}
-                    className="h-auto object-cover max-w-full rounded-full max-h-full pt-4 lg:my-5 lx:-my-20 w-24 lg:w-48 xl:w-60 md:w-40 inline"
+                    className="h-auto object-cover max-w-full rounded-full max-h-full pt-4 lg:my-5 lx:-my-20 w-24 lg:w-48 xl:w-60 md:w-40 inline hover:opacity-60 "
                     src="/imagen/img-me.jpg"
                     alt="JERP"
                   />
@@ -73,8 +73,8 @@ export default function Intro() {
                 >
                   <img
                     // style={{ width: "30vh", height: "auto" }}
-                    className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-24 lg:w-40 md:w-40 hidden md:inline"
-                    src="/imagen/hero1.png"
+                    className="mx-4 my-7 h-auto object-cover max-w-full max-h-full pt-4 shadow-lg w-24 lg:w-40 md:w-40 hidden md:inline rounded-3xl hover:rounded-full"
+                    src="/imagen/hero1.jpeg"
                     alt="Telecom"
                   />
                 </div>
