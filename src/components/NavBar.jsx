@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 const navigation = [
-  { name: "Inicio", href: "/", current: false },
+  // { name: "Inicio", href: "/", current: false },
   { name: "Sobre mí", href: "/sobre-mi", current: false },
   { name: "Habilidades", href: "/habilidades", current: false },
   { name: "Proyectos", href: "/proyectos", current: false },
@@ -20,7 +20,7 @@ export default function NavBar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-custom-azul sticky quick top-0 z-50 w-full border-b-2 border-custom-oro_2"
+      className="bg-custom-oro sticky quick top-0 z-50 w-full border-b-2 border-custom-oro_2"
     >
       {({ open }) => (
         <>
@@ -44,8 +44,8 @@ export default function NavBar() {
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
                     <img
-                      className="hidden w-auto sm:inline md:w-40 lg:w-60 lg:block my-1"
-                      src="/imagen/logo2.PNG"
+                      className="hidden w-auto sm:inline md:w-40 lg:w-50 lg:block my-1"
+                      src="/imagen/logon.PNG"
                       alt="logo"
                     />
                   </Link>
@@ -53,7 +53,7 @@ export default function NavBar() {
 
                 <div className=" flex items-center">
                   <div className=" container hidden md:inline items-center sm:ml-20 sm:block">
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-40">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
@@ -61,7 +61,7 @@ export default function NavBar() {
                           className={classNames(
                             item.current
                               ? "bg-gray-900 text-white"
-                              : "text-custom-oro hover:bg-gray-700 hover:text-white",
+                              : "text-custom-azul hover:bg-custom-azul hover:text-white",
                             "rounded-md px-1 lg:px-2 py-1 text-md lg:text-xl font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
