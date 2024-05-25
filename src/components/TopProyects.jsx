@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function TopProyects() {
   return (
     // <!-- Container for demo purpose -->
-    <div className="bg-custom-oro_3">
+    <div className="bg-custom-oro_3 py-12">
       <div className="container py-2 mx-auto md:px-6 ">
         {/* <!-- Section: Design Block --> */}
         <section className="mb-32 text-center lg:text-left">
