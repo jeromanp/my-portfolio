@@ -5,7 +5,7 @@ export default function TopProyects() {
   return (
     // <!-- Container for demo purpose -->
     <div className="bg-custom-oro_3">
-      <div className="container py-10 mx-auto md:px-6 ">
+      <div className="container py-2 mx-auto md:px-6 ">
         {/* <!-- Section: Design Block --> */}
         <section className="mb-32 text-center lg:text-left">
           <h2 className="mb-12 text-center text-3xl font-bold text-custom-azul">
