@@ -45,7 +45,7 @@ export default function NavBar() {
                   <Link href="/">
                     <img
                       className="hidden w-auto sm:inline md:w-40 lg:w-50 lg:block my-1"
-                      src="/imagen/logon.PNG"
+                      src="/imagen/logon.png"
                       alt="logo"
                     />
                   </Link>
