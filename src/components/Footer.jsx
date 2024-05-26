@@ -42,7 +42,7 @@ export default function Footer() {
                 <li className="text-custom-oro">Mapa del sitio</li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-sky-300 transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-custom-oro transition-colors duration-300"
                     href="/"
                   >
                     Inicio
@@ -50,7 +50,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white transition-colors duration-300 hover:text-sky-300"
+                    className="block py-1.5 text-base text-white transition-colors duration-300 hover:text-custom-oro"
                     href="/sobre-mi"
                   >
                     Sobre mi
@@ -58,7 +58,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-sky-300 transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-custom-oro transition-colors duration-300"
                     href="/habilidades"
                   >
                     Habilidades
@@ -66,7 +66,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-sky-300l transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-custom-oro transition-colors duration-300"
                     href="/proyectos"
                   >
                     Proyectos
@@ -74,7 +74,7 @@ export default function Footer() {
                 </li>
                 <li className="border-b-2 text-custom-blanco">
                   <a
-                    className="block py-1.5 text-base text-white hover:text-sky-300 transition-colors duration-300"
+                    className="block py-1.5 text-base text-white hover:text-custom-oro transition-colors duration-300"
                     href="/contacto"
                   >
                     Contacto
