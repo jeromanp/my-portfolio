@@ -7,7 +7,7 @@ export default function Hero() {
     triggerOnce: true, // Solo activa la animación una vez
   });
   return (
-    <section className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[290px] px-5 box-border bg-[url('/imagen/hero.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[1] text-center text-37xl text-white font-h3 mq450:pt-[122px] mq450:pb-[122px] mq450:box-border mq1125:pt-[188px] mq1125:pb-[188px] mq1125:box-border">
+    <section className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[100px] px-5 box-border bg-[url('/imagen/hero.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[1] text-center text-37xl text-white font-h3 mq450:pt-[122px] mq450:pb-[122px] mq450:box-border mq1125:pt-[188px] mq1125:pb-[188px] mq1125:box-border">
       <div className="w-[768px] flex flex-col items-center justify-start gap-[24px] max-w-full">
         <div
           ref={inViewRef}
