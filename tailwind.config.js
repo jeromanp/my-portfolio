@@ -23,6 +23,29 @@ module.exports = {
           oro_3:"#d3ceb9",
         },
       },
+      screens: {
+        mq1350: {
+          raw: "screen and (max-width: 1350px)",
+        },
+        mq1275: {
+          raw: "screen and (max-width: 1275px)",
+        },
+        mq1125: {
+          raw: "screen and (max-width: 1125px)",
+        },
+        mq1100: {
+          raw: "screen and (max-width: 1100px)",
+        },
+        mq800: {
+          raw: "screen and (max-width: 800px)",
+        },
+        mq750: {
+          raw: "screen and (max-width: 750px)",
+        },
+        mq450: {
+          raw: "screen and (max-width: 450px)",
+        },
+      },
     },
   },
   plugins: [],
