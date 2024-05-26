@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 const navigation = [
-  // { name: "Inicio", href: "/", current: false },
+  { name: "Inicio", href: "/", current: false },
   { name: "Sobre mí", href: "/sobre-mi", current: false },
   { name: "Habilidades", href: "/habilidades", current: false },
   { name: "Proyectos", href: "/proyectos", current: false },
@@ -30,7 +30,7 @@ export default function NavBar() {
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-custom-oro hover:bg-custom-oro hover:text-custom-azul focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-custom-azul hover:bg-custom-oro hover:text-custom-azul focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -53,7 +53,7 @@ export default function NavBar() {
 
                 <div className=" flex items-center">
                   <div className=" container hidden md:inline items-center sm:ml-20 sm:block">
-                    <div className="flex space-x-40">
+                    <div className="flex space-x-4 lg:space-x-28">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
@@ -86,7 +86,7 @@ export default function NavBar() {
                   className={classNames(
                     item.current
                       ? "bg-gray-900 text-white"
-                      : "text-custom-oro hover-bg-gray-700 hover-text-white",
+                      : "text-custom-azul hover-bg-gray-700 hover-text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
