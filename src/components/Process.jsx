@@ -7,7 +7,7 @@ export default function Process() {
   // };
 
   return (
-    <div className="quick flex flex-col justify-center items-center min-h-screen">
+    <div className="quick flex flex-col justify-center items-center min-h-screen bg-custom-oro_3">
       <div className="p-10">
         <h1 className="indie text-5xl sm:text-3x1 md:text-4x1 lg:text-4x1 m text-custom-oro_2 font-bold text-center mb-10 sm:mb-12 md:mb-20 lg:mb-20">
           En desarrollo...

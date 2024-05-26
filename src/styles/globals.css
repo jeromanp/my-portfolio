@@ -291,11 +291,11 @@ h2 {
 }
 
 .form textarea::placeholder {
-  color: #e4c560;
+  color: #1057c2;
 }
 
 .form input::placeholder {
-  color: #e4c560;
+  color: #1057c2;
 }
 
 .fancy {
@@ -336,7 +336,7 @@ h2 {
 
 .fancy:hover {
   color: white;
-  background: #c8740d;
+  background: #0617a8;
 }
 
 .error {

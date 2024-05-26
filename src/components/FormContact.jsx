@@ -114,12 +114,12 @@ export default function ContactForm() {
     gsap.to(`[name=${e.target.name}] + .bigdot`, { scale: 0, duration: 0.2 });
 
   return (
-    <div className="quick w-full mx-auto items-center justify-between font-mono text-sm bg-custom-azul">
+    <div className="quick w-full mx-auto items-center justify-between font-mono text-sm bg-custom-oro_3">
       <div className="mx-auto md:container container pt-10 pb-10">
         <div className="">
           <h1
             ref={inViewRef}
-            className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-oro_2 w-full md:pl-10 pl-5 hover:text-gray-200  ${
+            className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul w-full md:pl-10 pl-5 hover:text-gray-200  ${
               inView ? "animate__animated animate__zoomInDown" : ""
             }`}
           >
@@ -132,7 +132,7 @@ export default function ContactForm() {
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
-          <p className="mb-2 text-gray-500 text-justify md:mx-10 mx-5 hover:text-white">
+          <p className="mb-2 text-white text-justify md:mx-10 mx-5 hover:text-gray-500">
             {contactoInfo.parrafo_1}
           </p>
         </div>
@@ -158,7 +158,7 @@ export default function ContactForm() {
               className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl animate-slideUp"
             >
               <div className="space-y-2">
-                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-sky-400">
+                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-custom-azul">
                   Nombre
                 </label>
 
@@ -166,7 +166,7 @@ export default function ContactForm() {
                   <input
                     id="nombre"
                     placeholder="Ingresa tu nombre"
-                    className="bg-transparent text-brand-green border-2 p-3 
+                    className="bg-transparent text-red-500 border-2 p-3 
 											relative z-10 border-brand-green w-full rounded-lg 
 											focus:outline-none focus:text-white font-medium
 											focus:placeholder:text-white focus:placeholder:text-opacity-70"
@@ -184,7 +184,7 @@ export default function ContactForm() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-sky-400">
+                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-custom-azul">
                   Email
                 </label>
                 <div className="relative overflow-hidden rounded-lg">
@@ -209,7 +209,7 @@ export default function ContactForm() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-sky-400">
+                <label className="text-brand-green text-xs font-semibold pl-1 block hover:text-custom-azul">
                   Mensaje
                 </label>
                 <div className="relative overflow-hidden rounded-lg">
@@ -233,8 +233,8 @@ export default function ContactForm() {
               </div>
 
               <div className="mt-6 flex justify-end">
-                <button className="fancy">
-                  <span className="py-1">Enviar</span>
+                <button className="fancy rounded-xl">
+                  <span className="py-1 text-base">Enviar</span>
                 </button>
               </div>
             </form>
