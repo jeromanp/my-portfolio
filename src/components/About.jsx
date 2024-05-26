@@ -22,7 +22,7 @@ export default function About() {
                     inView ? "animate__animated animate__backInDown" : ""
                   }`}
                 >
-                  <div className="self-stretch relative text-custom-azul text-justify quick">
+                  <div className="self-stretch relative text-custom-azul text-justify  md:text-xl quick">
                     <p className="m-0">
                       Soy Ingeniero en Telecomunicaciones, Sistemas y
                       Electrónica con especialización en Redes e
