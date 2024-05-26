@@ -1,18 +1,29 @@
 import React from "react";
 import Link from "next/link";
+import { useInView } from "react-intersection-observer";
+
 
 export default function TopProyects() {
+  const [inViewRef, inView] = useInView({
+    triggerOnce: true, // Solo activa la animación una vez
+  });
   return (
     // <!-- Container for demo purpose -->
     <div className="bg-custom-oro_3 py-12">
-      <div className="container py-2 mx-auto md:px-6 ">
+   <div
+              ref={inViewRef}
+              className={`container py-2 mx-auto md:px-6  ${
+                inView ? "animate__animated animate__backInDown" : ""
+              }`}
+            >
+      
         {/* <!-- Section: Design Block --> */}
         <section className="mb-32 text-center lg:text-left">
-          <h2 className="mb-12 text-center text-3xl font-bold text-custom-azul">
+          <h2 className="indie mb-12 text-center text-3xl font-bold text-custom-azul">
             Proyectos destacados
           </h2>
 
-          <div className="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12">
+          <div className="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12 py-5">
             {/* UNO */}
             <div
               className="mb-6 block rounded-lg shadow-[0_2px_15px_-3px_rgba(219, 8, 8, 0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-custom-azul_2 lg:mb-0"
