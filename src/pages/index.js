@@ -9,7 +9,7 @@ import CTA from "@/components/CTA";
 export default function Home() {
   return (
     <Layout>
-      {/* <CountVisit /> */}
+      <CountVisit />
       <Hero />
       <About />
       <Experence />
