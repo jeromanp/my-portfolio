@@ -7,11 +7,11 @@ export default function Habilidades() {
     triggerOnce: true, // Solo activa la animación una vez
   });
   return (
-    <div className="w-full mx-auto items-center justify-between text-sm  bg-custom-oro_3">
+    <div className="w-full mx-auto items-center justify-between text-sm  bg-custom-oro_3 py-5">
       <div className="container mx-auto p-5 sm:p-5 md:p-10 lg:p-20">
         <h1
           ref={inViewRef}
-          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul hover:text-gray-200  ${
+          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul hover:text-gray-200 py-5 ${
             inView ? "animate__animated animate__zoomInDown" : ""
           }`}
         >
