@@ -114,12 +114,12 @@ export default function ContactForm() {
     gsap.to(`[name=${e.target.name}] + .bigdot`, { scale: 0, duration: 0.2 });
 
   return (
-    <div className="quick w-full mx-auto items-center justify-between font-mono text-sm bg-custom-oro_3">
+    <div className="quick w-full mx-auto items-center justify-between font-mono text-sm bg-custom-oro_3 py-5 ">
       <div className="mx-auto md:container container pt-10 pb-10">
         <div className="">
           <h1
             ref={inViewRef}
-            className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul w-full md:pl-10 pl-5 hover:text-gray-200  ${
+            className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul w-full md:pl-10 pl-5 hover:text-gray-200 py-5  ${
               inView ? "animate__animated animate__zoomInDown" : ""
             }`}
           >
