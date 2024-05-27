@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="container py-10 lg:py-12 xl:py-14 mx-auto flex justify-center items-center">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
           <div className="flex flex-col gap-6 mx-auto justify-center items-center">
-            <h3 className="nothing text-xl md:text-3xl text-custom-oro font-bold mx-auto hover:text-custom-azul">
+            <h3 className="nothing text-xl md:text-3xl text-custom-oro font-bold mx-auto hover:text-white">
               Jose Eduardo Román
             </h3>
             <div className="w-30 h-30 md:w-60 sm:h-60 sm:w-70 md:h-70 mx-auto flex justify-center items-center">
