@@ -12,7 +12,7 @@ export default function Hero() {
         <div
           ref={inViewRef}
           className={`self-stretch flex flex-col items-center justify-start gap-[24px] ${
-            inView ? "animate__animated animate__backInDown" : ""
+            inView ? "animate__animated animate__bounceInDown" : ""
           }`}
         >
           <h1 className="m-0 self-stretch relative text-inherit font-h3 font-inherit mq800:text-26xl mq450:text-15xl indie text-4xl lg:text-6xl">
@@ -23,9 +23,14 @@ export default function Hero() {
             por crear soluciones digitales innovadoras.
           </div>
         </div>
-        <div className="flex flex-row items-start justify-start pt-4 px-0 pb-0 gap-[16px]">
+        <div
+          ref={inViewRef}
+          className={`flex flex-row items-start justify-start pt-4 px-0 pb-0 gap-[16px] ${
+            inView ? "animate__animated animate__backInLeft" : ""
+          }`}
+        >
           <Link href="/contacto">
-            <button className="cursor-pointer py-2.5 px-[23px]  flex flex-row items-center justify-center border-[1px] border-solid border-white hover:bg-custom-oro hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-200">
+            <button className="cursor-pointer py-2.5 px-[23px] flex flex-row items-center justify-center border-[1px] border-solid border-white hover:bg-custom-oro hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-200">
               <div className="relative text-base font-btn text-white text-left inline-block min-w-[65px]">
                 Contacto
               </div>

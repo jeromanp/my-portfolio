@@ -6,7 +6,7 @@ export default function AboutMe() {
     triggerOnce: true, // Solo activa la animación una vez
   });
   return (
-    <div className="w-full flex items-center justify-center font-mono text-sm bg-custom-oro_3 mx-auto">
+    <div className="w-full flex items-center justify-center font-mono text-sm bg-custom-oro_3 mx-auto py-5">
       <div className="container mx-auto p-5 sm:p-5 md:p-10 lg:p-20 md:mx-12">
         <h1
           ref={inViewRef}
