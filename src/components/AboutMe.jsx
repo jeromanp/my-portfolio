@@ -33,25 +33,25 @@ export default function AboutMe() {
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               2. ¿Cuál es mi formación académica?
             </h2>
-            <p className="pb-10 text-white text-justify  hover:gray-500">
+            <p className="pb-10 text-white text-justify  hover:text-gray-500">
               {aboutMe.estudio}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               3. ¿Dónde he trabajado?
             </h2>
-            <p className="pb-10  text-white text-justify  hover:gray-500">
+            <p className="pb-10  text-white text-justify  hover:text-gray-500">
               {aboutMe.experiencia}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               4. ¿Porqué aprender Desarrollo Web?
             </h2>
-            <p className="pb-10  text-white text-justify  hover:gray-500">
+            <p className="pb-10  text-white text-justify  hover:text-gray-500">
               {aboutMe.reciente}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               5. ¿Cuál es mi objetivo?
             </h2>
-            <p className="pb-10 pt-10  text-white text-justify  hover:gray-500">
+            <p className="pb-10 pt-10  text-white text-justify  hover:text-gray-500">
               {aboutMe.ahora}
             </p>
           </div>
@@ -64,7 +64,7 @@ export default function AboutMe() {
             <img
               src="/imagen/hero2.png"
               alt=""
-              className="w-full md:w-[70vw] h-auto p-10 justify-center"
+              className="w-full md:w-[70vw] h-auto p-10 justify-center hover:opacity-70"
             />
           </div>
         </div>

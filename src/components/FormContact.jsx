@@ -147,12 +147,14 @@ export default function ContactForm() {
             />
           </div>
           <div
+          id="email"
             ref={inViewRef}
             className={`quick text-xs md:text-lg lg:text-xl md:w-1/2 w-full  ${
               inView ? "animate__animated animate__lightSpeedInLeft" : ""
             }`}
           >
             <form
+            
               ref={input}
               onSubmit={handleSubmit}
               className="form mx-auto mt-5 md:mt-10 lg:mt-20 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl animate-slideUp"

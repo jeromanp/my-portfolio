@@ -15,7 +15,7 @@ export default function Proyects() {
         <h2
           ref={inViewRef}
           className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul hover:text-gray-200 py-5 ${
-            inView ? "animate__animated animate__zoomInDown" : ""
+            inView ? "animate__animated animate__lightSpeedInLeft" : ""
           }`}
         >
           Proyectos
@@ -24,7 +24,7 @@ export default function Proyects() {
         <div
           ref={inViewRef}
           className={`quick text-xs md:text-lg lg:text-lg whitespace-pre-line md:mx-12 ${
-            inView ? "animate__animated animate__jackInTheBox" : ""
+            inView ? "animate__animated animate__lightSpeedInLeft" : ""
           }`}
         >
           <p className="mb-2  text-white text-justify hover:text-gray-500">
@@ -113,7 +113,7 @@ export default function Proyects() {
 
                     <Link href={proyect.repository} target="_blank">
                       <button
-                        className="bg-custom-oro_3 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                        className="bg-custom-oro mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
                         rel="noreferrer"
                       >
                         <span className="text-sm">Repositorio</span>

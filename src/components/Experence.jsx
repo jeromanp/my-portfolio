@@ -65,7 +65,7 @@ export default function Experence() {
                 </Link>
               </button>
               <div className="flex flex-row items-center justify-center gap-[5px]">
-                <Link href="/sobre-mi">
+                <Link href="/habilidades">
                   <div className="flex items-center">
                     <div className="relative inline-block min-w-[10px] text-custom-azul">
                       Ver más
