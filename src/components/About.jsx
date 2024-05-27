@@ -19,7 +19,7 @@ export default function About() {
                 <div
                   ref={inViewRef}
                   className={`self-stretch flex flex-col items-start justify-start gap-[32px] mq800:gap-[16px] ${
-                    inView ? "animate__animated animate__backInDown" : ""
+                    inView ? "animate__animated animate__bounceInRight" : ""
                   }`}
                 >
                   <div className="self-stretch relative text-custom-azul text-justify  md:text-xl quick">
@@ -40,7 +40,12 @@ export default function About() {
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-row items-center justify-start py-8 px-0 gap-[24px] text-base font-btn">
+                <div
+                  ref={inViewRef}
+                  className={`flex flex-row items-center justify-start py-8 px-0 gap-[24px] text-base font-btn ${
+                    inView ? "animate__animated animate__backInLeft" : ""
+                  }`}
+                >
                   <Link href="/contacto">
                     <button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] flex flex-row items-center justify-center border-[1px] border-solid border-black hover:box-border hover:border-[1px] hover:border-solid hover:bg-custom-oro hover:text-white">
                       <div className="relative text-base font-btn text-custom-azul text-left inline-block min-w-[86px]">
@@ -72,7 +77,7 @@ export default function About() {
           <div
             ref={inViewRef}
             className={`flex mx-auto items-center ${
-              inView ? "animate__animated animate__backInDown" : ""
+              inView ? "animate__animated animate__bounceInRight" : ""
             }`}
           >
             <img
