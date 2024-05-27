@@ -9,12 +9,12 @@ import CTA from "@/components/CTA";
 export default function Home() {
   return (
     <Layout>
-      <CountVisit />
       <Hero />
       <About />
       <Experence />
       <TopProyects />
       <CTA image="/imagen/cta.jpeg" title="Contáctame" buttonText="Enviar email" href="/contacto" />
+      <CountVisit />
     </Layout>
   );
 }
