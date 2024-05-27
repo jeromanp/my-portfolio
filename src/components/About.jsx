@@ -46,7 +46,7 @@ export default function About() {
                     inView ? "animate__animated animate__backInLeft" : ""
                   }`}
                 >
-                  <Link href="/contacto">
+                  <Link href="/contacto/#email">
                     <button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] flex flex-row items-center justify-center border-[1px] border-solid border-black hover:box-border hover:border-[1px] hover:border-solid hover:bg-custom-oro hover:text-white">
                       <div className="relative text-base font-btn text-custom-azul text-left inline-block min-w-[86px]">
                         Contáctame
@@ -56,7 +56,7 @@ export default function About() {
 
                   <div className="flex flex-row items-center justify-center gap-[8px]">
                     <div className="relative inline-block min-w-[59px]">
-                      <Link href="/proyectos">
+                      <Link href="/sobre-mi">
                         <div className="flex items-center">
                           <div className="relative inline-block min-w-[20px] text-custom-azul">
                             Ver más

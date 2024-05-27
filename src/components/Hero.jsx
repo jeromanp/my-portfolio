@@ -29,7 +29,7 @@ export default function Hero() {
             inView ? "animate__animated animate__backInLeft" : ""
           }`}
         >
-          <Link href="/contacto">
+          <Link href="/contacto/#email">
             <button className="cursor-pointer py-2.5 px-[23px] flex flex-row items-center justify-center border-[1px] border-solid border-white hover:bg-custom-oro hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-200">
               <div className="relative text-base font-btn text-white text-left inline-block min-w-[65px]">
                 Contacto
