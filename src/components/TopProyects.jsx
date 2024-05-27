@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 
-
 export default function TopProyects() {
   const [inViewRef, inView] = useInView({
     triggerOnce: true, // Solo activa la animación una vez
@@ -10,13 +9,12 @@ export default function TopProyects() {
   return (
     // <!-- Container for demo purpose -->
     <div className="bg-custom-oro_3 py-12">
-   <div
-              ref={inViewRef}
-              className={`container py-2 mx-auto md:px-6  ${
-                inView ? "animate__animated animate__backInDown" : ""
-              }`}
-            >
-      
+      <div
+        ref={inViewRef}
+        className={`container py-2 mx-auto md:px-6  ${
+          inView ? "animate__animated animate__lightSpeedInRight" : ""
+        }`}
+      >
         {/* <!-- Section: Design Block --> */}
         <section className="mb-32 text-center lg:text-left">
           <h2 className="indie mb-12 text-center text-3xl font-bold text-custom-azul">
@@ -56,7 +54,7 @@ export default function TopProyects() {
                   prestan el servicio.
                 </p>
                 <Link
-                  href="#!"
+                  href="/proyectos/#Hostería Hueney Ruca"
                   data-te-ripple-init
                   data-te-ripple-color="light"
                   className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#df9a06] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)]"
@@ -97,7 +95,7 @@ export default function TopProyects() {
                   sección de cuestionario.
                 </p>
                 <a
-                  href="#!"
+                  href="/proyectos/#IziQ Study"
                   data-te-ripple-init
                   data-te-ripple-color="light"
                   className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(208, 221, 213, 0.3),0_4px_18px_0_rgba(202,148,59,0.5)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)]"
@@ -137,7 +135,7 @@ export default function TopProyects() {
                   arquitéctónicos.
                 </p>
                 <a
-                  href="#!"
+                  href="/proyectos/#FEHPAG"
                   data-te-ripple-init
                   data-te-ripple-color="light"
                   className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(202,148,59,0.5)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(202,148,59,0.5),0_4px_18px_0_rgba(59,113,202,0.1)]"
