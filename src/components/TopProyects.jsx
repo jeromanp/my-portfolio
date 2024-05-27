@@ -29,7 +29,7 @@ export default function TopProyects() {
               data-te-ripple-color="light"
             >
               <div className="relative overflow-hidden bg-cover bg-no-repeat">
-                <img src="/imagen/Hueney.png" className="w-full rounded-t-lg" />
+                <img src="/imagen/Hueney.PNG" className="w-full rounded-t-lg" />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
                 </a>
@@ -71,7 +71,7 @@ export default function TopProyects() {
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
-                <img src="/imagen/IziQ.png" className="w-full rounded-t-lg" />
+                <img src="/imagen/IziQ.PNG" className="w-full rounded-t-lg" />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
                 </a>
@@ -111,7 +111,7 @@ export default function TopProyects() {
                 data-te-ripple-init
                 data-te-ripple-color="light"
               >
-                <img src="/imagen/fehpag.png" className="w-full rounded-t-lg" />
+                <img src="/imagen/fehpag.PNG" className="w-full rounded-t-lg" />
                 <a href="#!">
                   <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
                 </a>
