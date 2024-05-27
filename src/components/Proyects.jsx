@@ -46,7 +46,10 @@ export default function Proyects() {
               className="mx-auto container flex flex-col sm:flex-rom md:flex-row items-center justify-center h-full p-1 sm:p-5 md:p-10 lg:p-10"
               key={i}
             >
-              <div className="md:w-1/2 sm:w-[150%] xs:w-[150%]">
+              <div
+                id={proyect.title}
+                className="md:w-1/2 sm:w-[150%] xs:w-[150%]"
+              >
                 <div className="mb-2 p-2 sm:p-2 md:p-0 lg:p-5 animate-fadeInUp">
                   <h2 className="indie text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold mb-4 cursor-text text-custom-azul hover:text-custom-azul_2">
                     {proyect.title}
@@ -62,11 +65,15 @@ export default function Proyects() {
                     </p>
                     <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
                       Servicios de despliegue:{" "}
-                      <span className="text-red-700 hover:text-red-900">{proyect.production}</span>
+                      <span className="text-red-700 hover:text-red-900">
+                        {proyect.production}
+                      </span>
                     </p>
                     <p>
                       Visible para estos dispositivos:{" "}
-                      <span className="text-purple-700 hover:text-purple-900">{proyect.name_dispositive}</span>
+                      <span className="text-purple-700 hover:text-purple-900">
+                        {proyect.name_dispositive}
+                      </span>
                       <img
                         src={proyect.dispositive}
                         alt="dispositivo"
