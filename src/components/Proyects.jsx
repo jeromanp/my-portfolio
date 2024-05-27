@@ -10,11 +10,11 @@ export default function Proyects() {
   });
 
   return (
-    <div className="z-0 w-90 items-center justify-between font-mono text-sm bg-custom-oro_3 mx-auto">
+    <div className="z-0 w-90 items-center justify-between font-mono text-sm bg-custom-oro_3 mx-auto py-5">
       <div className="container mx-auto p-5 sm:p-5 md:p-10 lg:p-20 xl:p-20">
         <h2
           ref={inViewRef}
-          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul hover:text-gray-200 ${
+          className={`nothing text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-custom-azul hover:text-gray-200 py-5 ${
             inView ? "animate__animated animate__zoomInDown" : ""
           }`}
         >
