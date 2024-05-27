@@ -23,7 +23,7 @@ export default function Experence() {
           <div
             ref={inViewRef}
             className={` quick self-stretch flex flex-col items-start justify-start gap-[48px] text-xl font-h3 mq800:gap-[24px] ${
-              inView ? "animate__animated animate__backInDown" : ""
+              inView ? "animate__animated animate__flipInX" : ""
             }`}
           >
             <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[32px] mq800:gap-[16px]">
@@ -48,12 +48,20 @@ export default function Experence() {
                 svg="/css.svg"
               />
             </div>
-            <div className="flex flex-row items-center justify-start pt-4 px-0 pb-0 gap-[24px] text-left text-lg font-paragraph">
+            <div
+              ref={inViewRef}
+              className={`flex flex-row items-center justify-start pt-4 px-0 pb-0 gap-[24px] text-left text-lg font-paragraph ${
+                inView ? "animate__animated animate__backInLeft" : ""
+              }`}
+            >
               <button className="cursor-pointer py-1.5 px-[23px] bg-[transparent] flex flex-row items-center justify-center border-[1px] border-solid border-black hover:bg-darkslategray-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100 hover:bg-custom-oro">
-                <Link target="_blank" href="https://drive.google.com/file/d/1WAqDToFDsIHQDofy4oa8iZR5e0v5wPx_/view">
-                <div className="relative text-lg font-paragraph text-custom-azul text-left inline-block min-w-[54px]">
-                  Ver CV
-                </div>
+                <Link
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1WAqDToFDsIHQDofy4oa8iZR5e0v5wPx_/view"
+                >
+                  <div className="relative text-lg font-paragraph text-custom-azul text-left inline-block min-w-[54px]">
+                    Ver CV
+                  </div>
                 </Link>
               </button>
               <div className="flex flex-row items-center justify-center gap-[5px]">
