@@ -19,7 +19,7 @@ export default function Habilidades() {
         </h1>
         <div
           ref={inViewRef}
-          className={`quick text-xs md:text-lg lg:text-lg  ${
+          className={`quick text-xl md:text-lg lg:text-lg  ${
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
