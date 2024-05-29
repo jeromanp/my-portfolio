@@ -19,7 +19,7 @@ export default function AboutMe() {
 
         <div
           ref={inViewRef}
-          className={`quick text-xs md:text-lg lg:text-lg whitespace-pre-line flex flex-col md:flex-row  ${
+          className={`quick text-xl md:text-lg lg:text-lg whitespace-pre-line flex flex-col md:flex-row  ${
             inView ? "animate__animated animate__backInLeft" : ""
           }`}
         >
