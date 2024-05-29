@@ -27,31 +27,31 @@ export default function AboutMe() {
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               1. ¿Qué debes saber de mi?
             </h2>
-            <p className="pb-10 pt-9 text-white text-justify hover:text-gray-500">
+            <p className="pb-10 pt-9 text-custom-azul text-justify  md:text-xl quick hover:text-gray-500">
               {aboutMe.intro}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               2. ¿Cuál es mi formación académica?
             </h2>
-            <p className="pb-10 text-white text-justify  hover:text-gray-500">
+            <p className="pb-10 text-custom-azul text-justify  md:text-xl quick  hover:text-gray-500">
               {aboutMe.estudio}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               3. ¿Dónde he trabajado?
             </h2>
-            <p className="pb-10  text-white text-justify  hover:text-gray-500">
+            <p className="pb-10  text-custom-azul text-justify  md:text-xl quick  hover:text-gray-500">
               {aboutMe.experiencia}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               4. ¿Porqué aprender Desarrollo Web?
             </h2>
-            <p className="pb-10  text-white text-justify  hover:text-gray-500">
+            <p className="pb-10  text-custom-azul text-justify  md:text-xl quick  hover:text-gray-500">
               {aboutMe.reciente}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
               5. ¿Cuál es mi objetivo?
             </h2>
-            <p className="pb-10 pt-10  text-white text-justify  hover:text-gray-500">
+            <p className="pb-10 pt-10  text-custom-azul text-justify  md:text-xl quick hover:text-gray-500">
               {aboutMe.ahora}
             </p>
           </div>
