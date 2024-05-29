@@ -27,10 +27,10 @@ export default function Proyects() {
             inView ? "animate__animated animate__lightSpeedInLeft" : ""
           }`}
         >
-          <p className="mb-2  text-white text-justify hover:text-gray-500">
+          <p className="mb-2  text-custom-azul text-justify  md:text-xl quick hover:text-gray-500">
             {proyectos.parrafo_1}
           </p>
-          <p className="mb-2  text-white text-justify hover:text-gray-500">
+          <p className="mb-2  text-custom-azul text-justify  md:text-xl quick hover:text-gray-500">
             {proyectos.parrafo_2}
           </p>
         </div>
