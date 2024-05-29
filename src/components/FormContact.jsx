@@ -132,7 +132,7 @@ export default function ContactForm() {
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
-          <p className="mb-2 text-white text-justify md:mx-10 mx-5 hover:text-gray-500">
+          <p className="mb-2 text-custom-azul text-justify  md:text-xl quick md:mx-10 mx-5 hover:text-gray-500">
             {contactoInfo.parrafo_1}
           </p>
         </div>
