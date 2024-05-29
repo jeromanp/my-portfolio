@@ -23,7 +23,7 @@ export default function Habilidades() {
             inView ? "animate__animated animate__jackInTheBox" : ""
           }`}
         >
-          <p className="mb-2 text-white text-justify hover:text-gray-500">{pHabilidades.uno}</p>
+          <p className="mb-2 text-custom-azul text-justify  md:text-xl quick hover:text-gray-500">{pHabilidades.uno}</p>
         </div>
 
         <div className="quick w-90vw mx-auto p-10">
