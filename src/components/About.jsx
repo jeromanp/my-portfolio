@@ -11,10 +11,7 @@ export default function About() {
       <div className="container py-5 lg:py-10 mx-auto md:px-6">
         <div className="mx-auto h-auto self-stretch relative max-w-full text-left text-base text-blue font-text-small-link flex flex-col lg:flex-row">
           <div className="bg-custom-oro_3 w-full flex flex-col items-start justify-start py-2 lg:py-10 px-16 box-border max-w-full h-full mq800:gap-[40px] mq800:pl-8 mq800:pr-8 mq800:box-border mq450:gap-[5px]">
-            <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[80px] max-w-full mq800:gap-[40px] mq450:gap-[20px]">
-              <div className="flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[400px]">
-                <div className="self-stretch h-[116px] relative text-29xl font-h3 inline-block shrink-0 mq800:text-19xl mq450:text-10xl" />
-              </div>
+            <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[80px] max-w-full mq800:gap-[40px] mq450:gap-[20px]">              
               <div className="flex-1 flex flex-col items-start justify-start py-6 px-0 box-border gap-[24px] min-w-[400px] max-w-full text-lg font-paragraph mq800:min-w-full">
                 <div
                   ref={inViewRef}
