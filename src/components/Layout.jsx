@@ -1,13 +1,66 @@
+import { useEffect, useRef } from "react";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Head from "next/head";
 
 export default function Layout({ children }) {
+  const loader = useRef(null);
+  const path = useRef(null);
+  const initialCurve = 200;
+  const duration = 600;
+  let start;
+
+  useEffect(() => {
+    setPath(initialCurve);
+    setTimeout(() => {
+      requestAnimationFrame(animate);
+    }, 1000);
+  }, []);
+
+  const animate = (timestamp) => {
+    if (start === undefined) {
+      start = timestamp;
+    }
+    const elapsed = timestamp - start;
+    const newCurve = easeOutQuad(elapsed, initialCurve, -200, duration);
+    setPath(newCurve);
+    loader.current.style.top =
+      easeOutQuad(elapsed, 0, -loaderHeight(), duration) + "px";
+    if (elapsed < duration) {
+      requestAnimationFrame(animate);
+    }
+  };
+
+  const easeOutQuad = (time, start, end, duration) => {
+    return -end * (time /= duration) * (time - 2) + start;
+  };
+
+  const loaderHeight = () => {
+    const loaderBounds = loader.current.getBoundingClientRect();
+    return loaderBounds.height;
+  };
+
+  const setPath = (curve) => {
+    const width = window.innerWidth;
+    const height = loaderHeight();
+    path.current.setAttributeNS(
+      null,
+      "d",
+      `M0 0
+      L${width} 0
+      L${width} ${height}
+      Q${width / 20} ${height - curve} 0 ${height}
+      L0 0`
+    );
+  };
   return (
     <>
       <Head>
         {/* Metadatos globales */}
-        <title>Jose Eduardo Roman | 💻 Desarrollador Web Fullstack | 📡 Ingeniero en Telecomunicaciones</title>
+        <title>
+          Jose Eduardo Roman | 💻 Desarrollador Web Fullstack | 📡 Ingeniero en
+          Telecomunicaciones
+        </title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -85,7 +138,7 @@ export default function Layout({ children }) {
           property="twitter:description"
           content="Hola soy Jose Eduardo Roman, Desarrollador Fullstack con background en Redes y Telecomunicaciones"
         />
-        <meta property="twitter:image" content="/imagen/logo.png" />      
+        <meta property="twitter:image" content="/imagen/logo.png" />
 
         {/* Nueva metaetiqueta para mostrar la ubicación geográfica */}
         <meta name="geo.region" content="MX" />
@@ -192,6 +245,17 @@ export default function Layout({ children }) {
         />
       </Head>
 
+      <div
+        ref={loader}
+        className="h-[calc(100vh+200px)] w-full z-50 fixed top-0 left-0 flex items-center justify-center bg-custom-oro"
+      >
+        <img
+          ref={path}
+          src="/imagen/logon.png"
+          alt="Logo"
+          className="w-48 h-48"
+        />
+      </div>
       <NavBar />
       <main className="w-full">{children}</main>
       <Footer />
