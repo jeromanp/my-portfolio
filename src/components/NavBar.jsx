@@ -20,7 +20,7 @@ export default function NavBar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-custom-oro sticky quick top-0 z-50 w-full border-b-2 border-custom-oro_2"
+      className="bg-custom-oro sticky quick top-0 z-40 w-full border-b-2 border-custom-oro_2"
     >
       {({ open }) => (
         <>
