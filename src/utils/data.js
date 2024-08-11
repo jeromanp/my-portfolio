@@ -250,7 +250,7 @@ export const misProyectos = [
     description:
       "El sitio esta referido a un Preescolar que presenta la Graduación de los Grupos de Tercer Grado. Este proyecto lo implemente en muy pocos días dado la solicitud y el permiso que me dieron para proyectarlo.\n\n Cuenta con una sección de pase de lista donde se va recorriendo los alumnos graduados dependiendo el grupo que se seleccionó. \n\nAL final se muestra un video de mi autoria, el cual se proyecto el día de la ceremonia de clausura.\n\nImportante mencionar que se sustituyeron todos los nombres de los alumnos y sus fotografías para no dañar su imagen, y por el contrario pudiera compartir el proyecto concluido.",
     video: "",
-    image: "/imagen/graduacion.PNG",
+    image: "/imagen/Graduacion.PNG",
     tecnologies: "Javascript, Next JS, React JS, Tailwind CSS, GSAP, ",
     production: "Control de versiones: GitHub, BackEnd: N/A, FrontEnd: Vercel.",
     repository: "https://github.com/jeromanp/graduacion",
