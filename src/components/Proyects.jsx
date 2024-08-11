@@ -96,7 +96,7 @@ export default function Proyects() {
                       {proyect.deploy === "/working" ? (
                         <Link href={proyect.deploy}>
                           <button
-                            className="bg-custom-oro_3 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                            className="bg-custom-azul mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-oro cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
                             rel="noreferrer"
                           >
                             <span className="text-sm">Deploy</span>
