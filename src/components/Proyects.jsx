@@ -59,19 +59,19 @@ export default function Proyects() {
 
                     <div className="quick text-xs sm: text-md md:text-md lg:text-xl">
                       <br />
-                      <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
+                      <p className="cursor-text text-justify text-m whitespace-pre-line text-black font-semibold">
                         Tecnologías utilizadas:{" "}
                         <span className="text-green-700 hover:text-green-900">
                           {proyect.tecnologies}
                         </span>
                       </p>
-                      <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
+                      <p className="cursor-text text-justify text-m whitespace-pre-line text-black font-semibold">
                         Servicios de despliegue:{" "}
                         <span className="text-red-700 hover:text-red-900">
                           {proyect.production}
                         </span>
                       </p>
-                      <p>
+                      <p className="text-black font-semibold">
                         Visible para estos dispositivos:{" "}
                         <span className="text-purple-700 hover:text-purple-900">
                           {proyect.name_dispositive}
