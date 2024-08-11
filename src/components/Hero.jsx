@@ -6,10 +6,9 @@ import GradientCursor from "./animations.jsx/GradientCursor";
 
 export default function Hero() {
   const [inViewRef, inView] = useInView({
-    triggerOnce: true, // Solo activa la animación una vez
+    triggerOnce: true,
   });
 
-  // const [isActive, setIsActive] = useState(false);
 
   return (
     <section className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[100px] px-5 box-border bg-[url('/imagen/hero.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[1] text-center text-37xl text-white font-h3 mq450:pt-[122px] mq450:pb-[122px] mq450:box-border mq1125:pt-[188px] mq1125:pb-[188px] mq1125:box-border">
@@ -21,22 +20,15 @@ export default function Hero() {
           }`}
         >
           <div>
-            <h1
-              // onMouseOver={() => {
-              //   setIsActive(true);
-              // }}
-              // onMouseLeave={() => {
-              //   setIsActive(false);
-              // }}
+            <h1              
               className="m-0 self-stretch relative text-inherit font-h3 font-inherit mq800:text-26xl mq450:text-15xl indie text-4xl lg:text-6xl"
             >
-              ¡Bienvenido a mi portafolio personal!
+              ¡Bienvenido a mi sitio web!
             </h1>
             <div className="self-stretch relative text-xl font-paragraph quick py-10 md:py-5">
-              Soy Jose Eduardo Roman, un desarrollador web Fullstack apasionado
+              Soy Jose Eduardo Roman Desarrollador Web Fullstack apasionado
               por crear soluciones digitales innovadoras.
             </div>
-            {/* <GradientCursor isActive={isActive} /> */}
           </div>
         </div>
         <div
