@@ -153,7 +153,7 @@ export default function Proyects() {
                   </div>
                 ) : null}
               </div>
-              <BlazierCurve />
+              {/* <BlazierCurve /> */}
             </div>
           ))}
         </div>
