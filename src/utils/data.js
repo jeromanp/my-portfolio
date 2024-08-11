@@ -232,6 +232,32 @@ export const misProyectos = [
     dispositive: "/responsivo.svg",
     name_dispositive: "Computadora, tablet o smartphone",
   },
+  {
+    title: "Sumarizador",
+    description:
+      "Este proyecto resume cualquier link de un sitio web como puede ser de algun blog, portal de noticias, etc\n\n Su uso es muy básico e intuitivo, ya que solo basta con ingresar el link y presionar el boton [ OK ] para que la API detecte la URL y procesa a realizar y mostrar el resumen solicitado.\n\nAdemás tiene un historial de los últimos enlaces que se resumieron por parte del usuario.\n\n Esta herramienta es sin duda muy útil cuando se trabaja con cantidades grandes de información.Los párrafos se pueden administrar por la API y para este caso se utilizaron los suficientes para que la información sea clara y concisa.",
+    video: "",
+    image: "/imagen/Sumarized.PNG",
+    tecnologies: "Javascript, Next JS, React JS, Tailwind CSS",
+    production: "Control de versiones: GitHub, BackEnd: N/A, FrontEnd: Vercel.",
+    repository: "https://github.com/jeromanp/summarized_links",
+    deploy: "https://summarized-links.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive: "Computadora, tablet o smartphone",
+  },
+  {
+    title: "LandingPage Graduación",
+    description:
+      "El sitio esta referido a un Preescolar que presenta la Graduación de los Grupos de Tercer Grado. Este proyecto lo implemente en muy pocos días dado la solicitud y el permiso que me dieron para proyectarlo.\n\n Cuenta con una sección de pase de lista donde se va recorriendo los alumnos graduados dependiendo el grupo que se seleccionó. \n\nAL final se muestra un video de mi autoria, el cual se proyecto el día de la ceremonia de clausura.\n\nImportante mencionar que se sustituyeron todos los nombres de los alumnos y sus fotografías para no dañar su imagen, y por el contrario pudiera compartir el proyecto concluido.",
+    video: "",
+    image: "/imagen/graduacion.PNG",
+    tecnologies: "Javascript, Next JS, React JS, Tailwind CSS, GSAP, ",
+    production: "Control de versiones: GitHub, BackEnd: N/A, FrontEnd: Vercel.",
+    repository: "https://github.com/jeromanp/graduacion",
+    deploy: "https://graduacion2021-2024.vercel.app/",
+    dispositive: "/responsivo.svg",
+    name_dispositive: "Computadora, tablet o smartphone",
+  },
 ];
 
 export const contactoInfo = {

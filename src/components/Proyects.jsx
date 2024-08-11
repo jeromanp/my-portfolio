@@ -59,19 +59,19 @@ export default function Proyects() {
 
                     <div className="quick text-xs sm: text-md md:text-md lg:text-xl">
                       <br />
-                      <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
+                      <p className="cursor-text text-justify text-m whitespace-pre-line text-black font-semibold">
                         Tecnologías utilizadas:{" "}
                         <span className="text-green-700 hover:text-green-900">
                           {proyect.tecnologies}
                         </span>
                       </p>
-                      <p className="cursor-text text-justify text-m whitespace-pre-line text-white-500">
+                      <p className="cursor-text text-justify text-m whitespace-pre-line text-black font-semibold">
                         Servicios de despliegue:{" "}
                         <span className="text-red-700 hover:text-red-900">
                           {proyect.production}
                         </span>
                       </p>
-                      <p>
+                      <p className="text-black font-semibold">
                         Visible para estos dispositivos:{" "}
                         <span className="text-purple-700 hover:text-purple-900">
                           {proyect.name_dispositive}
@@ -96,7 +96,7 @@ export default function Proyects() {
                       {proyect.deploy === "/working" ? (
                         <Link href={proyect.deploy}>
                           <button
-                            className="bg-custom-oro_3 mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
+                            className="bg-custom-azul mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-oro cursor-pointer py-2 px-4 rounded-lg border border-custom-oro"
                             rel="noreferrer"
                           >
                             <span className="text-sm">Deploy</span>
@@ -153,7 +153,7 @@ export default function Proyects() {
                   </div>
                 ) : null}
               </div>
-              <BlazierCurve />
+              {/* <BlazierCurve /> */}
             </div>
           ))}
         </div>
