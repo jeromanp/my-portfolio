@@ -127,7 +127,7 @@ export default function Footer() {
                 <li>
                   <a
                     target="_blank"
-                    href="https://api.whatsapp.com/send?phone=5215515751939&text=Hola%20Eduardo%20%F0%9F%96%90%EF%B8%8F!%2C%20obtuve%20tu%20contacto%20desde%20tu%20repositorio%20de%20GitHub/"
+                    href="https://api.whatsapp.com/send?phone=5215515751939&text=Hola%20Eduardo%20%F0%9F%96%90%EF%B8%8F!%2C%20obtuve%20tu%20contacto%20desde%20tu%20sitio%20de%20web/"
                   >
                     <img
                       src="/svg-social-networks/whatsapp.svg"
@@ -213,9 +213,9 @@ export default function Footer() {
                           <h2 className="text-xl font-bold mb-4 text-white mt-5">
                             ¿Que deseas hacer?
                           </h2>
-                          <a className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" target="_blank" href="https://drive.google.com/file/d/1YPlX2_nYkT53GWU0-kYDjM6_CHpvcgnh/view">Ver CV</a>
+                          <a className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" target="_blank" href="https://drive.google.com/file/d/1lZSR5Lpno02jwkF_jr8b4UPej2SWy2JR/view">Ver CV</a>
 
-                          <a href="/doc/JERP.pdf" download="CV Roman Piña.pdf" className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" onClick={closeModal}>Descargar CV</a>
+                          <a href="/doc/Jose Eduardo Roman.pdf" download="CV Jose Eduardo ROman.pdf" className="bg-custom-oro_2 text-white mr-2 inline-block transition duration-300 ease-in-out text-dark-800 hover:bg-custom-azul cursor-pointer py-2 px-4 rounded-lg border border-custom-oro" onClick={closeModal}>Descargar CV</a>
 
                         </div>
                       )}
