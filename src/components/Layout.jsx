@@ -245,7 +245,7 @@ export default function Layout({ children }) {
         />
       </Head>
 
-      <div
+      {/* <div
         ref={loader}
         className="h-[calc(100vh+200px)] w-full z-50 fixed top-0 left-0 flex items-center justify-center bg-custom-oro"
       >
@@ -255,7 +255,7 @@ export default function Layout({ children }) {
           alt="Logo"
           className="w-48 h-48"
         />
-      </div>
+      </div> */}
       <NavBar />
       <main className="w-full">{children}</main>
       <Footer />
