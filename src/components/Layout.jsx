@@ -11,6 +11,7 @@ export default function Layout({ children }) {
   let start;
 
   useEffect(() => {
+    if (!loader.current || !path.current) return;
     setPath(initialCurve);
     setTimeout(() => {
       requestAnimationFrame(animate);
@@ -18,9 +19,7 @@ export default function Layout({ children }) {
   }, []);
 
   const animate = (timestamp) => {
-    if (start === undefined) {
-      start = timestamp;
-    }
+    if (!start) start = timestamp;
     const elapsed = timestamp - start;
     const newCurve = easeOutQuad(elapsed, initialCurve, -200, duration);
     setPath(newCurve);
@@ -28,7 +27,7 @@ export default function Layout({ children }) {
       easeOutQuad(elapsed, 0, -loaderHeight(), duration) + "px";
     if (elapsed < duration) {
       requestAnimationFrame(animate);
-    }
+    } 
   };
 
   const easeOutQuad = (time, start, end, duration) => {
@@ -36,6 +35,7 @@ export default function Layout({ children }) {
   };
 
   const loaderHeight = () => {
+    if (!loader.current) return 0
     const loaderBounds = loader.current.getBoundingClientRect();
     return loaderBounds.height;
   };
