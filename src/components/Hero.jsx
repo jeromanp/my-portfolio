@@ -23,11 +23,10 @@ export default function Hero() {
             <h1              
               className="m-0 self-stretch relative text-inherit font-h3 font-inherit mq800:text-26xl mq450:text-15xl indie text-4xl lg:text-6xl"
             >
-              ¡Bienvenido a mi sitio web!
+              ¡ Bienvenido a mi sitio web !
             </h1>
             <div className="self-stretch relative text-xl font-paragraph quick py-10 md:py-5">
-              Soy Jose Eduardo Roman Desarrollador Web Fullstack apasionado
-              por crear soluciones digitales innovadoras.
+              Soy Jose Eduardo Roman, <b>Ingeniero en Telecomunicaciones, Sistemas y Electrónica</b>, <b>Desarrollador Web Fullstack</b> y creador de contenido para Redes Sociales.            
             </div>
           </div>
         </div>
@@ -40,7 +39,7 @@ export default function Hero() {
           <Link href="/contacto/#email">
             <button className="cursor-pointer py-2.5 px-[23px] flex flex-row items-center justify-center border-[1px] border-solid border-white hover:bg-custom-oro hover:box-border hover:border-[1px] hover:border-solid hover:border-gainsboro-200">
               <div className="relative text-base font-btn text-white text-left inline-block min-w-[65px]">
-                Contacto
+                Contáctame
               </div>
             </button>
           </Link>
