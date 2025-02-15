@@ -41,7 +41,7 @@ export default function About() {
                     </p>
                     <p className="m-0">&nbsp;</p>
                     <p className="m-0">
-                      Actualmente, estoy en busca de oportunidades laborales que
+                      Actualmente, estoy en busca de <strong>oportunidades laborales</strong> que
                       me permitan crecer y desarrollarme en el mundo de TI.
                       Estoy abierto a posiciones tanto a tiempo completo como a
                       proyectos. Mi objetivo es contribuir con mis habilidades
