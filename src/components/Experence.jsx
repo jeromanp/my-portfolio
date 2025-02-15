@@ -28,24 +28,24 @@ export default function Experence() {
           >
             <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[32px] mq800:gap-[16px]">
               <Column
-                title="Backend"
-                description="He creado sitios con Node y ExpressJS, además de la API de NextJS."
-                svg="/backend.svg"
+                title="Telecomunicaciones"
+                description="Cuento con amplia experiencia en el área de Redes e Interconectividad."
+                svg="/telecom.svg"
               />
               <Column
-                title="Frontend"
-                description="Conozco de React junto con NextJS."
+                title="Diseño Web"
+                description="He creado sitios web utilizando herramientas modernas y estables."
                 svg="/website.svg"
               />
               <Column
-                title="bases de datos"
-                description="Sé de Modelado y he trabajado con PostgresSQL, Supabase y conozco poco de MongoBD."
-                svg="/db.svg"
+                title="Contenido Digital"
+                description="Posteo de contenido para Facebook, Instagram, Tiktok y Youtube"
+                svg="/social.svg"
               />
               <Column
-                title="Estilos Css"
-                description="Estilos con CSS, Style Componets, Tailwind y un poco de Bootsrap"
-                svg="/css.svg"
+                title="Equipo de cómputo y CCTV"
+                description="Tengo experiencia en mantenimiento preventivo, correctivo e instalacion de CCTV"
+                svg="/pc.svg"
               />
             </div>
             <div
