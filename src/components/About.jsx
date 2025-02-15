@@ -22,25 +22,29 @@ export default function About() {
                   <div className="self-stretch relative text-custom-azul text-justify  md:text-xl quick">
                     <p className="m-0">
                       Soy Ingeniero en Telecomunicaciones, Sistemas y
-                      Electrónica con especialización en Redes e
-                      Interconectividad.
+                      Electrónica con especialización en{" "}
+                      <strong>Redes e Interconectividad</strong>.
                     </p>
                     <p className="m-0">&nbsp;</p>
 
                     <p className="m-0">
-                      Recientemente completé un Bootcamp de Henry en Desarrollo
-                      Web, donde adquirí habilidades avanzadas en tecnologías
-                      web modernas. Además, tengo experiencia en creación de
-                      contenido para redes sociales y diseño de publicaciones
-                      visuales.
+                      Complete el <strong>Bootcamp de Henry</strong> en
+                      Desarrollo Web, donde adquirí habilidades avanzadas en
+                      tecnologías web modernas.{" "}
+                    </p>
+                    <p className="m-0">&nbsp;</p>
+                    <p className="m-0">
+                      Tengo experiencia en el diseño y creación de contenido
+                      para Redes Sociales incursionando en diversos proyectos
+                      diseñando imágenes, videos, infografías, etc. para
+                      plataformas como Facebook, Instagram y Tiktok.{" "}
                     </p>
                     <p className="m-0">&nbsp;</p>
                     <p className="m-0">
                       Actualmente, estoy en busca de oportunidades laborales que
                       me permitan crecer y desarrollarme en el mundo de TI.
                       Estoy abierto a posiciones tanto a tiempo completo como a
-                      proyectos freelance. Mi objetivo es contribuir con mis
-                      habilidades en desarrollo web y creación de contenido,
+                      proyectos. Mi objetivo es contribuir con mis habilidades
                       mientras continuo aprendiendo y evolucionando en el campo
                       tecnológico. Si estás buscando a alguien comprometido, con
                       experiencia y pasión por la tecnología, no dudes en
@@ -58,7 +62,7 @@ export default function About() {
                   <Link href="/contacto/#email">
                     <button className="cursor-pointer py-2.5 px-[23px] bg-[transparent] flex flex-row items-center justify-center border-[1px] border-solid border-black hover:box-border hover:border-[1px] hover:border-solid hover:bg-custom-oro hover:text-white">
                       <div className="relative text-base font-btn text-custom-azul text-left inline-block min-w-[86px]">
-                        Contáctame
+                        Contacto
                       </div>
                     </button>
                   </Link>
