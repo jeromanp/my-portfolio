@@ -88,33 +88,37 @@ export const habilities = [
   },
 ];
 
-export const gestion = [
-  {
-    skill: "Github",
-    image: "/svg-social-networks/github.svg",
-  },
-  {
-    skill: "Metodología SCRUM",
-    image: "/svg-habilities/scrum.svg",
-  },
-  {
-    skill: "Trello",
-    image: "/svg-habilities/trello.svg",
-  },
-];
-
-export const others = [
+export const telecom = [
   {
     skill: "CCNA - CCNP",
     image: "/svg-habilities/cisco.svg",
   },
   {
     skill: "Redes HFC",
-    image: "/svg-habilities/network.svg",
+    image: "/svg-habilities/net.svg",
   },
   {
-    skill: "Electrónica",
-    image: "/svg-habilities/electronica.svg",
+    skill: "Ciberseguridad",
+    image: "/svg-habilities/security.svg",
+  },
+  {
+    skill: "Monitoreo y Control",
+    image: "/svg-habilities/monitoring.svg",
+  },
+];
+
+export const social = [
+  {
+    skill: "Canva",
+    image: "/svg-habilities/canva.svg",
+  },
+  {
+    skill: "IA",
+    image: "/svg-habilities/ia.svg",
+  },
+  {
+    skill: "Movavi",
+    image: "/svg-habilities/movavi.svg",
   },
 ];
 
