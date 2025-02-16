@@ -69,7 +69,7 @@ export default function BlazierCurve() {
             onMouseLeave={manageMouseLeave}
             className="h-10 w-full relative z-10"
           ></div>
-          <svg className="absolute top-[-250px] w-full h-[500px]">
+          <svg className="absolute top-[-250px] w-full h-[500px] pointer-events-none">
             <path
               ref={path}
               className="stroke-custom-azul stroke-1 fill-none"
