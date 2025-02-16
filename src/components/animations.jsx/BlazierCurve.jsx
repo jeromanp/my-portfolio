@@ -60,7 +60,7 @@ export default function BlazierCurve() {
   };
 
   return (
-    <div className="w-screen flex items-center justify-center bg-custom-oro_3">
+    <div className="w-auto flex items-center justify-center bg-custom-oro_3">
       <div className="flex flex-col items-end w-[70vw]">
         <div className="relative w-full h-[1px]">
           <div
