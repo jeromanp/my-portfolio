@@ -141,7 +141,7 @@ export default function ContactForm() {
         <div className="flex flex-col md:flex-row items-center  mx-auto">
           <div className="md:w-1/2 items-center justify-center flex">
             <img
-              src="https://kwmjganrkoyleqdillhu.supabase.co/storage/v1/object/public/contacto/an-imaginative-3d-image-simulating-a-contact-form--02KAPfhKSk6DjyQL3kQpPA-4YM_7hZwRJmeJTx8JUxwIQ.jpeg"
+              src="https://zyjhwdidrootofvknusr.supabase.co/storage/v1/object/public/jeromanp//Leonardo_Phoenix_09_Create_an_illustration_of_a_stylized_envel_0.jpg"
               alt="Contactame"
               className="h-auto max-w-[30%] md:max-w-[70%] rounded-full my-5 hover:opacity-60"
             />
