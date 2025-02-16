@@ -22,7 +22,7 @@ export default function Home() {
         buttonText="Enviar email"
         href="/contacto"
       />
-      <CountVisit />
+      {/* <CountVisit /> */}
     </Layout>
   );
 }
