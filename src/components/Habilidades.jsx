@@ -1,5 +1,5 @@
 import React from "react";
-import { habilities, pHabilidades, telecom, social } from "@/utils/data";
+import { habilities, pHabilidades, telecom, social, other } from "@/utils/data";
 import { useInView } from "react-intersection-observer";
 
 export default function Habilidades() {
@@ -92,9 +92,9 @@ export default function Habilidades() {
               </div>
             ))}
           </div>
-          <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Conocimientos en general</h3>
+          <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Otros Conocimientos</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center py-8 font-bold dark:font-normal">
-            {social.map((hability, i) => (
+            {other.map((hability, i) => (
               <div
               ref={inViewRef}
               className={`shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-200 items-center inline-block hover:animate-pulse ${inView ? "animate__animated animate__rollIn" : ""}`}

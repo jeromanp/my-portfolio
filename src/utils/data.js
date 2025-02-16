@@ -105,6 +105,29 @@ export const telecom = [
     skill: "Monitoreo y Control",
     image: "/svg-habilities/monitoring.svg",
   },
+  {
+    skill: "Cableado Estructurado",
+    image: "/svg-habilities/cabling.svg",
+  },
+];
+
+export const other = [
+  {
+    skill: "Canva",
+    image: "/svg-habilities/canva.svg",
+  },
+  {
+    skill: "IA",
+    image: "/svg-habilities/ia.svg",
+  },
+  {
+    skill: "Capcut",
+    image: "/svg-habilities/capcut.svg",
+  },
+  {
+    skill: "Movavi",
+    image: "/svg-habilities/movavi.svg",
+  },
 ];
 
 export const social = [
@@ -115,6 +138,10 @@ export const social = [
   {
     skill: "IA",
     image: "/svg-habilities/ia.svg",
+  },
+  {
+    skill: "Capcut",
+    image: "/svg-habilities/capcut.svg",
   },
   {
     skill: "Movavi",
