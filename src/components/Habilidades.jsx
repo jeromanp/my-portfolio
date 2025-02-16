@@ -1,5 +1,5 @@
 import React from "react";
-import { habilities, pHabilidades, gestion, others } from "@/utils/data";
+import { habilities, pHabilidades, telecom, social } from "@/utils/data";
 import { useInView } from "react-intersection-observer";
 
 export default function Habilidades() {
@@ -27,7 +27,28 @@ export default function Habilidades() {
         </div>
 
         <div className="quick w-90vw mx-auto p-10">
-          <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Herramientas de desarrollo web:</h3>
+        <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Redes y Telecomunicaciones:</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center py-8 font-bold dark:font-normal">
+            {telecom.map((hability, i) => (
+              <div
+              ref={inViewRef}
+              className={`shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-200 items-center inline-block hover:animate-pulse ${inView ? "animate__animated animate__tada" : ""}`}
+              key={i}
+            >
+                
+                <div className="p-1 items-center inline-block max-w-50 h-auto md:max-w-200 md:h-auto shadow-2xl shadow-custom-azul ">
+                  <img style={{width:"15vh"}} src={hability.image} alt={hability.skill} />
+                </div>
+                <p
+                  className="text-md sm:text-lg md:text-lg lg:text-xl mt-4  pb-5 text-center text-custom-azul "
+                  style={{ wordWrap: "break-word" }}
+                >
+                  {hability.skill}
+                </p>
+              </div>
+            ))}
+          </div>
+          <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Desarrollo Web:</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center py-8 font-bold dark:font-normal">
             {habilities.map((hability, i) => (
               <div
@@ -49,9 +70,10 @@ export default function Habilidades() {
             ))}
           </div>
           {/*  */}
-          <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Herramientas de gestión:</h3>
+         
+          <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Redes Sociales</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center py-8 font-bold dark:font-normal">
-            {gestion.map((hability, i) => (
+            {social.map((hability, i) => (
               <div
               ref={inViewRef}
               className={`shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-200 items-center inline-block hover:animate-pulse ${inView ? "animate__animated animate__tada" : ""}`}
@@ -72,7 +94,7 @@ export default function Habilidades() {
           </div>
           <h3 className="quick w-90vw text-xl text-custom-oro hover:text-custom-azul">Conocimientos en general</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center py-8 font-bold dark:font-normal">
-            {others.map((hability, i) => (
+            {social.map((hability, i) => (
               <div
               ref={inViewRef}
               className={`shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-200 items-center inline-block hover:animate-pulse ${inView ? "animate__animated animate__rollIn" : ""}`}
