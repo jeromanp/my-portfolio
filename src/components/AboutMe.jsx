@@ -43,7 +43,7 @@ export default function AboutMe() {
               {aboutMe.experiencia}
             </p>
             <h2 className="text-2xl text-sky-700 hover:text-sky-500">
-              4. ¿Porqué aprender Desarrollo Web?
+              4. ¿Porqué ser una persona multidisciplinaria?
             </h2>
             <p className="pb-10  text-custom-azul text-justify  md:text-xl quick  hover:text-gray-500">
               {aboutMe.reciente}
