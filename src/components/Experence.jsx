@@ -39,12 +39,12 @@ export default function Experence() {
               />
               <Column
                 title="Contenido Digital"
-                description="Posteo de contenido para Facebook, Instagram, Tiktok y Youtube"
+                description="Posteo de contenido para Facebook, Instagram, Tiktok y Youtube."
                 svg="/social.svg"
               />
               <Column
-                title="Equipo de cómputo y CCTV"
-                description="Tengo experiencia en mantenimiento preventivo, correctivo e instalacion de CCTV"
+                title="Computadoras"
+                description="Tengo experiencia en mantenimiento preventivo, correctivo."
                 svg="/pc.svg"
               />
             </div>
