@@ -63,8 +63,24 @@ export const habilities = [
     image: "/svg-habilities/next-js.svg",
   },
   {
+    skill: "11ty",
+    image: "/svg-habilities/11ty.svg",
+  },
+  {
+    skill: "Git",
+    image: "/svg-habilities/git.svg",
+  },
+  {
+    skill: "SQL",
+    image: "/svg-habilities/sql.svg",
+  },
+  {
     skill: "Supabase",
     image: "/svg-habilities/supabase.svg",
+  },
+  {
+    skill: "Insomnia",
+    image: "/svg-habilities/insomnia.svg",
   },
   {
     skill: "Figma",
