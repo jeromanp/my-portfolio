@@ -10,11 +10,11 @@ export const aboutMe = {
   estudio:
     "\nRealicé mis estudios en la Universidad Nacional Autónoma de México, donde obtuve el título de Ingeniería en Telecomunicaciones, Sistemas y Electrónica con especialidad en Comunicaciones. Además, he completado dos diplomados en Redes e Interconectividad con tecnologías de Cisco (CCNA y CCNP), ampliando mis conocimientos en el campo de las comunicaciones.",
   experiencia:
-    "\nHe acumulado una experiencia laboral de casi 2 años en una empresa proveedora de servicios de internet a nivel nacional. Durante mi tiempo allí, desempeñé un papel fundamental en la operación, instalación, revisión y mantenimiento de los equipos que brindaban servicios de video, voz y datos a los suscriptores. Esta experiencia me permitió desarrollar habilidades técnicas sólidas y aprender sobre la importancia de la calidad y el servicio al cliente.",
+    "\nTengo experiencia trabajando en el área de Telecomunicaciones, donde adquiri gran parte de mis conocimientos y desarrolle nuevas habilidades. También he trabajado en CEDIS encargado principalmente del manejo del sistema que guía la producción, soporte a usuarios e implementaciones del área de TI.",
   reciente:
-    "\nEn septiembre de 2022, tomé la decisión de sumergirme en el mundo de la programación web. Me uní al Bootcamp de Henry en Argentina, donde pasé siete meses dedicado por completo a aprender sobre desarrollo web. Durante este tiempo, no solo adquirí habilidades fundamentales y de vanguardia en programación, sino que también tuve la oportunidad de conocer a personas increíbles. Esta comunidad de estudiantes y los profesores me apoyaron en mi crecimiento tanto profesional como personal. Después de más de 700 horas de aprendizaje teórico y práctico, finalmente me gradué a finales de mayo de 2023.",
+    "\nDisfruto mucho aprender nuevas cosas, ademas de tener la habilidad de aprender y retener información de manera rápida. Pienso que entre más preparada este una persona mayor será la posibilidad de encontrar un buen empleo, el conocimiento es poder en su maxima expresión.",
   ahora:
-    "Ahora me encuentro en busqueda laboral de tiempo completo o freelance y así continue aprendiendo más sobre este maravilloso mundo del desarrollo. Por lo tanto me sigo preparando haciendo proyectos y aprendiendo nuevas tecnologías para expardir aún más mis conocimientos.",
+    "Me encuentro en busqueda de un trabajo de tiempo completo o bien de proyectos que me permitan incorporar mi experiencia y conocimiento, sin dejar atrás el seguir preparandome para los retos que me esperan",
 };
 
 export const pHabilidades = {
