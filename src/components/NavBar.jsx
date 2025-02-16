@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 const navigation = [
-  { name: "Inicio", href: "/", current: false },
+  // { name: "Inicio", href: "/", current: false },
   { name: "Sobre mí", href: "/sobre-mi", current: false },
   { name: "Habilidades", href: "/habilidades", current: false },
   { name: "Proyectos", href: "/proyectos", current: false },
